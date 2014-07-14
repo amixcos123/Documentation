@@ -53,3 +53,26 @@ ModDota) to the bin directory within `Dota2Extract`.
 
 Alien Swarm Search Paths
 ########################
+
+Replace the contents of :code:`Alien Swarm\swarm\gameinfo.txt` with::
+    "game"         "Alien Swarm"
+    "title"        ""
+    "type"         "multiplayer_only"
+    "GameData"     "swarm.fgd"
+    "InstancePath" "tilegen/instances/"
+    
+    "SupportsDX8"  0
+    
+    "FileSystem"
+    {
+        "SteamAppId" "630"
+        "ToolsAppId"  "211"
+
+        "SearchPaths"
+        {
+            "Game"  "|gameinfo_path|."
+            "Game" "swarm_base"
+            "Game"  "platform"
+            "Game" "|gameinfo_path|addons\Dota2Extract"
+         }
+     }
