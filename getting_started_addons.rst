@@ -1,7 +1,10 @@
-Getting Started: Game Modes
-===========================
+Creating Game Modes
+===================
 
-Install the SDK
+Getting Started
 --------------
 
 First, you will need to install the Alien Swarm SDK.
+
+Install SDK
+-----------
