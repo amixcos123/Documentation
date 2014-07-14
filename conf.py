@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # D2Moddin documentation build configuration file, created by
-# sphinx-quickstart on Mon Jul 14 13:36:06 2014.
+# sphinx-quickstart on Mon Jul 14 13:52:19 2014.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -70,7 +70,7 @@ release = '1.0'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = []
+exclude_patterns = ['_build']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
