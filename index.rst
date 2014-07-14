@@ -2,11 +2,13 @@ Welcome to D2Moddin Docs
 ========================
 
 `D2Moddin`_ is a platform to easily play Dota 2 custom game modes. It is also a
-base for the Dota 2 modding community, with the `D2Moddin forums` and the
-`developer documentation` you are reading right now.
+base for the Dota 2 modding community, with the `D2Moddin forums`_ and the
+`developer documentation`_ you are reading right now.
 
 .. _D2Moddin: http://d2modd.in/
 .. _D2Moddin forums: http://d2modd.in/
+
+.. _addon-docs:
 
 Creating Game Modes
 -------------------
@@ -28,8 +30,11 @@ See the below documentation pages to get started:
 
 .. toctree::
   :maxdepth: 2
+
   getting_started_addons
   lua_api
+
+.. _d2mp-docs:
 
 Integration with D2Moddin
 -------------------------
@@ -42,9 +47,12 @@ See the below documentation pages to get started:
 
 .. toctree::
   :maxdepth: 2
+
   getting_started_d2moddin
   d2moddin_info
   deploying_updates
+
+.. _chat-docs:
 
 Chat with Us
 ------------
