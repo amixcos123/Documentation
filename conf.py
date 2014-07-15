@@ -2,14 +2,16 @@
 #
 import os
 import sys
+
+html_theme = ""
+html_theme_path = []
+
 try:
     import sphinx_rtd_theme
+    html_theme = "sphinx_rtd_theme"
+    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 except Exception as err:
     print "Building without template."
-
-html_theme = "sphinx_rtd_theme"
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-
 extensions = []
 templates_path = ['_templates']
 source_suffix = '.rst'
