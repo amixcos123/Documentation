@@ -2,7 +2,13 @@
 #
 import os
 import sys
-import sphinx_rtd_theme
+try:
+    import sphinx_rtd_theme
+except Exception as err:
+    print "Building without template."
+
+html_theme = "sphinx_rtd_theme"
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 extensions = []
 templates_path = ['_templates']
@@ -18,8 +24,6 @@ pygments_style = 'sphinx'
 # This doesn't exist since we aren't shipping any static files ourselves.
 #html_static_path = ['_static']
 htmlhelp_basename = 'D2Moddindoc'
-#html_theme = "sphinx_rtd_theme"
-#html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 latex_documents = [
     ('index', 'D2Moddin.tex', u'D2Moddin Documentation',
      u'Christian Stewart', 'manual'),
