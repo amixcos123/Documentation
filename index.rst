@@ -33,7 +33,7 @@ See the below documentation pages to get started:
   :maxdepth: 2
 
   getting_started_addons
-  lua_api
+  sdk_setup
 
 .. _d2mp-docs:
 
