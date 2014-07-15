@@ -34,6 +34,7 @@ See the below documentation pages to get started:
 
   getting_started_addons
   sdk_setup
+  mapping
 
 .. _d2mp-docs:
 

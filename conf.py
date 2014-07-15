@@ -2,13 +2,14 @@
 #
 import os
 import sys
+import sphinx_rtd_theme
 
 extensions = []
 templates_path = ['_templates']
 source_suffix = '.rst'
 master_doc = 'index'
 project = u'D2Moddin'
-copyright = u'2014, Christian Stewart'
+copyright = u'2014, D2Modd.in'
 version = '1.0'
 release = '1.0'
 exclude_patterns = ['_build']
@@ -17,6 +18,8 @@ pygments_style = 'sphinx'
 # This doesn't exist since we aren't shipping any static files ourselves.
 #html_static_path = ['_static']
 htmlhelp_basename = 'D2Moddindoc'
+html_theme = "sphinx_rtd_theme"
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 latex_documents = [
     ('index', 'D2Moddin.tex', u'D2Moddin Documentation',
      u'Christian Stewart', 'manual'),

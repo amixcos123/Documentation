@@ -17,9 +17,21 @@ particle editors, the `Alien Swarm SDK`_  and pipeline is used to create maps an
 Getting Started
 -------------
 
-Follow the following tutorials:
+Follow the setup tutorial:
 
 .. toctree::
   :maxdepth: 2
 
   sdk_setup
+
+Mapping
+-------
+
+Currently there is no official map editor, and maps are created in Hammer, an
+old Source Engine map editing tool also used for games like Portal 2, Half Life,
+etc.
+
+.. toctree::
+  :maxdepth: 2
+
+  mapping

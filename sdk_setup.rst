@@ -1,6 +1,10 @@
 SDK Setup Tutorial
 ==================
 
+This page is based on the `Dota 2 wiki`_.
+
+.. _Dota 2 wiki: https://developer.valvesoftware.com/wiki/Dota_2_Maps
+
 Install the Alien Swarm SDK. In Steam, go to the Library section, and under
 Tools, download the Alien Swarm SDK. You can also click `this shortcut link`_.
 
@@ -61,3 +65,61 @@ Replace the contents of :code:`Alien Swarm\swarm\gameinfo.txt` with::
             "Game" "|gameinfo_path|addons\Dota2Extract"
          }
      }
+
+Configuring Hammer
+##################
+
+In Steam, open the Alien Swarm SDK. In the menu that pops up (the tool
+launcher), select "Hammer World Editor". Select Tools->Options, and add the 
+Start the Alien Swarm SDK, select Hammer World Editor and let it open up.
+Now go to "Tools" -> "Options" and add the "dota2.fgd" from code::`Alien
+Swarm\Swarm\addons\Dota2Extract\bin\dota2.fgd`.
+
+Next, increase the render distance so that the entire map will be visible at any
+given time. Under "3D Views" increase the Model Render Distance and Detail
+Render Distance.
+
+
+Creating a Test Map
+###################
+
+Under File, create a new map. Save it as code::`test.vmf`. Next, select
+File->Run Map and press "Expert" in the bottom left corner:
+
+.. image:: http://i.imgur.com/oHosYCQ.png
+
+Click "Edit" and create a new config for Dota 2. We will define the build process as a series of commands.
+
+The BSP Command
+***************
+
+Click "New", then "Cmds" and "BSP Program". Add code::`-alldetail -game $gamedir $path\$file`.  
+
+UpVersion
+*********
+
+Upversion is a tool that will convert the BSP into a format suitable for Dota 2.
+
+Click "new" then "cmds". Select "Executable" and find "UpVersion.exe" in
+code::`Alien Swarm\swarm\addons\Dota2Extract\bin`. If it's not there, return t
+the Misc Files step and download it.
+
+Add the parameters code::`$path\$file.bsp $path\$file.$ext $path\$file.pbm`.
+
+Copy Map
+********
+
+Finally, to use the map in Dota 2 we will copy the compiled .bsp to the Dota 2
+maps directory.
+
+Click "new" then "cmds". Select "Executable" and specify:
+code::`C:\Windows\System32\xcopy.exe`, the built in Windows copy tool. Add the
+parameters: code:: `$path\$file.bsp "C:\Program Files (x86)\Steam\SteamApps\common\dota 2
+beta\dota\maps" /y`. Make sure the path is the correct path to your Dota 2 maps
+directory.`
+
+Next Steps
+##########
+
+You now have the Alien Swarm SDK set up properly to start working on Dota 2 game
+modes. You can follow the mapping tutorial in the next section. 
