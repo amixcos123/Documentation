@@ -17,7 +17,7 @@ General Mapping Notes
 - Models require a shader that is not provided in Hammer.  In your extracted gamedata, open every .vmt file and replace "GlobalLitSimple" with "VertexLitGeneric".  A tool such as Notepad++ can do this quickly.
 
 Building the NavGrid
-====================
+####################
 
 Units in Dota 2 do not navigate based on the structure of the map, rather, they
 move on a 2D grid known as the navmesh. Every square in the navgrid has two
@@ -50,7 +50,7 @@ Offset x/Offset y are always negative and 1/2 the dimensions of the bitmap.
 You can view your navmesh in game with code::`dota_gridnav_show 1`.
 
 Creating a NETPBM
-=================
+#################
 
 First, open up a Hammer map.
 
