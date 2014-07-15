@@ -15,6 +15,7 @@ General Mapping Notes
   map with a func_brush named structure_seal.  The brush should be textured nodraw.  
 - Required entities include: info_player_start_goodguys, info_player_start_badguys, ent_dota_game_events, env_global_light.
 - Models require a shader that is not provided in Hammer.  In your extracted gamedata, open every .vmt file and replace "GlobalLitSimple" with "VertexLitGeneric".  A tool such as Notepad++ can do this quickly.
+- The func_brush named "structure_seal" should be nodraw (no skybox required).
 
 Building the NavGrid
 ####################
@@ -75,3 +76,33 @@ last 2 arguments to GNVTool, and you should get a gnv file that works for your
 map!
 
 .. image:: http://i.imgur.com/l2HGTsJ.png
+
+Creating a Minimap
+##################
+
+The `VTFEdit`_ tool is used to convert an image into a .vtf minimap file.
+
+.. _VTFEdit: http://nemesis.thewavelength.net/index.php?c=238#p238
+
+While Valve paints their minimaps manually, it is generally sufficient to take a
+top-down screenshot of the map. 
+
+Open VTFEdit, select Import, find your image, and save it as MAPNAME.vtf. Under tools, select "Create VMT". In the Options tab, for shader, select UnlitGeneric and check the boxes 'Translucent' and 'Vertex Alpha'.  Save it as MAPNAME.vmt.
+
+Put both of these files in a folder named materials/overviews in your addon directory.
+
+Next, create a new textfile named MAPNAME.txt.  This is a Key-Value file denoting where the bounds of the minimap lie.  The structure is as follows:
+
+::
+  MAPNAME
+  {
+  material "overviews/MAPNAME" //Note no file extension
+    //Coordinates to the upper left corner of your map
+    pos_y 2560
+    pos_x -2560
+    scale 5.000 //Minimap scale. 
+    rotate 0 //Minimap rotation.  This should always be 0.  
+    zoom 1.0000 //Minimap zoom.  This should always be 1 unless your texture is larger than the playable bounds of your map.  
+  }
+
+Put this file in your code::`addon/resource/overviews` directory.
