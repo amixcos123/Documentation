@@ -18,8 +18,8 @@ pygments_style = 'sphinx'
 # This doesn't exist since we aren't shipping any static files ourselves.
 #html_static_path = ['_static']
 htmlhelp_basename = 'D2Moddindoc'
-html_theme = "sphinx_rtd_theme"
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+#html_theme = "sphinx_rtd_theme"
+#html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 latex_documents = [
     ('index', 'D2Moddin.tex', u'D2Moddin Documentation',
      u'Christian Stewart', 'manual'),
