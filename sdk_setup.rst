@@ -39,6 +39,7 @@ Alien Swarm Search Paths
 ########################
 
 Replace the contents of :code:`Alien Swarm\swarm\gameinfo.txt` with::
+
     "game"         "Alien Swarm"
     "title"        ""
     "type"         "multiplayer_only"
