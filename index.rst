@@ -7,6 +7,7 @@ base for the Dota 2 modding community, with the `D2Moddin forums`_ and the
 
 .. _D2Moddin: http://d2modd.in/
 .. _D2Moddin forums: http://d2modd.in/
+.. _developer documentation: http://docs.d2modd.in/
 
 .. _addon-docs:
 
