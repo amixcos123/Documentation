@@ -23,6 +23,8 @@ Follow the setup tutorial:
   :maxdepth: 2
 
   sdk_setup
+  addon_setup
+
 
 Mapping
 -------
@@ -36,3 +38,13 @@ etc.
 
   mapping
   mapping_limits
+
+LUA Scripting
+-------------
+
+Game logic is written in purely server-side lua code.
+
+.. toctree::
+  :maxdepth: 2
+
+  addon_setup
