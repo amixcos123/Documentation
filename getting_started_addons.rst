@@ -35,3 +35,4 @@ etc.
   :maxdepth: 2
 
   mapping
+  mapping_limits
