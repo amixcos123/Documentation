@@ -19,7 +19,7 @@ use the x86 version, which works fine on 64 bit systems.
 
 .. _GCFScape: http://nemesis.thewavelength.net/index.php?p=26
 
-The primary Dota 2 package is the :code:`pak01_dir.vpk` file under the base dota
+The primary Dota 2 package is the `pak01_dir.vpk` file under the base dota
 game directory. Open the pak in GCFScape, right click the root element, and
 extract the files to `Alien Swarm\\swarm\\addons` so they may be used in the
 Alien Swarm editors.
@@ -30,8 +30,7 @@ Rename the directory you have just created in the Alien Swarm addons to
 Misc. Files
 ###########
 
-Copy the :code:`bin` and :code:`platform` directories into the
-:code:`Dota2Extract` directory.
+Copy the `bin` and `platform` directories into the `Dota2Extract` directory.
 
 Finally, download `dota2fgd`_ (by RoyAwesome on GitHub) and `UpVersion.exe`_ (by
 ModDota) to the bin directory within `Dota2Extract`.
@@ -42,7 +41,7 @@ ModDota) to the bin directory within `Dota2Extract`.
 Alien Swarm Search Paths
 ########################
 
-Replace the contents of :code:`Alien Swarm\\swarm\\gameinfo.txt` with::
+Replace the contents of `Alien Swarm\\swarm\\gameinfo.txt` with::
 
     "game"         "Alien Swarm"
     "title"        ""
@@ -82,7 +81,7 @@ Render Distance.
 Creating a Test Map
 ###################
 
-Under File, create a new map. Save it as code::`test.vmf`. Next, select
+Under File, create a new map. Save it as `test.vmf`. Next, select
 File->Run Map and press "Expert" in the bottom left corner:
 
 .. image:: http://i.imgur.com/oHosYCQ.png
@@ -92,7 +91,7 @@ Click "Edit" and create a new config for Dota 2. We will define the build proces
 The BSP Command
 ***************
 
-Click "New", then "Cmds" and "BSP Program". Add code::`-alldetail -game $gamedir $path\\$file`.  
+Click "New", then "Cmds" and "BSP Program". Add `-alldetail -game $gamedir $path\\$file`.  
 
 UpVersion
 *********
@@ -100,10 +99,10 @@ UpVersion
 Upversion is a tool that will convert the BSP into a format suitable for Dota 2.
 
 Click "new" then "cmds". Select "Executable" and find "UpVersion.exe" in
-code::`Alien Swarm\\swarm\\addons\\Dota2Extract\\bin`. If it's not there, return t
+`Alien Swarm\\swarm\\addons\\Dota2Extract\\bin`. If it's not there, return t
 the Misc Files step and download it.
 
-Add the parameters code::`$path\\$file.bsp $path\\$file.$ext $path\\$file.pbm`.
+Add the parameters `$path\\$file.bsp $path\\$file.$ext $path\\$file.pbm`.
 
 Copy Map
 ********
@@ -112,8 +111,8 @@ Finally, to use the map in Dota 2 we will copy the compiled .bsp to the Dota 2
 maps directory.
 
 Click "new" then "cmds". Select "Executable" and specify:
-code::`CgWindows\\System32\\xcopy.exe`, the built in Windows copy tool. Add the
-parameters: code::`$path\\$file.bsp "C:\\Program Files (x86)\\Steam\\SteamApps\\common\\dota 2
+`CgWindows\\System32\\xcopy.exe`, the built in Windows copy tool. Add the
+parameters: `$path\\$file.bsp "C:\\Program Files (x86)\\Steam\\SteamApps\\common\\dota 2
 beta\\dota\\maps" /y`. Make sure the path is the correct path to your Dota 2 maps
 directory.`
 
