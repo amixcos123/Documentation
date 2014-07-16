@@ -9,10 +9,10 @@ base for the Dota 2 modding community, with the `D2Moddin forums`_ and the
 .. _D2Moddin forums: http://d2modd.in/
 .. _developer documentation: http://docs.d2modd.in/
 
-.. _addon-docs:
+.. _sdk_setup:
 
-Creating Game Modes
--------------------
+SDK Setup
+---------
 
 Dota 2 game modes are built using the addon framework used to build the official `Frostivus`_
 and `New Bloom`_ events. Addons are essentially overlays on the game
@@ -32,11 +32,34 @@ See the below documentation pages to get started:
 .. toctree::
   :maxdepth: 2
 
-  getting_started_addons
   sdk_setup
-  mapping
-  mapping_limits
   addon_setup
+
+.. _mapping_docs:
+
+Mapping
+-------
+
+Mapping is done in the old Source Engine map editor, Hammer.
+
+See the below documentation pages to get started:
+
+.. toctree::
+  :maxdepth: 2
+
+  mapping
+
+Game Logic
+----------
+
+Game logic is written in LUA.
+
+See the below documentation pages to get started:
+
+.. toctree::
+  :maxdepth: 2
+
+  lua_scripting
 
 .. _d2mp-docs:
 

@@ -17,6 +17,27 @@ General Mapping Notes
 - Models require a shader that is not provided in Hammer.  In your extracted gamedata, open every .vmt file and replace "GlobalLitSimple" with "VertexLitGeneric".  A tool such as Notepad++ can do this quickly.
 - The func_brush named "structure_seal" should be nodraw (no skybox required).
 
+Overlay Limit
+############
+
+You cannot decompile and re-compile the dota.bsp map as it has too many
+overlays. The overlay limit was raised to 8192 from 512 for Dota 2, but the
+compiler toolchain still works under the 512 limit.
+
+Fog of War Calculation
+######################
+
+Units can climb to virtually any height within the map, but there are only five
+Fog or War heights defined in the Dota 2 engine. They are:
+
+- 0-128: River
+- 128-256: Midlane
+- 256-384: Highground base
+- 384-512: Ward spots
+- 512-∞: Edge of the map.
+
+The camera will stay in place above 512 units in the Z axis.
+
 Building the NavGrid
 ####################
 
@@ -106,3 +127,4 @@ Next, create a new textfile named MAPNAME.txt.  This is a Key-Value file denotin
   }
 
 Put this file in your code::`addon/resource/overviews` directory.
+
