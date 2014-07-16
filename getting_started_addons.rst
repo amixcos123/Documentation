@@ -47,4 +47,4 @@ Game logic is written in purely server-side lua code.
 .. toctree::
   :maxdepth: 2
 
-  addon_setup
+  lua_scripting
