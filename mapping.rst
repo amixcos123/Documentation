@@ -112,9 +112,8 @@ Open VTFEdit, select Import, find your image, and save it as MAPNAME.vtf. Under 
 
 Put both of these files in a folder named materials/overviews in your addon directory.
 
-Next, create a new textfile named MAPNAME.txt.  This is a Key-Value file denoting where the bounds of the minimap lie.  The structure is as follows:
-
-::
+Next, create a new textfile named MAPNAME.txt.  This is a Key-Value file denoting where the bounds of the minimap lie.  The structure is as follows: ::
+ 
     MAPNAME
     {
     material "overviews/MAPNAME" //Note no file extension
@@ -125,6 +124,7 @@ Next, create a new textfile named MAPNAME.txt.  This is a Key-Value file denotin
       rotate 0 //Minimap rotation.  This should always be 0.  
       zoom 1.0000 //Minimap zoom.  This should always be 1 unless your texture is larger than the playable bounds of your map.  
     }
+
 
 Put this file in your code::`addon/resource/overviews` directory.
 
