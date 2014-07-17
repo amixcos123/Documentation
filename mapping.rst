@@ -115,16 +115,16 @@ Put both of these files in a folder named materials/overviews in your addon dire
 Next, create a new textfile named MAPNAME.txt.  This is a Key-Value file denoting where the bounds of the minimap lie.  The structure is as follows:
 
 ::
-  MAPNAME
-  {
-  material "overviews/MAPNAME" //Note no file extension
-    //Coordinates to the upper left corner of your map
-    pos_y 2560
-    pos_x -2560
-    scale 5.000 //Minimap scale. 
-    rotate 0 //Minimap rotation.  This should always be 0.  
-    zoom 1.0000 //Minimap zoom.  This should always be 1 unless your texture is larger than the playable bounds of your map.  
-  }
+    MAPNAME
+    {
+    material "overviews/MAPNAME" //Note no file extension
+      //Coordinates to the upper left corner of your map
+      pos_y 2560
+      pos_x -2560
+      scale 5.000 //Minimap scale. 
+      rotate 0 //Minimap rotation.  This should always be 0.  
+      zoom 1.0000 //Minimap zoom.  This should always be 1 unless your texture is larger than the playable bounds of your map.  
+    }
 
 Put this file in your code::`addon/resource/overviews` directory.
 
