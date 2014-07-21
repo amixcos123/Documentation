@@ -19,6 +19,8 @@ First, download the latest version of the bootstrapper. You can use `git clone
 .. _here: https://github.com/D2Modding/d2tool
 .. _D2Moddin addon bootstrapper: https://github.com/D2Modding/d2tool
 
+Install the dependencies with NPM, run `npm install` in the d2tool directory.
+
 Next, run the bootstrapper with Node.JS. `node d2tool.js`. In the future there
 will be a compiled exe for this as well.
 
