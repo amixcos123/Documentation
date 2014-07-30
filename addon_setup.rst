@@ -13,11 +13,21 @@ game mode and build the files for your mode based on your answers. In the future
 it will also be able to create additional files for you for NPCs, units,
 particles, maps, etc.
 
+To use the bootstrapper, you will need `Node.JS`_. Download and install it.
+
 First, download the latest version of the bootstrapper. You can use `git clone
 --recursive https://github.com/D2Modding/d2tool.git` or just download from `here`_.
 
+If you downloaded from the link you need to also download `barebones`_ and put
+it into the `barebones` directory in d2tool. Otherwise you will see an error
+saying `info.json` is missing.
+
 .. _here: https://github.com/D2Modding/d2tool
 .. _D2Moddin addon bootstrapper: https://github.com/D2Modding/d2tool
+.. _barebones: https://github.com/D2Modding/barebones
+.. _Node.JS: http://nodejs.org/
+
+Use the `cd` command to move into the d2tool directory.
 
 Install the dependencies with NPM, run `npm install` in the d2tool directory.
 
