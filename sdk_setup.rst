@@ -43,27 +43,31 @@ Alien Swarm Search Paths
 
 Replace the contents of `Alien Swarm\\swarm\\gameinfo.txt` with::
 
-    "game"         "Alien Swarm"
-    "title"        ""
-    "type"         "multiplayer_only"
-    "GameData"     "swarm.fgd"
-    "InstancePath" "tilegen/instances/"
-    
-    "SupportsDX8"  0
-    
-    "FileSystem"
+    "GameInfo"
     {
-        "SteamAppId" "630"
-        "ToolsAppId"  "211"
+            "game"    "Alien Swarm"
+            "title"   "    "  // asw - leave this blank as we have a texture logo
+            "type"    "multiplayer_only"
+            GameData  "swarm.fgd"
+            InstancePath   "tilegen/instances/"
 
-        "SearchPaths"
-        {
-            "Game"  "|gameinfo_path|."
-            "Game" "swarm_base"
-            "Game"  "platform"
-            "Game" "|gameinfo_path|addons\\Dota2Extract"
-         }
-     }
+            SupportsDX8     0
+
+            "FileSystem"
+            {
+                    "SteamAppId"  "630"
+                    "ToolsAppId"  "211"
+
+                    "SearchPaths"
+                    {
+                            "Game"  "|gameinfo_path|."
+                            "Game"  "swarm_base"
+                            "Game"  "platform"
+                            "Game"  "|gameinfo_path|addons\Dota2Extract"
+                    }
+            }
+    }
+
 
 Configuring Hammer
 ##################
