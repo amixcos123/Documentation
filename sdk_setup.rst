@@ -72,8 +72,6 @@ Replace the contents of `Alien Swarm\\swarm\\gameinfo.txt` with::
 Configuring Hammer
 ##################
 
-In Steam, open the Alien Swarm SDK. In the menu that pops up (the tool
-launcher), select "Hammer World Editor". Select Tools->Options, and add the 
 Start the Alien Swarm SDK, select Hammer World Editor and let it open up.
 Now go to "Tools" -> "Options" and add the "dota2.fgd" from `Alien Swarm\\Swarm\\addons\\Dota2Extract\\bin\\dota2.fgd`.
 
