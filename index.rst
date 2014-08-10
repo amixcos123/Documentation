@@ -60,6 +60,7 @@ See the below documentation pages to get started:
   :maxdepth: 2
 
   lua_scripting
+  apidump
 
 .. _d2mp-docs:
 
