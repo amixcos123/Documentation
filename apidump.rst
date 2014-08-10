@@ -1257,7 +1257,7 @@ No Description Set
   * :ref:`Convars.SetFloat`
   * :ref:`Convars.SetInt`
   * :ref:`Convars.SetStr`
- .. _Global.AngleDiff
+ .. _Global.AngleDiff:
 float AngleDiff(float ang1, float ang2)
 `````````````````
 
@@ -1277,7 +1277,7 @@ Returns:
 float - No Description Set
 
 
- .. _Global.AppendToLogFile
+ .. _Global.AppendToLogFile:
 void AppendToLogFile(string , string )
 `````````````````
 
@@ -1292,7 +1292,7 @@ Appends a ''string'' to a log file on the server
 +-----------+--------------+--------------+
 
 
- .. _Global.ApplyDamage
+ .. _Global.ApplyDamage:
 float ApplyDamage(handle DamageTable)
 `````````````````
 
@@ -1322,7 +1322,7 @@ Returns:
 float - damage done after reductions
 
 
- .. _Global.AxisAngleToQuaternion
+ .. _Global.AxisAngleToQuaternion:
 Quaternion AxisAngleToQuaternion(Vector , float )
 `````````````````
 
@@ -1339,7 +1339,7 @@ Returns:
 Quaternion - No Description Set
 
 
- .. _Global.CancelEntityIOEvents
+ .. _Global.CancelEntityIOEvents:
 void CancelEntityIOEvents(ehandle )
 `````````````````
 
@@ -1353,7 +1353,7 @@ Create all I/O events for a particular entity
 +-----------+--------------+--------------+
 
 
- .. _Global.CreateEffect
+ .. _Global.CreateEffect:
 bool CreateEffect(handle )
 `````````````````
 
@@ -1369,7 +1369,7 @@ Returns:
 bool - No Description Set
 
 
- .. _Global.CreateHeroForPlayer
+ .. _Global.CreateHeroForPlayer:
 handle CreateHeroForPlayer(string , handle )
 `````````````````
 
@@ -1386,7 +1386,7 @@ Returns:
 handle - No Description Set
 
 
- .. _Global.CreateItem
+ .. _Global.CreateItem:
 handle CreateItem(string item_name, handle owner, handle owner)
 `````````````````
 
@@ -1404,7 +1404,7 @@ Returns:
 handle - No Description Set
 
 
- .. _Global.CreateItemOnPositionSync
+ .. _Global.CreateItemOnPositionSync:
 handle CreateItemOnPositionSync(Vector , handle )
 `````````````````
 
@@ -1421,7 +1421,7 @@ Returns:
 handle - No Description Set
 
 
- .. _Global.CreateTrigger
+ .. _Global.CreateTrigger:
 handle CreateTrigger(Vector , Vector , Vector )
 `````````````````
 
@@ -1439,7 +1439,7 @@ Returns:
 handle - No Description Set
 
 
- .. _Global.CreateTriggerRadiusApproximate
+ .. _Global.CreateTriggerRadiusApproximate:
 handle CreateTriggerRadiusApproximate(Vector , float )
 `````````````````
 
@@ -1456,7 +1456,7 @@ Returns:
 handle - No Description Set
 
 
- .. _Global.CreateUnitByName
+ .. _Global.CreateUnitByName:
 handle CreateUnitByName(string , Vector , bool , handle , handle , int )
 `````````````````
 
@@ -1477,7 +1477,7 @@ Returns:
 handle - No Description Set
 
 
- .. _Global.CreateUnitByNameAsync
+ .. _Global.CreateUnitByNameAsync:
 int CreateUnitByNameAsync(string , Vector , bool , handle , handle , int , handle )
 `````````````````
 
@@ -1499,7 +1499,7 @@ Returns:
 int - No Description Set
 
 
- .. _Global.cvar_getf
+ .. _Global.cvar_getf:
 float cvar_getf(string )
 `````````````````
 
@@ -1515,7 +1515,7 @@ Returns:
 float - No Description Set
 
 
- .. _Global.cvar_setf
+ .. _Global.cvar_setf:
 bool cvar_setf(string , float )
 `````````````````
 
@@ -1532,7 +1532,7 @@ Returns:
 bool - No Description Set
 
 
- .. _Global.DebugBreak
+ .. _Global.DebugBreak:
 void DebugBreak()
 `````````````````
 
@@ -1541,7 +1541,7 @@ Breaks in the debugger
 
 
 
- .. _Global.DebugDrawBox
+ .. _Global.DebugDrawBox:
 void DebugDrawBox(Vector , Vector , Vector , int , int , int , int , float )
 `````````````````
 
@@ -1562,7 +1562,7 @@ Draw a debug overlay box (origin, mins, maxs, forward, r, g, b, a, duration )
 +-----------+--------------+--------------+
 
 
- .. _Global.DebugDrawBoxDirection
+ .. _Global.DebugDrawBoxDirection:
 void DebugDrawBoxDirection(Vector , Vector , Vector , Vector , Vector , float , float )
 `````````````````
 
@@ -1582,7 +1582,7 @@ Draw a debug forward box (cent, min, max, forward, vRgb, a, duration)
 +-----------+--------------+--------------+
 
 
- .. _Global.DebugDrawCircle
+ .. _Global.DebugDrawCircle:
 void DebugDrawCircle(Vector , Vector , float , float , bool , float )
 `````````````````
 
@@ -1601,7 +1601,7 @@ Draw a debug circle (center, vRgb, a, rad, ztest, duration)
 +-----------+--------------+--------------+
 
 
- .. _Global.DebugDrawClear
+ .. _Global.DebugDrawClear:
 void DebugDrawClear()
 `````````````````
 
@@ -1610,7 +1610,7 @@ Try to clear all the debug overlay info
 
 
 
- .. _Global.DebugDrawLine
+ .. _Global.DebugDrawLine:
 void DebugDrawLine(Vector , Vector , int , int , int , bool , float )
 `````````````````
 
@@ -1630,7 +1630,7 @@ Draw a debug overlay line (origin, target, r, g, b, ztest, duration)
 +-----------+--------------+--------------+
 
 
- .. _Global.DebugDrawLine_vCol
+ .. _Global.DebugDrawLine_vCol:
 void DebugDrawLine_vCol(Vector , Vector , Vector , bool , float )
 `````````````````
 
@@ -1648,7 +1648,7 @@ Draw a debug line using color vec (start, end, vRgb, a, ztest, duration)
 +-----------+--------------+--------------+
 
 
- .. _Global.DebugDrawScreenTextLine
+ .. _Global.DebugDrawScreenTextLine:
 void DebugDrawScreenTextLine(float , float , int , string , int , int , int , int , float )
 `````````````````
 
@@ -1670,7 +1670,7 @@ Draw text with a line offset (x, y, lineOffset, text, r, g, b, a, duration)
 +-----------+--------------+--------------+
 
 
- .. _Global.DebugDrawSphere
+ .. _Global.DebugDrawSphere:
 void DebugDrawSphere(Vector , Vector , float , float , bool , float )
 `````````````````
 
@@ -1689,7 +1689,7 @@ Draw a debug sphere (center, vRgb, a, rad, ztest, duration)
 +-----------+--------------+--------------+
 
 
- .. _Global.DebugDrawText
+ .. _Global.DebugDrawText:
 void DebugDrawText(Vector , string , bool , float )
 `````````````````
 
@@ -1706,7 +1706,7 @@ Draw text in 3d (origin, text, bViewCheck, duration)
 +-----------+--------------+--------------+
 
 
- .. _Global.DebugScreenTextPretty
+ .. _Global.DebugScreenTextPretty:
 void DebugScreenTextPretty(float , float , int , string , int , int , int , int , float , string , int , bool )
 `````````````````
 
@@ -1731,7 +1731,7 @@ Draw pretty debug text (x, y, lineOffset, text, r, g, b, a, duration, font, size
 +-----------+--------------+--------------+
 
 
- .. _Global.DoEntFire
+ .. _Global.DoEntFire:
 void DoEntFire(string , string , string , float , handle , handle )
 `````````````````
 
@@ -1750,7 +1750,7 @@ EntFire: Generate an entity i/o event ( szTarget, szAction, szValue, flDelay, hA
 +-----------+--------------+--------------+
 
 
- .. _Global.DoEntFireByInstanceHandle
+ .. _Global.DoEntFireByInstanceHandle:
 void DoEntFireByInstanceHandle(handle , string , string , float , handle , handle )
 `````````````````
 
@@ -1769,7 +1769,7 @@ EntFireByHandle:Generate and entity i/o event
 +-----------+--------------+--------------+
 
 
- .. _Global.DoIncludeScript
+ .. _Global.DoIncludeScript:
 bool DoIncludeScript(string , handle )
 `````````````````
 
@@ -1786,7 +1786,7 @@ Returns:
 bool - No Description Set
 
 
- .. _Global.DoScriptAssert
+ .. _Global.DoScriptAssert:
 void DoScriptAssert(bool , string )
 `````````````````
 
@@ -1801,7 +1801,7 @@ ScriptAssert:Asserts the passed in value. Prints out a message and brings up the
 +-----------+--------------+--------------+
 
 
- .. _Global.DoUniqueString
+ .. _Global.DoUniqueString:
 string DoUniqueString(string )
 `````````````````
 
@@ -1817,7 +1817,7 @@ Returns:
 string - No Description Set
 
 
- .. _Global.EmitGlobalSound
+ .. _Global.EmitGlobalSound:
 void EmitGlobalSound(string )
 `````````````````
 
@@ -1831,7 +1831,7 @@ Play named sound for all players
 +-----------+--------------+--------------+
 
 
- .. _Global.EmitSoundOn
+ .. _Global.EmitSoundOn:
 void EmitSoundOn(string , handle )
 `````````````````
 
@@ -1846,7 +1846,7 @@ Play named sound on Entity
 +-----------+--------------+--------------+
 
 
- .. _Global.EmitSoundOnClient
+ .. _Global.EmitSoundOnClient:
 void EmitSoundOnClient(string , handle )
 `````````````````
 
@@ -1861,7 +1861,7 @@ Play named sound only on the client for the passed in player
 +-----------+--------------+--------------+
 
 
- .. _Global.EntIndexToHScript
+ .. _Global.EntIndexToHScript:
 handle EntIndexToHScript(int )
 `````````````````
 
@@ -1877,7 +1877,7 @@ Returns:
 handle - No Description Set
 
 
- .. _Global.ExecuteOrderFromTable
+ .. _Global.ExecuteOrderFromTable:
 void ExecuteOrderFromTable(handle )
 `````````````````
 
@@ -1902,7 +1902,7 @@ ExecuteOrderFromTable(newOrder)
 +-----------+--------------+--------------+
 
 
- .. _Global.ExponentialDecay
+ .. _Global.ExponentialDecay:
 float ExponentialDecay(float , float , float )
 `````````````````
 
@@ -1920,7 +1920,7 @@ Returns:
 float - No Description Set
 
 
- .. _Global.FileToString
+ .. _Global.FileToString:
 string FileToString(string )
 `````````````````
 
@@ -1936,7 +1936,7 @@ Returns:
 string - No Description Set
 
 
- .. _Global.FindClearSpaceForUnit
+ .. _Global.FindClearSpaceForUnit:
 void FindClearSpaceForUnit(handle , Vector , bool )
 `````````````````
 
@@ -1952,7 +1952,7 @@ Place a unit somewhere not already occupied.
 +-----------+--------------+--------------+
 
 
- .. _Global.FindUnitsInRadius
+ .. _Global.FindUnitsInRadius:
 table FindUnitsInRadius(int , Vector , handle , float , int , int , int , int , bool )
 `````````````````
 
@@ -1976,7 +1976,7 @@ Returns:
 table - No Description Set
 
 
- .. _Global.FireEntityIOInputNameOnly
+ .. _Global.FireEntityIOInputNameOnly:
 void FireEntityIOInputNameOnly(ehandle , string )
 `````````````````
 
@@ -1991,7 +1991,7 @@ Fire Entity's Action Input w/no data
 +-----------+--------------+--------------+
 
 
- .. _Global.FireEntityIOInputString
+ .. _Global.FireEntityIOInputString:
 void FireEntityIOInputString(ehandle , string , string )
 `````````````````
 
@@ -2007,7 +2007,7 @@ Fire Entity's Action Input with passed String - you own the memory
 +-----------+--------------+--------------+
 
 
- .. _Global.FireEntityIOInputVec
+ .. _Global.FireEntityIOInputVec:
 void FireEntityIOInputVec(ehandle , string , Vector )
 `````````````````
 
@@ -2023,7 +2023,7 @@ Fire Entity's Action Input with passed ''Vector'' ( hEntity, szActionName, vecto
 +-----------+--------------+--------------+
 
 
- .. _Global.FireGameEvent
+ .. _Global.FireGameEvent:
 void FireGameEvent(string eventName, handle parameterTable)
 `````````````````
 
@@ -2038,7 +2038,7 @@ Fire a pre-defined event, which can be found either in custom_events.txt or in d
 +-----------+--------------+--------------+
 
 
- .. _Global.FireGameEventLocal
+ .. _Global.FireGameEventLocal:
 void FireGameEventLocal(string , handle )
 `````````````````
 
@@ -2053,7 +2053,7 @@ Fire a game event without broadcasting to the client.
 +-----------+--------------+--------------+
 
 
- .. _Global.FrameTime
+ .. _Global.FrameTime:
 float FrameTime()
 `````````````````
 
@@ -2064,7 +2064,7 @@ Returns:
 float - No Description Set
 
 
- .. _Global.GetFrameCount
+ .. _Global.GetFrameCount:
 int GetFrameCount()
 `````````````````
 
@@ -2075,7 +2075,7 @@ Returns:
 int - No Description Set
 
 
- .. _Global.GetFrostyBoostAmount
+ .. _Global.GetFrostyBoostAmount:
 float GetFrostyBoostAmount(int , int )
 `````````````````
 
@@ -2092,7 +2092,7 @@ Returns:
 float - No Description Set
 
 
- .. _Global.GetFrostyPointsForRound
+ .. _Global.GetFrostyPointsForRound:
 int GetFrostyPointsForRound(int , int , int )
 `````````````````
 
@@ -2110,7 +2110,7 @@ Returns:
 int - No Description Set
 
 
- .. _Global.GetGoldFrostyBoostAmount
+ .. _Global.GetGoldFrostyBoostAmount:
 float GetGoldFrostyBoostAmount(int , int )
 `````````````````
 
@@ -2127,7 +2127,7 @@ Returns:
 float - No Description Set
 
 
- .. _Global.GetGoldFrostyPointsForRound
+ .. _Global.GetGoldFrostyPointsForRound:
 int GetGoldFrostyPointsForRound(int , int , int )
 `````````````````
 
@@ -2145,7 +2145,7 @@ Returns:
 int - No Description Set
 
 
- .. _Global.GetGroundPosition
+ .. _Global.GetGroundPosition:
 Vector GetGroundPosition(Vector , handle )
 `````````````````
 
@@ -2162,7 +2162,7 @@ Returns:
 Vector - No Description Set
 
 
- .. _Global.GetListenServerHost
+ .. _Global.GetListenServerHost:
 handle GetListenServerHost()
 `````````````````
 
@@ -2173,7 +2173,7 @@ Returns:
 handle - No Description Set
 
 
- .. _Global.GetMapName
+ .. _Global.GetMapName:
 string GetMapName()
 `````````````````
 
@@ -2184,7 +2184,7 @@ Returns:
 string - No Description Set
 
 
- .. _Global.GetMaxOutputDelay
+ .. _Global.GetMaxOutputDelay:
 float GetMaxOutputDelay(ehandle , string )
 `````````````````
 
@@ -2201,7 +2201,7 @@ Returns:
 float - No Description Set
 
 
- .. _Global.GetPhysAngularVelocity
+ .. _Global.GetPhysAngularVelocity:
 Vector GetPhysAngularVelocity(handle )
 `````````````````
 
@@ -2217,7 +2217,7 @@ Returns:
 Vector - No Description Set
 
 
- .. _Global.GetPhysVelocity
+ .. _Global.GetPhysVelocity:
 Vector GetPhysVelocity(handle )
 `````````````````
 
@@ -2233,7 +2233,7 @@ Returns:
 Vector - No Description Set
 
 
- .. _Global.GetSystemDate
+ .. _Global.GetSystemDate:
 string GetSystemDate()
 `````````````````
 
@@ -2244,7 +2244,7 @@ Returns:
 string - No Description Set
 
 
- .. _Global.GetSystemTime
+ .. _Global.GetSystemTime:
 string GetSystemTime()
 `````````````````
 
@@ -2255,7 +2255,7 @@ Returns:
 string - No Description Set
 
 
- .. _Global.GetWorldMaxX
+ .. _Global.GetWorldMaxX:
 float GetWorldMaxX()
 `````````````````
 
@@ -2266,7 +2266,7 @@ Returns:
 float - No Description Set
 
 
- .. _Global.GetWorldMaxY
+ .. _Global.GetWorldMaxY:
 float GetWorldMaxY()
 `````````````````
 
@@ -2277,7 +2277,7 @@ Returns:
 float - No Description Set
 
 
- .. _Global.GetWorldMinX
+ .. _Global.GetWorldMinX:
 float GetWorldMinX()
 `````````````````
 
@@ -2288,7 +2288,7 @@ Returns:
 float - No Description Set
 
 
- .. _Global.GetWorldMinY
+ .. _Global.GetWorldMinY:
 float GetWorldMinY()
 `````````````````
 
@@ -2299,7 +2299,7 @@ Returns:
 float - No Description Set
 
 
- .. _Global.InitLogFile
+ .. _Global.InitLogFile:
 void InitLogFile(string , string )
 `````````````````
 
@@ -2314,7 +2314,7 @@ If the given file doesn't exist, creates it with the given contents; does nothin
 +-----------+--------------+--------------+
 
 
- .. _Global.IsDedicatedServer
+ .. _Global.IsDedicatedServer:
 bool IsDedicatedServer()
 `````````````````
 
@@ -2325,7 +2325,7 @@ Returns:
 bool - No Description Set
 
 
- .. _Global.IsMarkedForDeletion
+ .. _Global.IsMarkedForDeletion:
 bool IsMarkedForDeletion(handle )
 `````````````````
 
@@ -2341,7 +2341,7 @@ Returns:
 bool - No Description Set
 
 
- .. _Global.IsValidEntity
+ .. _Global.IsValidEntity:
 bool IsValidEntity(handle )
 `````````````````
 
@@ -2357,7 +2357,7 @@ Returns:
 bool - No Description Set
 
 
- .. _Global.ListenToGameEvent
+ .. _Global.ListenToGameEvent:
 int ListenToGameEvent(string EventName, handle functionNameToCall, handle context)
 `````````````````
 
@@ -2381,7 +2381,7 @@ Returns:
 int - a handle for the event/function pair
 
 
- .. _Global.LoadKeyValues
+ .. _Global.LoadKeyValues:
 table LoadKeyValues(string )
 `````````````````
 
@@ -2397,7 +2397,7 @@ Returns:
 table - No Description Set
 
 
- .. _Global.LoadKeyValuesFromString
+ .. _Global.LoadKeyValuesFromString:
 table LoadKeyValuesFromString(string )
 `````````````````
 
@@ -2413,7 +2413,7 @@ Returns:
 table - No Description Set
 
 
- .. _Global.MakeStringToken
+ .. _Global.MakeStringToken:
 int MakeStringToken(string )
 `````````````````
 
@@ -2429,7 +2429,7 @@ Returns:
 int - No Description Set
 
 
- .. _Global.Msg
+ .. _Global.Msg:
 void Msg(string )
 `````````````````
 
@@ -2443,7 +2443,7 @@ Print a message
 +-----------+--------------+--------------+
 
 
- .. _Global.PauseGame
+ .. _Global.PauseGame:
 void PauseGame(bool )
 `````````````````
 
@@ -2457,7 +2457,7 @@ Pause or unpause the game.
 +-----------+--------------+--------------+
 
 
- .. _Global.PlayerInstanceFromIndex
+ .. _Global.PlayerInstanceFromIndex:
 handle PlayerInstanceFromIndex(int )
 `````````````````
 
@@ -2473,7 +2473,7 @@ Returns:
 handle - No Description Set
 
 
- .. _Global.PrecacheEntityFromTable
+ .. _Global.PrecacheEntityFromTable:
 void PrecacheEntityFromTable(string , handle , handle )
 `````````````````
 
@@ -2489,7 +2489,7 @@ Precache an entity from KeyValues in ''table''
 +-----------+--------------+--------------+
 
 
- .. _Global.PrecacheEntityListFromTable
+ .. _Global.PrecacheEntityListFromTable:
 void PrecacheEntityListFromTable(handle , handle )
 `````````````````
 
@@ -2504,7 +2504,7 @@ Precache a list of entity KeyValues table's
 +-----------+--------------+--------------+
 
 
- .. _Global.PrecacheItemByNameAsync
+ .. _Global.PrecacheItemByNameAsync:
 void PrecacheItemByNameAsync(string , handle )
 `````````````````
 
@@ -2519,7 +2519,7 @@ Asynchronously precaches a DOTA item by its dota_npc_items.txt name, provides a 
 +-----------+--------------+--------------+
 
 
- .. _Global.PrecacheItemByNameSync
+ .. _Global.PrecacheItemByNameSync:
 void PrecacheItemByNameSync(string , handle )
 `````````````````
 
@@ -2534,7 +2534,7 @@ Precaches a DOTA item by its dota_npc_items.txt name
 +-----------+--------------+--------------+
 
 
- .. _Global.PrecacheModel
+ .. _Global.PrecacheModel:
 void PrecacheModel(string , handle )
 `````````````````
 
@@ -2549,7 +2549,7 @@ void PrecacheModel(string , handle )
 +-----------+--------------+--------------+
 
 
- .. _Global.PrecacheResource
+ .. _Global.PrecacheResource:
 void PrecacheResource(string , string , handle )
 `````````````````
 
@@ -2565,7 +2565,7 @@ Manually precache a single resource
 +-----------+--------------+--------------+
 
 
- .. _Global.PrecacheUnitByNameAsync
+ .. _Global.PrecacheUnitByNameAsync:
 void PrecacheUnitByNameAsync(string , handle )
 `````````````````
 
@@ -2580,7 +2580,7 @@ Asynchronously precaches a DOTA unit by its dota_npc_units.txt name, provides a 
 +-----------+--------------+--------------+
 
 
- .. _Global.PrecacheUnitByNameSync
+ .. _Global.PrecacheUnitByNameSync:
 void PrecacheUnitByNameSync(string , handle )
 `````````````````
 
@@ -2595,7 +2595,7 @@ Precaches a DOTA unit by its dota_npc_units.txt name
 +-----------+--------------+--------------+
 
 
- .. _Global.PrintLinkedConsoleMessage
+ .. _Global.PrintLinkedConsoleMessage:
 void PrintLinkedConsoleMessage(string , string )
 `````````````````
 
@@ -2610,7 +2610,7 @@ Print a console message with a linked console command
 +-----------+--------------+--------------+
 
 
- .. _Global.RandomFloat
+ .. _Global.RandomFloat:
 float RandomFloat(float , float )
 `````````````````
 
@@ -2627,7 +2627,7 @@ Returns:
 float - No Description Set
 
 
- .. _Global.RandomInt
+ .. _Global.RandomInt:
 int RandomInt(int , int )
 `````````````````
 
@@ -2644,7 +2644,7 @@ Returns:
 int - No Description Set
 
 
- .. _Global.RandomVector
+ .. _Global.RandomVector:
 Vector RandomVector(float )
 `````````````````
 
@@ -2660,7 +2660,7 @@ Returns:
 Vector - No Description Set
 
 
- .. _Global.RegisterSpawnGroupFilterProxy
+ .. _Global.RegisterSpawnGroupFilterProxy:
 void RegisterSpawnGroupFilterProxy(string )
 `````````````````
 
@@ -2674,7 +2674,7 @@ Create a C proxy for a script-based spawn group filter
 +-----------+--------------+--------------+
 
 
- .. _Global.ReloadMOTD
+ .. _Global.ReloadMOTD:
 void ReloadMOTD()
 `````````````````
 
@@ -2683,7 +2683,7 @@ Reloads the MotD file
 
 
 
- .. _Global.RemoveSpawnGroupFilterProxy
+ .. _Global.RemoveSpawnGroupFilterProxy:
 void RemoveSpawnGroupFilterProxy(string )
 `````````````````
 
@@ -2697,7 +2697,7 @@ Remove the C proxy for a script-based spawn group filter
 +-----------+--------------+--------------+
 
 
- .. _Global.RollPercentage
+ .. _Global.RollPercentage:
 bool RollPercentage(int )
 `````````````````
 
@@ -2713,7 +2713,7 @@ Returns:
 bool - No Description Set
 
 
- .. _Global.RotateOrientation
+ .. _Global.RotateOrientation:
 QAngle RotateOrientation(QAngle , QAngle )
 `````````````````
 
@@ -2730,7 +2730,7 @@ Returns:
 QAngle - No Description Set
 
 
- .. _Global.RotatePosition
+ .. _Global.RotatePosition:
 Vector RotatePosition(Vector , QAngle , Vector )
 `````````````````
 
@@ -2748,7 +2748,7 @@ Returns:
 Vector - No Description Set
 
 
- .. _Global.RotateQuaternionByAxisAngle
+ .. _Global.RotateQuaternionByAxisAngle:
 Quaternion RotateQuaternionByAxisAngle(Quaternion , Vector , float )
 `````````````````
 
@@ -2766,7 +2766,7 @@ Returns:
 Quaternion - No Description Set
 
 
- .. _Global.RotationDelta
+ .. _Global.RotationDelta:
 QAngle RotationDelta(QAngle , QAngle )
 `````````````````
 
@@ -2783,7 +2783,7 @@ Returns:
 QAngle - No Description Set
 
 
- .. _Global.rr_AddDecisionRule
+ .. _Global.rr_AddDecisionRule:
 bool rr_AddDecisionRule(handle )
 `````````````````
 
@@ -2799,7 +2799,7 @@ Returns:
 bool - No Description Set
 
 
- .. _Global.rr_CommitAIResponse
+ .. _Global.rr_CommitAIResponse:
 bool rr_CommitAIResponse(handle , handle )
 `````````````````
 
@@ -2816,7 +2816,7 @@ Returns:
 bool - No Description Set
 
 
- .. _Global.rr_GetResponseTargets
+ .. _Global.rr_GetResponseTargets:
 handle rr_GetResponseTargets()
 `````````````````
 
@@ -2827,7 +2827,7 @@ Returns:
 handle - No Description Set
 
 
- .. _Global.rr_QueryBestResponse
+ .. _Global.rr_QueryBestResponse:
 bool rr_QueryBestResponse(handle , handle , handle )
 `````````````````
 
@@ -2845,7 +2845,7 @@ Returns:
 bool - No Description Set
 
 
- .. _Global.Say
+ .. _Global.Say:
 void Say(handle entity, string message, bool teamOnly)
 `````````````````
 
@@ -2861,7 +2861,7 @@ Have Entity say ''string'', and teamOnly or not
 +-----------+--------------+--------------+
 
 
- .. _Global.ScreenShake
+ .. _Global.ScreenShake:
 void ScreenShake(Vector , float , float , float , float , int , bool )
 `````````````````
 
@@ -2881,7 +2881,7 @@ Start a screenshake with the following parameters. vecCenter, flAmplitude, flFre
 +-----------+--------------+--------------+
 
 
- .. _Global.SendFrostivusTimeElapsedToGC
+ .. _Global.SendFrostivusTimeElapsedToGC:
 void SendFrostivusTimeElapsedToGC()
 `````````````````
 
@@ -2890,7 +2890,7 @@ No Description Set
 
 
 
- .. _Global.SendFrostyPointsMessageToGC
+ .. _Global.SendFrostyPointsMessageToGC:
 void SendFrostyPointsMessageToGC(handle )
 `````````````````
 
@@ -2904,7 +2904,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _Global.SendToConsole
+ .. _Global.SendToConsole:
 void SendToConsole(string )
 `````````````````
 
@@ -2918,7 +2918,7 @@ Send a ''string'' to the console as a client command
 +-----------+--------------+--------------+
 
 
- .. _Global.SendToServerConsole
+ .. _Global.SendToServerConsole:
 void SendToServerConsole(string )
 `````````````````
 
@@ -2932,7 +2932,7 @@ Send a ''string'' to the console as a server command
 +-----------+--------------+--------------+
 
 
- .. _Global.SetOpvarFloatAll
+ .. _Global.SetOpvarFloatAll:
 void SetOpvarFloatAll(string , string , string , float )
 `````````````````
 
@@ -2949,7 +2949,7 @@ Sets an opvar value for all players
 +-----------+--------------+--------------+
 
 
- .. _Global.SetOpvarFloatPlayer
+ .. _Global.SetOpvarFloatPlayer:
 void SetOpvarFloatPlayer(string , string , string , float , handle )
 `````````````````
 
@@ -2967,7 +2967,7 @@ Sets an opvar value for a single player ( szStackName, szOperatorName, szOpvarNa
 +-----------+--------------+--------------+
 
 
- .. _Global.SetQuestName
+ .. _Global.SetQuestName:
 void SetQuestName(string )
 `````````````````
 
@@ -2981,7 +2981,7 @@ Set the current quest name.
 +-----------+--------------+--------------+
 
 
- .. _Global.SetQuestPhase
+ .. _Global.SetQuestPhase:
 void SetQuestPhase(int )
 `````````````````
 
@@ -2995,7 +2995,7 @@ Set the current quest phase.
 +-----------+--------------+--------------+
 
 
- .. _Global.SetRenderingEnabled
+ .. _Global.SetRenderingEnabled:
 void SetRenderingEnabled(ehandle , bool )
 `````````````````
 
@@ -3010,7 +3010,7 @@ Set rendering on/off for an ''ehandle''
 +-----------+--------------+--------------+
 
 
- .. _Global.ShowGenericPopup
+ .. _Global.ShowGenericPopup:
 void ShowGenericPopup(string title, string content, string unknown, string unknown, int containerType)
 `````````````````
 
@@ -3028,7 +3028,7 @@ void ShowGenericPopup(string title, string content, string unknown, string unkno
 +-----------+--------------+--------------+
 
 
- .. _Global.ShowGenericPopupToPlayer
+ .. _Global.ShowGenericPopupToPlayer:
 void ShowGenericPopupToPlayer(handle , string , string , string , string , int )
 `````````````````
 
@@ -3047,7 +3047,7 @@ Show a generic popup dialog to a specific player.
 +-----------+--------------+--------------+
 
 
- .. _Global.ShowMessage
+ .. _Global.ShowMessage:
 void ShowMessage(string )
 `````````````````
 
@@ -3061,7 +3061,7 @@ Print a hud message on all clients
 +-----------+--------------+--------------+
 
 
- .. _Global.SpawnEntityFromTableSynchronous
+ .. _Global.SpawnEntityFromTableSynchronous:
 handle SpawnEntityFromTableSynchronous(string , handle )
 `````````````````
 
@@ -3078,7 +3078,7 @@ Returns:
 handle - No Description Set
 
 
- .. _Global.SpawnEntityGroupFromTable
+ .. _Global.SpawnEntityGroupFromTable:
 bool SpawnEntityGroupFromTable(handle groupSpawnTables, bool bAsync, handle hCallback)
 `````````````````
 
@@ -3098,7 +3098,7 @@ Returns:
 bool - No Description Set
 
 
- .. _Global.SpawnEntityListFromTableAsynchronous
+ .. _Global.SpawnEntityListFromTableAsynchronous:
 int SpawnEntityListFromTableAsynchronous(handle , handle )
 `````````````````
 
@@ -3115,7 +3115,7 @@ Returns:
 int - No Description Set
 
 
- .. _Global.SpawnEntityListFromTableSynchronous
+ .. _Global.SpawnEntityListFromTableSynchronous:
 handle SpawnEntityListFromTableSynchronous(handle )
 `````````````````
 
@@ -3131,7 +3131,7 @@ Returns:
 handle - No Description Set
 
 
- .. _Global.SplineQuaternions
+ .. _Global.SplineQuaternions:
 Quaternion SplineQuaternions(Quaternion , Quaternion , float )
 `````````````````
 
@@ -3149,7 +3149,7 @@ Returns:
 Quaternion - No Description Set
 
 
- .. _Global.SplineVectors
+ .. _Global.SplineVectors:
 Vector SplineVectors(Vector , Vector , float )
 `````````````````
 
@@ -3167,7 +3167,7 @@ Returns:
 Vector - No Description Set
 
 
- .. _Global.StartSoundEvent
+ .. _Global.StartSoundEvent:
 void StartSoundEvent(string , handle )
 `````````````````
 
@@ -3182,7 +3182,7 @@ Start a sound event
 +-----------+--------------+--------------+
 
 
- .. _Global.StopEffect
+ .. _Global.StopEffect:
 void StopEffect(handle , string )
 `````````````````
 
@@ -3197,7 +3197,7 @@ void StopEffect(handle , string )
 +-----------+--------------+--------------+
 
 
- .. _Global.StopListeningToAllGameEvents
+ .. _Global.StopListeningToAllGameEvents:
 void StopListeningToAllGameEvents(handle )
 `````````````````
 
@@ -3211,7 +3211,7 @@ Stop listening to all game events within a specific context.
 +-----------+--------------+--------------+
 
 
- .. _Global.StopListeningToGameEvent
+ .. _Global.StopListeningToGameEvent:
 bool StopListeningToGameEvent(int )
 `````````````````
 
@@ -3227,7 +3227,7 @@ Returns:
 bool - No Description Set
 
 
- .. _Global.StopSoundEvent
+ .. _Global.StopSoundEvent:
 void StopSoundEvent(string , handle )
 `````````````````
 
@@ -3242,7 +3242,7 @@ Stops a sound event
 +-----------+--------------+--------------+
 
 
- .. _Global.StopSoundOn
+ .. _Global.StopSoundOn:
 void StopSoundOn(string soundName, handle playingEntity)
 `````````````````
 
@@ -3257,7 +3257,7 @@ Stop named sound on Entity
 +-----------+--------------+--------------+
 
 
- .. _Global.StringToFile
+ .. _Global.StringToFile:
 bool StringToFile(string , string )
 `````````````````
 
@@ -3274,7 +3274,7 @@ Returns:
 bool - No Description Set
 
 
- .. _Global.Time
+ .. _Global.Time:
 float Time()
 `````````````````
 
@@ -3285,7 +3285,7 @@ Returns:
 float - No Description Set
 
 
- .. _Global.TraceCollideable
+ .. _Global.TraceCollideable:
 bool TraceCollideable(handle )
 `````````````````
 
@@ -3301,7 +3301,7 @@ Returns:
 bool - No Description Set
 
 
- .. _Global.TraceHull
+ .. _Global.TraceHull:
 bool TraceHull(handle )
 `````````````````
 
@@ -3317,7 +3317,7 @@ Returns:
 bool - No Description Set
 
 
- .. _Global.TraceLine
+ .. _Global.TraceLine:
 bool TraceLine(handle )
 `````````````````
 
@@ -3333,7 +3333,7 @@ Returns:
 bool - No Description Set
 
 
- .. _Global.UnloadSpawnGroup
+ .. _Global.UnloadSpawnGroup:
 void UnloadSpawnGroup(string )
 `````````````````
 
@@ -3347,7 +3347,7 @@ Unload a spawn group by name
 +-----------+--------------+--------------+
 
 
- .. _Global.UnloadSpawnGroupByHandle
+ .. _Global.UnloadSpawnGroupByHandle:
 void UnloadSpawnGroupByHandle(int )
 `````````````````
 
@@ -3361,7 +3361,7 @@ Unload a spawn group by ''handle''
 +-----------+--------------+--------------+
 
 
- .. _Global.UpdateEventPoints
+ .. _Global.UpdateEventPoints:
 void UpdateEventPoints(handle )
 `````````````````
 
@@ -3375,7 +3375,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _Global.UTIL_Remove
+ .. _Global.UTIL_Remove:
 void UTIL_Remove(handle )
 `````````````````
 
@@ -3389,7 +3389,7 @@ Removes the specified entity
 +-----------+--------------+--------------+
 
 
- .. _Global.UTIL_RemoveImmediate
+ .. _Global.UTIL_RemoveImmediate:
 void UTIL_RemoveImmediate(handle )
 `````````````````
 
@@ -3403,7 +3403,7 @@ Immediately removes the specified entity
 +-----------+--------------+--------------+
 
 
- .. _Global.VectorToAngles
+ .. _Global.VectorToAngles:
 QAngle VectorToAngles(Vector )
 `````````````````
 
@@ -3419,7 +3419,7 @@ Returns:
 QAngle - No Description Set
 
 
- .. _Global.Warning
+ .. _Global.Warning:
 void Warning(string )
 `````````````````
 
@@ -3433,7 +3433,7 @@ Print a warning
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.ApplyAbsVelocityImpulse
+ .. _CBaseEntity.ApplyAbsVelocityImpulse:
 void ApplyAbsVelocityImpulse(Vector )
 `````````````````
 
@@ -3447,7 +3447,7 @@ Apply a Velocity Impulse
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.ApplyLocalAngularVelocityImpulse
+ .. _CBaseEntity.ApplyLocalAngularVelocityImpulse:
 void ApplyLocalAngularVelocityImpulse(Vector )
 `````````````````
 
@@ -3461,7 +3461,7 @@ Apply an Ang Velocity Impulse
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.EmitSound
+ .. _CBaseEntity.EmitSound:
 void EmitSound(string soundName)
 `````````````````
 
@@ -3475,7 +3475,7 @@ void EmitSound(string soundName)
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.EmitSoundParams
+ .. _CBaseEntity.EmitSoundParams:
 void EmitSoundParams(string soundName, int pitch, float volume, float soundTime)
 `````````````````
 
@@ -3492,7 +3492,7 @@ Plays/modifies a sound from this entity. changes sound if Pitch and/or Volume or
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.EyeAngles
+ .. _CBaseEntity.EyeAngles:
 QAngle EyeAngles()
 `````````````````
 
@@ -3503,7 +3503,7 @@ Returns:
 QAngle - No Description Set
 
 
- .. _CBaseEntity.EyePosition
+ .. _CBaseEntity.EyePosition:
 Vector EyePosition()
 `````````````````
 
@@ -3514,7 +3514,7 @@ Returns:
 Vector - No Description Set
 
 
- .. _CBaseEntity.FirstMoveChild
+ .. _CBaseEntity.FirstMoveChild:
 handle FirstMoveChild()
 `````````````````
 
@@ -3525,7 +3525,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CBaseEntity.GatherCriteria
+ .. _CBaseEntity.GatherCriteria:
 void GatherCriteria(handle )
 `````````````````
 
@@ -3539,7 +3539,7 @@ Returns a ''table'' containing the criteria that would be used for response quer
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.GetAbsOrigin
+ .. _CBaseEntity.GetAbsOrigin:
 Vector GetAbsOrigin()
 `````````````````
 
@@ -3550,7 +3550,7 @@ Returns:
 Vector - No Description Set
 
 
- .. _CBaseEntity.GetAngles
+ .. _CBaseEntity.GetAngles:
 QAngle GetAngles()
 `````````````````
 
@@ -3561,7 +3561,7 @@ Returns:
 QAngle - No Description Set
 
 
- .. _CBaseEntity.GetAnglesAsVector
+ .. _CBaseEntity.GetAnglesAsVector:
 Vector GetAnglesAsVector()
 `````````````````
 
@@ -3572,7 +3572,7 @@ Returns:
 Vector - No Description Set
 
 
- .. _CBaseEntity.GetAngularVelocity
+ .. _CBaseEntity.GetAngularVelocity:
 Vector GetAngularVelocity()
 `````````````````
 
@@ -3583,7 +3583,7 @@ Returns:
 Vector - No Description Set
 
 
- .. _CBaseEntity.GetBaseVelocity
+ .. _CBaseEntity.GetBaseVelocity:
 Vector GetBaseVelocity()
 `````````````````
 
@@ -3594,7 +3594,7 @@ Returns:
 Vector - No Description Set
 
 
- .. _CBaseEntity.GetBoundingMaxs
+ .. _CBaseEntity.GetBoundingMaxs:
 Vector GetBoundingMaxs()
 `````````````````
 
@@ -3605,7 +3605,7 @@ Returns:
 Vector - No Description Set
 
 
- .. _CBaseEntity.GetBoundingMins
+ .. _CBaseEntity.GetBoundingMins:
 Vector GetBoundingMins()
 `````````````````
 
@@ -3616,7 +3616,7 @@ Returns:
 Vector - No Description Set
 
 
- .. _CBaseEntity.GetBounds
+ .. _CBaseEntity.GetBounds:
 table GetBounds()
 `````````````````
 
@@ -3627,7 +3627,7 @@ Returns:
 table - No Description Set
 
 
- .. _CBaseEntity.GetCenter
+ .. _CBaseEntity.GetCenter:
 Vector GetCenter()
 `````````````````
 
@@ -3638,7 +3638,7 @@ Returns:
 Vector - No Description Set
 
 
- .. _CBaseEntity.GetChildren
+ .. _CBaseEntity.GetChildren:
 handle GetChildren()
 `````````````````
 
@@ -3649,7 +3649,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CBaseEntity.GetContext
+ .. _CBaseEntity.GetContext:
 table GetContext(string )
 `````````````````
 
@@ -3665,7 +3665,7 @@ Returns:
 table - No Description Set
 
 
- .. _CBaseEntity.GetForwardVector
+ .. _CBaseEntity.GetForwardVector:
 Vector GetForwardVector()
 `````````````````
 
@@ -3676,7 +3676,7 @@ Returns:
 Vector - No Description Set
 
 
- .. _CBaseEntity.GetHealth
+ .. _CBaseEntity.GetHealth:
 int GetHealth()
 `````````````````
 
@@ -3687,7 +3687,7 @@ Returns:
 int - No Description Set
 
 
- .. _CBaseEntity.GetLocalAngularVelocity
+ .. _CBaseEntity.GetLocalAngularVelocity:
 QAngle GetLocalAngularVelocity()
 `````````````````
 
@@ -3698,7 +3698,7 @@ Returns:
 QAngle - No Description Set
 
 
- .. _CBaseEntity.GetLocalVelocity
+ .. _CBaseEntity.GetLocalVelocity:
 Vector GetLocalVelocity()
 `````````````````
 
@@ -3709,7 +3709,7 @@ Returns:
 Vector - No Description Set
 
 
- .. _CBaseEntity.GetMaxHealth
+ .. _CBaseEntity.GetMaxHealth:
 int GetMaxHealth()
 `````````````````
 
@@ -3720,7 +3720,7 @@ Returns:
 int - No Description Set
 
 
- .. _CBaseEntity.GetModelName
+ .. _CBaseEntity.GetModelName:
 string GetModelName()
 `````````````````
 
@@ -3731,7 +3731,7 @@ Returns:
 string - No Description Set
 
 
- .. _CBaseEntity.GetMoveParent
+ .. _CBaseEntity.GetMoveParent:
 handle GetMoveParent()
 `````````````````
 
@@ -3742,7 +3742,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CBaseEntity.GetOrigin
+ .. _CBaseEntity.GetOrigin:
 Vector GetOrigin()
 `````````````````
 
@@ -3753,7 +3753,7 @@ Returns:
 Vector - No Description Set
 
 
- .. _CBaseEntity.GetOwner
+ .. _CBaseEntity.GetOwner:
 handle GetOwner()
 `````````````````
 
@@ -3764,7 +3764,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CBaseEntity.GetOwnerEntity
+ .. _CBaseEntity.GetOwnerEntity:
 handle GetOwnerEntity()
 `````````````````
 
@@ -3775,7 +3775,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CBaseEntity.GetRightVector
+ .. _CBaseEntity.GetRightVector:
 Vector GetRightVector()
 `````````````````
 
@@ -3786,7 +3786,7 @@ Returns:
 Vector - No Description Set
 
 
- .. _CBaseEntity.GetRootMoveParent
+ .. _CBaseEntity.GetRootMoveParent:
 handle GetRootMoveParent()
 `````````````````
 
@@ -3797,7 +3797,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CBaseEntity.GetSoundDuration
+ .. _CBaseEntity.GetSoundDuration:
 float GetSoundDuration(string soundName, string actormodelname)
 `````````````````
 
@@ -3814,7 +3814,7 @@ Returns:
 float - No Description Set
 
 
- .. _CBaseEntity.GetTeam
+ .. _CBaseEntity.GetTeam:
 int GetTeam()
 `````````````````
 
@@ -3825,7 +3825,7 @@ Returns:
 int - No Description Set
 
 
- .. _CBaseEntity.GetUpVector
+ .. _CBaseEntity.GetUpVector:
 Vector GetUpVector()
 `````````````````
 
@@ -3836,7 +3836,7 @@ Returns:
 Vector - No Description Set
 
 
- .. _CBaseEntity.GetVelocity
+ .. _CBaseEntity.GetVelocity:
 Vector GetVelocity()
 `````````````````
 
@@ -3847,7 +3847,7 @@ Returns:
 Vector - No Description Set
 
 
- .. _CBaseEntity.IsAlive
+ .. _CBaseEntity.IsAlive:
 bool IsAlive()
 `````````````````
 
@@ -3858,7 +3858,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CBaseEntity.IsPlayer
+ .. _CBaseEntity.IsPlayer:
 bool IsPlayer()
 `````````````````
 
@@ -3869,7 +3869,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CBaseEntity.Kill
+ .. _CBaseEntity.Kill:
 void Kill()
 `````````````````
 
@@ -3878,7 +3878,7 @@ No Description Set
 
 
 
- .. _CBaseEntity.NextMovePeer
+ .. _CBaseEntity.NextMovePeer:
 handle NextMovePeer()
 `````````````````
 
@@ -3889,7 +3889,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CBaseEntity.OverrideFriction
+ .. _CBaseEntity.OverrideFriction:
 void OverrideFriction(float , float )
 `````````````````
 
@@ -3904,7 +3904,7 @@ Takes duration, value for a temporary override
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.PrecacheScriptSound
+ .. _CBaseEntity.PrecacheScriptSound:
 void PrecacheScriptSound(string )
 `````````````````
 
@@ -3918,7 +3918,7 @@ Precache a sound for later playing.
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.SetAbsOrigin
+ .. _CBaseEntity.SetAbsOrigin:
 void SetAbsOrigin(Vector origin)
 `````````````````
 
@@ -3932,7 +3932,7 @@ SetAbsOrigin
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.SetAngles
+ .. _CBaseEntity.SetAngles:
 void SetAngles(float pitch, float yaw, float roll)
 `````````````````
 
@@ -3948,7 +3948,7 @@ Set entity pitch, yaw, roll
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.SetAngularVelocity
+ .. _CBaseEntity.SetAngularVelocity:
 void SetAngularVelocity(float pitch, float yaw, float roll)
 `````````````````
 
@@ -3964,7 +3964,7 @@ Set the local angular velocity - takes ''float'' pitch,yaw,roll velocities
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.SetContext
+ .. _CBaseEntity.SetContext:
 void SetContext(string , string , float )
 `````````````````
 
@@ -3980,7 +3980,7 @@ SetContext( name , value, duration ): store any key/value pair in this entity's 
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.SetContextNum
+ .. _CBaseEntity.SetContextNum:
 void SetContextNum(string , float , float )
 `````````````````
 
@@ -3996,7 +3996,7 @@ SetContext( name , value, duration ): store any key/value pair in this entity's 
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.SetContextThink
+ .. _CBaseEntity.SetContextThink:
 void SetContextThink(string , handle , float )
 `````````````````
 
@@ -4012,7 +4012,7 @@ Set a think function on this entity.
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.SetForwardVector
+ .. _CBaseEntity.SetForwardVector:
 void SetForwardVector(Vector forwardVec)
 `````````````````
 
@@ -4026,7 +4026,7 @@ Set the orientation of the entity to have this forward ''forwardVec''
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.SetFriction
+ .. _CBaseEntity.SetFriction:
 void SetFriction(float )
 `````````````````
 
@@ -4040,7 +4040,7 @@ Set PLAYER friction, ignored for objects
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.SetGravity
+ .. _CBaseEntity.SetGravity:
 void SetGravity(float )
 `````````````````
 
@@ -4054,7 +4054,7 @@ Set PLAYER gravity, ignored for objects
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.SetHealth
+ .. _CBaseEntity.SetHealth:
 void SetHealth(int hp)
 `````````````````
 
@@ -4068,7 +4068,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.SetMaxHealth
+ .. _CBaseEntity.SetMaxHealth:
 void SetMaxHealth(int maxHP)
 `````````````````
 
@@ -4082,7 +4082,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.SetModel
+ .. _CBaseEntity.SetModel:
 void SetModel(string modelName)
 `````````````````
 
@@ -4096,7 +4096,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.SetOrigin
+ .. _CBaseEntity.SetOrigin:
 void SetOrigin(Vector origin)
 `````````````````
 
@@ -4110,7 +4110,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.SetOwner
+ .. _CBaseEntity.SetOwner:
 void SetOwner(handle owningEntity)
 `````````````````
 
@@ -4124,7 +4124,7 @@ Sets this entity's owner
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.SetParent
+ .. _CBaseEntity.SetParent:
 void SetParent(handle , string )
 `````````````````
 
@@ -4139,7 +4139,7 @@ Set the parent for this entity.
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.SetRenderColor
+ .. _CBaseEntity.SetRenderColor:
 void SetRenderColor(int , int , int )
 `````````````````
 
@@ -4155,7 +4155,7 @@ SetRenderColor( r, g, b ): Sets the render color of the entity.
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.SetSize
+ .. _CBaseEntity.SetSize:
 void SetSize(Vector , Vector )
 `````````````````
 
@@ -4170,7 +4170,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.SetTeam
+ .. _CBaseEntity.SetTeam:
 void SetTeam(int team)
 `````````````````
 
@@ -4184,7 +4184,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.SetVelocity
+ .. _CBaseEntity.SetVelocity:
 void SetVelocity(Vector )
 `````````````````
 
@@ -4198,7 +4198,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.StopSound
+ .. _CBaseEntity.StopSound:
 void StopSound(string soundName)
 `````````````````
 
@@ -4212,7 +4212,7 @@ Stops a named sound playing from this entity.
 +-----------+--------------+--------------+
 
 
- .. _CBaseEntity.Trigger
+ .. _CBaseEntity.Trigger:
 void Trigger()
 `````````````````
 
@@ -4221,7 +4221,7 @@ Fires off this entity's OnTrigger responses
 
 
 
- .. _CEntities.CreateByClassname
+ .. _CEntities.CreateByClassname:
 handle CreateByClassname(string className)
 `````````````````
 
@@ -4237,7 +4237,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CEntities.FindAllByClassname
+ .. _CEntities.FindAllByClassname:
 table FindAllByClassname(string )
 `````````````````
 
@@ -4253,7 +4253,7 @@ Returns:
 table - No Description Set
 
 
- .. _CEntities.FindAllByClassnameWithin
+ .. _CEntities.FindAllByClassnameWithin:
 table FindAllByClassnameWithin(string , Vector , float )
 `````````````````
 
@@ -4271,7 +4271,7 @@ Returns:
 table - No Description Set
 
 
- .. _CEntities.FindAllByModel
+ .. _CEntities.FindAllByModel:
 table FindAllByModel(string modelName)
 `````````````````
 
@@ -4287,7 +4287,7 @@ Returns:
 table - No Description Set
 
 
- .. _CEntities.FindAllByName
+ .. _CEntities.FindAllByName:
 table FindAllByName(string name)
 `````````````````
 
@@ -4303,7 +4303,7 @@ Returns:
 table - No Description Set
 
 
- .. _CEntities.FindAllByNameWithin
+ .. _CEntities.FindAllByNameWithin:
 table FindAllByNameWithin(string name, Vector origin, float maxRadius)
 `````````````````
 
@@ -4321,7 +4321,7 @@ Returns:
 table - No Description Set
 
 
- .. _CEntities.FindAllByTarget
+ .. _CEntities.FindAllByTarget:
 table FindAllByTarget(string targetName)
 `````````````````
 
@@ -4337,7 +4337,7 @@ Returns:
 table - No Description Set
 
 
- .. _CEntities.FindAllInSphere
+ .. _CEntities.FindAllInSphere:
 table FindAllInSphere(Vector origin, float maxRadius)
 `````````````````
 
@@ -4354,7 +4354,7 @@ Returns:
 table - No Description Set
 
 
- .. _CEntities.FindByClassname
+ .. _CEntities.FindByClassname:
 handle FindByClassname(handle startFrom, string className)
 `````````````````
 
@@ -4371,7 +4371,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CEntities.FindByClassnameNearest
+ .. _CEntities.FindByClassnameNearest:
 handle FindByClassnameNearest(string className, Vector origin, float maxRadius)
 `````````````````
 
@@ -4389,7 +4389,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CEntities.FindByClassnameWithin
+ .. _CEntities.FindByClassnameWithin:
 handle FindByClassnameWithin(handle startFrom, string className, Vector origin, float maxRadius)
 `````````````````
 
@@ -4408,7 +4408,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CEntities.FindByModel
+ .. _CEntities.FindByModel:
 handle FindByModel(handle startFrom, string modelName)
 `````````````````
 
@@ -4425,7 +4425,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CEntities.FindByModelWithin
+ .. _CEntities.FindByModelWithin:
 handle FindByModelWithin(handle startFrom, string modelName, Vector origin, float maxRadius)
 `````````````````
 
@@ -4444,7 +4444,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CEntities.FindByName
+ .. _CEntities.FindByName:
 handle FindByName(handle lastEnt, string searchString)
 `````````````````
 
@@ -4461,7 +4461,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CEntities.FindByNameNearest
+ .. _CEntities.FindByNameNearest:
 handle FindByNameNearest(string name, Vector origin, float maxRadius)
 `````````````````
 
@@ -4479,7 +4479,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CEntities.FindByNameWithin
+ .. _CEntities.FindByNameWithin:
 handle FindByNameWithin(handle startFrom, string name, Vector origin, float maxRadius)
 `````````````````
 
@@ -4498,7 +4498,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CEntities.FindByTarget
+ .. _CEntities.FindByTarget:
 handle FindByTarget(handle startFrom, string targetName)
 `````````````````
 
@@ -4515,7 +4515,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CEntities.FindInSphere
+ .. _CEntities.FindInSphere:
 handle FindInSphere(handle startFrom, Vector origin, float maxRadius)
 `````````````````
 
@@ -4533,7 +4533,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CEntities.First
+ .. _CEntities.First:
 handle First()
 `````````````````
 
@@ -4544,7 +4544,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CEntities.Next
+ .. _CEntities.Next:
 handle Next(handle startFrom)
 `````````````````
 
@@ -4560,7 +4560,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CEntityInstance.ConnectOutput
+ .. _CEntityInstance.ConnectOutput:
 void ConnectOutput(string , string )
 `````````````````
 
@@ -4575,7 +4575,7 @@ Adds an I/O connection that will call the named function on this entity when the
 +-----------+--------------+--------------+
 
 
- .. _CEntityInstance.Destroy
+ .. _CEntityInstance.Destroy:
 void Destroy()
 `````````````````
 
@@ -4584,7 +4584,7 @@ No Description Set
 
 
 
- .. _CEntityInstance.DisconnectOutput
+ .. _CEntityInstance.DisconnectOutput:
 void DisconnectOutput(string , string )
 `````````````````
 
@@ -4599,7 +4599,7 @@ Removes a connected script function from an I/O event on this entity.
 +-----------+--------------+--------------+
 
 
- .. _CEntityInstance.DisconnectRedirectedOutput
+ .. _CEntityInstance.DisconnectRedirectedOutput:
 void DisconnectRedirectedOutput(string , string , handle )
 `````````````````
 
@@ -4615,7 +4615,7 @@ Removes a connected script function from an I/O event on the passed entity.
 +-----------+--------------+--------------+
 
 
- .. _CEntityInstance.entindex
+ .. _CEntityInstance.entindex:
 int entindex()
 `````````````````
 
@@ -4626,7 +4626,7 @@ Returns:
 int - No Description Set
 
 
- .. _CEntityInstance.FireOutput
+ .. _CEntityInstance.FireOutput:
 void FireOutput(string , handle , handle , table , float )
 `````````````````
 
@@ -4644,7 +4644,7 @@ Fire an entity output
 +-----------+--------------+--------------+
 
 
- .. _CEntityInstance.GetClassname
+ .. _CEntityInstance.GetClassname:
 string GetClassname()
 `````````````````
 
@@ -4655,7 +4655,7 @@ Returns:
 string - No Description Set
 
 
- .. _CEntityInstance.GetDebugName
+ .. _CEntityInstance.GetDebugName:
 string GetDebugName()
 `````````````````
 
@@ -4666,7 +4666,7 @@ Returns:
 string - No Description Set
 
 
- .. _CEntityInstance.GetEntityHandle
+ .. _CEntityInstance.GetEntityHandle:
 ehandle GetEntityHandle()
 `````````````````
 
@@ -4677,7 +4677,7 @@ Returns:
 ehandle - No Description Set
 
 
- .. _CEntityInstance.GetEntityIndex
+ .. _CEntityInstance.GetEntityIndex:
 int GetEntityIndex()
 `````````````````
 
@@ -4688,7 +4688,7 @@ Returns:
 int - No Description Set
 
 
- .. _CEntityInstance.GetIntAttr
+ .. _CEntityInstance.GetIntAttr:
 int GetIntAttr(string )
 `````````````````
 
@@ -4704,7 +4704,7 @@ Returns:
 int - No Description Set
 
 
- .. _CEntityInstance.GetName
+ .. _CEntityInstance.GetName:
 string GetName()
 `````````````````
 
@@ -4715,7 +4715,7 @@ Returns:
 string - No Description Set
 
 
- .. _CEntityInstance.GetOrCreatePrivateScriptScope
+ .. _CEntityInstance.GetOrCreatePrivateScriptScope:
 handle GetOrCreatePrivateScriptScope()
 `````````````````
 
@@ -4726,7 +4726,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CEntityInstance.GetOrCreatePublicScriptScope
+ .. _CEntityInstance.GetOrCreatePublicScriptScope:
 handle GetOrCreatePublicScriptScope()
 `````````````````
 
@@ -4737,7 +4737,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CEntityInstance.GetPrivateScriptScope
+ .. _CEntityInstance.GetPrivateScriptScope:
 handle GetPrivateScriptScope()
 `````````````````
 
@@ -4748,7 +4748,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CEntityInstance.GetPublicScriptScope
+ .. _CEntityInstance.GetPublicScriptScope:
 handle GetPublicScriptScope()
 `````````````````
 
@@ -4759,7 +4759,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CEntityInstance.RedirectOutput
+ .. _CEntityInstance.RedirectOutput:
 void RedirectOutput(string , string , handle )
 `````````````````
 
@@ -4775,7 +4775,7 @@ Adds an I/O connection that will call the named function on the passed entity wh
 +-----------+--------------+--------------+
 
 
- .. _CEntityInstance.RemoveSelf
+ .. _CEntityInstance.RemoveSelf:
 void RemoveSelf()
 `````````````````
 
@@ -4784,7 +4784,7 @@ Delete this entity
 
 
 
- .. _CEntityInstance.SetIntAttr
+ .. _CEntityInstance.SetIntAttr:
 void SetIntAttr(string , int )
 `````````````````
 
@@ -4799,7 +4799,7 @@ Set Integer Attribute
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseAbility.CastAbility
+ .. _CDOTABaseAbility.CastAbility:
 void CastAbility()
 `````````````````
 
@@ -4808,7 +4808,7 @@ No Description Set
 
 
 
- .. _CDOTABaseAbility.ContinueCasting
+ .. _CDOTABaseAbility.ContinueCasting:
 bool ContinueCasting()
 `````````````````
 
@@ -4819,7 +4819,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.CreateVisibilityNode
+ .. _CDOTABaseAbility.CreateVisibilityNode:
 void CreateVisibilityNode(Vector , float , float )
 `````````````````
 
@@ -4835,7 +4835,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseAbility.DecrementModifierRefCount
+ .. _CDOTABaseAbility.DecrementModifierRefCount:
 void DecrementModifierRefCount()
 `````````````````
 
@@ -4844,7 +4844,7 @@ No Description Set
 
 
 
- .. _CDOTABaseAbility.EndChannel
+ .. _CDOTABaseAbility.EndChannel:
 void EndChannel(bool )
 `````````````````
 
@@ -4858,7 +4858,7 @@ Param: ''bool'' bInterrupted
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseAbility.EndCooldown
+ .. _CDOTABaseAbility.EndCooldown:
 void EndCooldown()
 `````````````````
 
@@ -4867,7 +4867,7 @@ Clear the cooldown remaining on this ability.
 
 
 
- .. _CDOTABaseAbility.GetAbilityDamage
+ .. _CDOTABaseAbility.GetAbilityDamage:
 int GetAbilityDamage()
 `````````````````
 
@@ -4878,7 +4878,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTABaseAbility.GetAbilityDamageType
+ .. _CDOTABaseAbility.GetAbilityDamageType:
 int GetAbilityDamageType()
 `````````````````
 
@@ -4889,7 +4889,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTABaseAbility.GetAbilityIndex
+ .. _CDOTABaseAbility.GetAbilityIndex:
 int GetAbilityIndex()
 `````````````````
 
@@ -4900,7 +4900,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTABaseAbility.GetAbilityName
+ .. _CDOTABaseAbility.GetAbilityName:
 string GetAbilityName()
 `````````````````
 
@@ -4911,7 +4911,7 @@ Returns:
 string - No Description Set
 
 
- .. _CDOTABaseAbility.GetAbilityTargetFlags
+ .. _CDOTABaseAbility.GetAbilityTargetFlags:
 int GetAbilityTargetFlags()
 `````````````````
 
@@ -4922,7 +4922,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTABaseAbility.GetAbilityTargetTeam
+ .. _CDOTABaseAbility.GetAbilityTargetTeam:
 int GetAbilityTargetTeam()
 `````````````````
 
@@ -4933,7 +4933,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTABaseAbility.GetAbilityTargetType
+ .. _CDOTABaseAbility.GetAbilityTargetType:
 int GetAbilityTargetType()
 `````````````````
 
@@ -4944,7 +4944,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTABaseAbility.GetAbilityType
+ .. _CDOTABaseAbility.GetAbilityType:
 int GetAbilityType()
 `````````````````
 
@@ -4955,7 +4955,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTABaseAbility.GetAnimationIgnoresModelScale
+ .. _CDOTABaseAbility.GetAnimationIgnoresModelScale:
 bool GetAnimationIgnoresModelScale()
 `````````````````
 
@@ -4966,7 +4966,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.GetAssociatedPrimaryAbilities
+ .. _CDOTABaseAbility.GetAssociatedPrimaryAbilities:
 string GetAssociatedPrimaryAbilities()
 `````````````````
 
@@ -4977,7 +4977,7 @@ Returns:
 string - No Description Set
 
 
- .. _CDOTABaseAbility.GetAssociatedSecondaryAbilities
+ .. _CDOTABaseAbility.GetAssociatedSecondaryAbilities:
 string GetAssociatedSecondaryAbilities()
 `````````````````
 
@@ -4988,7 +4988,7 @@ Returns:
 string - No Description Set
 
 
- .. _CDOTABaseAbility.GetAutoCastState
+ .. _CDOTABaseAbility.GetAutoCastState:
 bool GetAutoCastState()
 `````````````````
 
@@ -4999,7 +4999,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.GetBackswingTime
+ .. _CDOTABaseAbility.GetBackswingTime:
 float GetBackswingTime()
 `````````````````
 
@@ -5010,7 +5010,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTABaseAbility.GetBehavior
+ .. _CDOTABaseAbility.GetBehavior:
 int GetBehavior()
 `````````````````
 
@@ -5021,7 +5021,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTABaseAbility.GetCaster
+ .. _CDOTABaseAbility.GetCaster:
 handle GetCaster()
 `````````````````
 
@@ -5032,7 +5032,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CDOTABaseAbility.GetCastPoint
+ .. _CDOTABaseAbility.GetCastPoint:
 float GetCastPoint()
 `````````````````
 
@@ -5043,7 +5043,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTABaseAbility.GetCastRange
+ .. _CDOTABaseAbility.GetCastRange:
 int GetCastRange()
 `````````````````
 
@@ -5054,7 +5054,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTABaseAbility.GetChannelledManaCostPerSecond
+ .. _CDOTABaseAbility.GetChannelledManaCostPerSecond:
 int GetChannelledManaCostPerSecond(int )
 `````````````````
 
@@ -5070,7 +5070,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTABaseAbility.GetChannelStartTime
+ .. _CDOTABaseAbility.GetChannelStartTime:
 float GetChannelStartTime()
 `````````````````
 
@@ -5081,7 +5081,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTABaseAbility.GetChannelTime
+ .. _CDOTABaseAbility.GetChannelTime:
 float GetChannelTime()
 `````````````````
 
@@ -5092,7 +5092,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTABaseAbility.GetCloneSource
+ .. _CDOTABaseAbility.GetCloneSource:
 handle GetCloneSource()
 `````````````````
 
@@ -5103,7 +5103,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CDOTABaseAbility.GetConceptRecipientType
+ .. _CDOTABaseAbility.GetConceptRecipientType:
 int GetConceptRecipientType()
 `````````````````
 
@@ -5114,7 +5114,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTABaseAbility.GetCooldown
+ .. _CDOTABaseAbility.GetCooldown:
 float GetCooldown(int )
 `````````````````
 
@@ -5130,7 +5130,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTABaseAbility.GetCooldownTime
+ .. _CDOTABaseAbility.GetCooldownTime:
 float GetCooldownTime()
 `````````````````
 
@@ -5141,7 +5141,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTABaseAbility.GetCooldownTimeRemaining
+ .. _CDOTABaseAbility.GetCooldownTimeRemaining:
 float GetCooldownTimeRemaining()
 `````````````````
 
@@ -5152,7 +5152,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTABaseAbility.GetCursorPosition
+ .. _CDOTABaseAbility.GetCursorPosition:
 Vector GetCursorPosition()
 `````````````````
 
@@ -5163,7 +5163,7 @@ Returns:
 Vector - No Description Set
 
 
- .. _CDOTABaseAbility.GetCursorTarget
+ .. _CDOTABaseAbility.GetCursorTarget:
 handle GetCursorTarget()
 `````````````````
 
@@ -5174,7 +5174,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CDOTABaseAbility.GetCursorTargetingNothing
+ .. _CDOTABaseAbility.GetCursorTargetingNothing:
 bool GetCursorTargetingNothing()
 `````````````````
 
@@ -5185,7 +5185,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.GetDuration
+ .. _CDOTABaseAbility.GetDuration:
 float GetDuration()
 `````````````````
 
@@ -5196,7 +5196,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTABaseAbility.GetGoldCost
+ .. _CDOTABaseAbility.GetGoldCost:
 int GetGoldCost(int )
 `````````````````
 
@@ -5212,7 +5212,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTABaseAbility.GetGoldCostForUpgrade
+ .. _CDOTABaseAbility.GetGoldCostForUpgrade:
 int GetGoldCostForUpgrade(int )
 `````````````````
 
@@ -5228,7 +5228,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTABaseAbility.GetHeroLevelRequiredToUpgrade
+ .. _CDOTABaseAbility.GetHeroLevelRequiredToUpgrade:
 int GetHeroLevelRequiredToUpgrade()
 `````````````````
 
@@ -5239,7 +5239,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTABaseAbility.GetIntrinsicModifierName
+ .. _CDOTABaseAbility.GetIntrinsicModifierName:
 string GetIntrinsicModifierName()
 `````````````````
 
@@ -5250,7 +5250,7 @@ Returns:
 string - No Description Set
 
 
- .. _CDOTABaseAbility.GetLevel
+ .. _CDOTABaseAbility.GetLevel:
 int GetLevel()
 `````````````````
 
@@ -5261,7 +5261,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTABaseAbility.GetLevelSpecialValueFor
+ .. _CDOTABaseAbility.GetLevelSpecialValueFor:
 table GetLevelSpecialValueFor(string , int )
 `````````````````
 
@@ -5278,7 +5278,7 @@ Returns:
 table - No Description Set
 
 
- .. _CDOTABaseAbility.GetManaCost
+ .. _CDOTABaseAbility.GetManaCost:
 int GetManaCost(int )
 `````````````````
 
@@ -5294,7 +5294,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTABaseAbility.GetMaxLevel
+ .. _CDOTABaseAbility.GetMaxLevel:
 int GetMaxLevel()
 `````````````````
 
@@ -5305,7 +5305,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTABaseAbility.GetModifierValue
+ .. _CDOTABaseAbility.GetModifierValue:
 float GetModifierValue()
 `````````````````
 
@@ -5316,7 +5316,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTABaseAbility.GetModifierValueBonus
+ .. _CDOTABaseAbility.GetModifierValueBonus:
 float GetModifierValueBonus()
 `````````````````
 
@@ -5327,7 +5327,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTABaseAbility.GetPlaybackRateOverride
+ .. _CDOTABaseAbility.GetPlaybackRateOverride:
 float GetPlaybackRateOverride()
 `````````````````
 
@@ -5338,7 +5338,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTABaseAbility.GetSharedCooldownName
+ .. _CDOTABaseAbility.GetSharedCooldownName:
 string GetSharedCooldownName()
 `````````````````
 
@@ -5349,7 +5349,7 @@ Returns:
 string - No Description Set
 
 
- .. _CDOTABaseAbility.GetSpecialValueFor
+ .. _CDOTABaseAbility.GetSpecialValueFor:
 table GetSpecialValueFor(string )
 `````````````````
 
@@ -5365,7 +5365,7 @@ Returns:
 table - No Description Set
 
 
- .. _CDOTABaseAbility.GetStolenActivityModifier
+ .. _CDOTABaseAbility.GetStolenActivityModifier:
 string GetStolenActivityModifier()
 `````````````````
 
@@ -5376,7 +5376,7 @@ Returns:
 string - No Description Set
 
 
- .. _CDOTABaseAbility.GetToggleState
+ .. _CDOTABaseAbility.GetToggleState:
 bool GetToggleState()
 `````````````````
 
@@ -5387,7 +5387,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.HeroXPChange
+ .. _CDOTABaseAbility.HeroXPChange:
 bool HeroXPChange(float )
 `````````````````
 
@@ -5403,7 +5403,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.IncrementModifierRefCount
+ .. _CDOTABaseAbility.IncrementModifierRefCount:
 void IncrementModifierRefCount()
 `````````````````
 
@@ -5412,7 +5412,7 @@ No Description Set
 
 
 
- .. _CDOTABaseAbility.IsActivated
+ .. _CDOTABaseAbility.IsActivated:
 bool IsActivated()
 `````````````````
 
@@ -5423,7 +5423,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.IsAttributeBonus
+ .. _CDOTABaseAbility.IsAttributeBonus:
 bool IsAttributeBonus()
 `````````````````
 
@@ -5434,7 +5434,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.IsChanneling
+ .. _CDOTABaseAbility.IsChanneling:
 bool IsChanneling()
 `````````````````
 
@@ -5445,7 +5445,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.IsCooldownReady
+ .. _CDOTABaseAbility.IsCooldownReady:
 bool IsCooldownReady()
 `````````````````
 
@@ -5456,7 +5456,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.IsCosmetic
+ .. _CDOTABaseAbility.IsCosmetic:
 bool IsCosmetic()
 `````````````````
 
@@ -5467,7 +5467,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.IsFullyCastable
+ .. _CDOTABaseAbility.IsFullyCastable:
 bool IsFullyCastable()
 `````````````````
 
@@ -5478,7 +5478,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.IsHidden
+ .. _CDOTABaseAbility.IsHidden:
 bool IsHidden()
 `````````````````
 
@@ -5489,7 +5489,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.IsHiddenWhenStolen
+ .. _CDOTABaseAbility.IsHiddenWhenStolen:
 bool IsHiddenWhenStolen()
 `````````````````
 
@@ -5500,7 +5500,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.IsInAbilityPhase
+ .. _CDOTABaseAbility.IsInAbilityPhase:
 bool IsInAbilityPhase()
 `````````````````
 
@@ -5511,7 +5511,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.IsItem
+ .. _CDOTABaseAbility.IsItem:
 bool IsItem()
 `````````````````
 
@@ -5522,7 +5522,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.IsOwnersGoldEnough
+ .. _CDOTABaseAbility.IsOwnersGoldEnough:
 bool IsOwnersGoldEnough(int )
 `````````````````
 
@@ -5538,7 +5538,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.IsOwnersGoldEnoughForUpgrade
+ .. _CDOTABaseAbility.IsOwnersGoldEnoughForUpgrade:
 bool IsOwnersGoldEnoughForUpgrade()
 `````````````````
 
@@ -5549,7 +5549,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.IsOwnersManaEnough
+ .. _CDOTABaseAbility.IsOwnersManaEnough:
 bool IsOwnersManaEnough()
 `````````````````
 
@@ -5560,7 +5560,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.IsPassive
+ .. _CDOTABaseAbility.IsPassive:
 bool IsPassive()
 `````````````````
 
@@ -5571,7 +5571,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.IsSharedWithTeammates
+ .. _CDOTABaseAbility.IsSharedWithTeammates:
 bool IsSharedWithTeammates()
 `````````````````
 
@@ -5582,7 +5582,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.IsStealable
+ .. _CDOTABaseAbility.IsStealable:
 bool IsStealable()
 `````````````````
 
@@ -5593,7 +5593,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.IsStolen
+ .. _CDOTABaseAbility.IsStolen:
 bool IsStolen()
 `````````````````
 
@@ -5604,7 +5604,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.IsToggle
+ .. _CDOTABaseAbility.IsToggle:
 bool IsToggle()
 `````````````````
 
@@ -5615,7 +5615,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.IsTrained
+ .. _CDOTABaseAbility.IsTrained:
 bool IsTrained()
 `````````````````
 
@@ -5626,7 +5626,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.MarkAbilityButtonDirty
+ .. _CDOTABaseAbility.MarkAbilityButtonDirty:
 void MarkAbilityButtonDirty()
 `````````````````
 
@@ -5635,7 +5635,7 @@ Mark the ability button for this ability as needing a refresh
 
 
 
- .. _CDOTABaseAbility.NumModifiersUsingAbility
+ .. _CDOTABaseAbility.NumModifiersUsingAbility:
 int NumModifiersUsingAbility()
 `````````````````
 
@@ -5646,7 +5646,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTABaseAbility.OnAbilityPhaseInterrupted
+ .. _CDOTABaseAbility.OnAbilityPhaseInterrupted:
 void OnAbilityPhaseInterrupted()
 `````````````````
 
@@ -5655,7 +5655,7 @@ No Description Set
 
 
 
- .. _CDOTABaseAbility.OnAbilityPhaseStart
+ .. _CDOTABaseAbility.OnAbilityPhaseStart:
 bool OnAbilityPhaseStart()
 `````````````````
 
@@ -5666,7 +5666,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.OnAbilityPinged
+ .. _CDOTABaseAbility.OnAbilityPinged:
 void OnAbilityPinged()
 `````````````````
 
@@ -5675,7 +5675,7 @@ No Description Set
 
 
 
- .. _CDOTABaseAbility.OnChannelFinish
+ .. _CDOTABaseAbility.OnChannelFinish:
 void OnChannelFinish(bool )
 `````````````````
 
@@ -5689,7 +5689,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseAbility.OnChannelThink
+ .. _CDOTABaseAbility.OnChannelThink:
 void OnChannelThink(float )
 `````````````````
 
@@ -5703,7 +5703,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseAbility.OnHeroCalculateStatBonus
+ .. _CDOTABaseAbility.OnHeroCalculateStatBonus:
 void OnHeroCalculateStatBonus()
 `````````````````
 
@@ -5712,7 +5712,7 @@ No Description Set
 
 
 
- .. _CDOTABaseAbility.OnHeroLevelUp
+ .. _CDOTABaseAbility.OnHeroLevelUp:
 void OnHeroLevelUp()
 `````````````````
 
@@ -5721,7 +5721,7 @@ No Description Set
 
 
 
- .. _CDOTABaseAbility.OnInventoryContentsChanged
+ .. _CDOTABaseAbility.OnInventoryContentsChanged:
 void OnInventoryContentsChanged()
 `````````````````
 
@@ -5730,7 +5730,7 @@ No Description Set
 
 
 
- .. _CDOTABaseAbility.OnOwnerDied
+ .. _CDOTABaseAbility.OnOwnerDied:
 void OnOwnerDied()
 `````````````````
 
@@ -5739,7 +5739,7 @@ No Description Set
 
 
 
- .. _CDOTABaseAbility.OnOwnerSpawned
+ .. _CDOTABaseAbility.OnOwnerSpawned:
 void OnOwnerSpawned()
 `````````````````
 
@@ -5748,7 +5748,7 @@ No Description Set
 
 
 
- .. _CDOTABaseAbility.OnSpellStart
+ .. _CDOTABaseAbility.OnSpellStart:
 void OnSpellStart()
 `````````````````
 
@@ -5757,7 +5757,7 @@ No Description Set
 
 
 
- .. _CDOTABaseAbility.OnToggle
+ .. _CDOTABaseAbility.OnToggle:
 void OnToggle()
 `````````````````
 
@@ -5766,7 +5766,7 @@ No Description Set
 
 
 
- .. _CDOTABaseAbility.OnUpgrade
+ .. _CDOTABaseAbility.OnUpgrade:
 void OnUpgrade()
 `````````````````
 
@@ -5775,7 +5775,7 @@ No Description Set
 
 
 
- .. _CDOTABaseAbility.PayGoldCost
+ .. _CDOTABaseAbility.PayGoldCost:
 void PayGoldCost()
 `````````````````
 
@@ -5784,7 +5784,7 @@ No Description Set
 
 
 
- .. _CDOTABaseAbility.PayGoldCostForUpgrade
+ .. _CDOTABaseAbility.PayGoldCostForUpgrade:
 void PayGoldCostForUpgrade()
 `````````````````
 
@@ -5793,7 +5793,7 @@ No Description Set
 
 
 
- .. _CDOTABaseAbility.PayManaCost
+ .. _CDOTABaseAbility.PayManaCost:
 void PayManaCost()
 `````````````````
 
@@ -5802,7 +5802,7 @@ No Description Set
 
 
 
- .. _CDOTABaseAbility.PlaysDefaultAnimWhenStolen
+ .. _CDOTABaseAbility.PlaysDefaultAnimWhenStolen:
 bool PlaysDefaultAnimWhenStolen()
 `````````````````
 
@@ -5813,7 +5813,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.ProcsMagicStick
+ .. _CDOTABaseAbility.ProcsMagicStick:
 bool ProcsMagicStick()
 `````````````````
 
@@ -5824,7 +5824,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.RefCountsModifiers
+ .. _CDOTABaseAbility.RefCountsModifiers:
 bool RefCountsModifiers()
 `````````````````
 
@@ -5835,7 +5835,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.RefundManaCost
+ .. _CDOTABaseAbility.RefundManaCost:
 void RefundManaCost()
 `````````````````
 
@@ -5844,7 +5844,7 @@ No Description Set
 
 
 
- .. _CDOTABaseAbility.ResetToggleOnRespawn
+ .. _CDOTABaseAbility.ResetToggleOnRespawn:
 bool ResetToggleOnRespawn()
 `````````````````
 
@@ -5855,7 +5855,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.SetAbilityIndex
+ .. _CDOTABaseAbility.SetAbilityIndex:
 void SetAbilityIndex(int )
 `````````````````
 
@@ -5869,7 +5869,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseAbility.SetActivated
+ .. _CDOTABaseAbility.SetActivated:
 void SetActivated(bool )
 `````````````````
 
@@ -5883,7 +5883,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseAbility.SetChanneling
+ .. _CDOTABaseAbility.SetChanneling:
 void SetChanneling(bool )
 `````````````````
 
@@ -5897,7 +5897,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseAbility.SetHidden
+ .. _CDOTABaseAbility.SetHidden:
 void SetHidden(bool )
 `````````````````
 
@@ -5911,7 +5911,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseAbility.SetInAbilityPhase
+ .. _CDOTABaseAbility.SetInAbilityPhase:
 void SetInAbilityPhase(bool )
 `````````````````
 
@@ -5925,7 +5925,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseAbility.SetLevel
+ .. _CDOTABaseAbility.SetLevel:
 void SetLevel(int )
 `````````````````
 
@@ -5939,7 +5939,7 @@ Sets the level of this ability.
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseAbility.SetOverrideCastPoint
+ .. _CDOTABaseAbility.SetOverrideCastPoint:
 void SetOverrideCastPoint(float )
 `````````````````
 
@@ -5953,7 +5953,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseAbility.SetRefCountsModifiers
+ .. _CDOTABaseAbility.SetRefCountsModifiers:
 void SetRefCountsModifiers(bool )
 `````````````````
 
@@ -5967,7 +5967,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseAbility.SetStolen
+ .. _CDOTABaseAbility.SetStolen:
 void SetStolen(bool )
 `````````````````
 
@@ -5981,7 +5981,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseAbility.ShouldUseResources
+ .. _CDOTABaseAbility.ShouldUseResources:
 bool ShouldUseResources()
 `````````````````
 
@@ -5992,7 +5992,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.SpeakAbilityConcept
+ .. _CDOTABaseAbility.SpeakAbilityConcept:
 void SpeakAbilityConcept(int )
 `````````````````
 
@@ -6006,7 +6006,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseAbility.SpeakTrigger
+ .. _CDOTABaseAbility.SpeakTrigger:
 bool SpeakTrigger()
 `````````````````
 
@@ -6017,7 +6017,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTABaseAbility.StartCooldown
+ .. _CDOTABaseAbility.StartCooldown:
 void StartCooldown(float )
 `````````````````
 
@@ -6031,7 +6031,7 @@ param: flCooldown
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseAbility.ToggleAbility
+ .. _CDOTABaseAbility.ToggleAbility:
 void ToggleAbility()
 `````````````````
 
@@ -6040,7 +6040,7 @@ No Description Set
 
 
 
- .. _CDOTABaseAbility.ToggleAutoCast
+ .. _CDOTABaseAbility.ToggleAutoCast:
 void ToggleAutoCast()
 `````````````````
 
@@ -6049,7 +6049,7 @@ No Description Set
 
 
 
- .. _CDOTABaseAbility.UpgradeAbility
+ .. _CDOTABaseAbility.UpgradeAbility:
 void UpgradeAbility()
 `````````````````
 
@@ -6058,7 +6058,7 @@ No Description Set
 
 
 
- .. _CDOTABaseAbility.UseResources
+ .. _CDOTABaseAbility.UseResources:
 void UseResources(bool , bool , bool )
 `````````````````
 
@@ -6074,7 +6074,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_Ability_Animation_Attack.SetPlaybackRate
+ .. _CDOTA_Ability_Animation_Attack.SetPlaybackRate:
 void SetPlaybackRate(float )
 `````````````````
 
@@ -6088,7 +6088,7 @@ Override playbackrate
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_Ability_Animation_TailSpin.SetPlaybackRate
+ .. _CDOTA_Ability_Animation_TailSpin.SetPlaybackRate:
 void SetPlaybackRate(float )
 `````````````````
 
@@ -6102,7 +6102,7 @@ Override playbackrate
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_Ability_Nian_Leap.SetPlaybackRate
+ .. _CDOTA_Ability_Nian_Leap.SetPlaybackRate:
 void SetPlaybackRate(float )
 `````````````````
 
@@ -6116,7 +6116,7 @@ Override playbackrate
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_Ability_Nian_Dive.SetPlaybackRate
+ .. _CDOTA_Ability_Nian_Dive.SetPlaybackRate:
 void SetPlaybackRate(float )
 `````````````````
 
@@ -6130,7 +6130,7 @@ Override playbackrate
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_Ability_Nian_Roar.GetCastCount
+ .. _CDOTA_Ability_Nian_Roar.GetCastCount:
 int GetCastCount()
 `````````````````
 
@@ -6141,7 +6141,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_Item.GetContainer
+ .. _CDOTA_Item.GetContainer:
 handle GetContainer()
 `````````````````
 
@@ -6152,7 +6152,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CDOTA_Item.GetCost
+ .. _CDOTA_Item.GetCost:
 int GetCost()
 `````````````````
 
@@ -6163,7 +6163,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_Item.GetCurrentCharges
+ .. _CDOTA_Item.GetCurrentCharges:
 int GetCurrentCharges()
 `````````````````
 
@@ -6174,7 +6174,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_Item.GetInitialCharges
+ .. _CDOTA_Item.GetInitialCharges:
 int GetInitialCharges()
 `````````````````
 
@@ -6185,7 +6185,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_Item.GetPurchaser
+ .. _CDOTA_Item.GetPurchaser:
 handle GetPurchaser()
 `````````````````
 
@@ -6196,7 +6196,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CDOTA_Item.GetPurchaseTime
+ .. _CDOTA_Item.GetPurchaseTime:
 float GetPurchaseTime()
 `````````````````
 
@@ -6207,7 +6207,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_Item.GetShareability
+ .. _CDOTA_Item.GetShareability:
 int GetShareability()
 `````````````````
 
@@ -6218,7 +6218,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_Item.IsPermanent
+ .. _CDOTA_Item.IsPermanent:
 bool IsPermanent()
 `````````````````
 
@@ -6229,7 +6229,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_Item.LaunchLoot
+ .. _CDOTA_Item.LaunchLoot:
 void LaunchLoot(bool , float , float , Vector )
 `````````````````
 
@@ -6246,7 +6246,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_Item.SetCurrentCharges
+ .. _CDOTA_Item.SetCurrentCharges:
 void SetCurrentCharges(int )
 `````````````````
 
@@ -6260,7 +6260,7 @@ Set the number of charges on this item
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_Item.SetPurchaser
+ .. _CDOTA_Item.SetPurchaser:
 void SetPurchaser(handle )
 `````````````````
 
@@ -6274,7 +6274,7 @@ Set the purchaser of record for this item.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_Item.SetPurchaseTime
+ .. _CDOTA_Item.SetPurchaseTime:
 void SetPurchaseTime(float )
 `````````````````
 
@@ -6288,7 +6288,7 @@ Set the purchase time of this item
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_Item.SetStacksWithOtherOwners
+ .. _CDOTA_Item.SetStacksWithOtherOwners:
 void SetStacksWithOtherOwners(bool )
 `````````````````
 
@@ -6302,7 +6302,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_Item.StacksWithOtherOwners
+ .. _CDOTA_Item.StacksWithOtherOwners:
 bool StacksWithOtherOwners()
 `````````````````
 
@@ -6313,7 +6313,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_Item.Think
+ .. _CDOTA_Item.Think:
 void Think()
 `````````````````
 
@@ -6322,7 +6322,7 @@ Think this item
 
 
 
- .. _CDOTA_Item_Physical.GetContainedItem
+ .. _CDOTA_Item_Physical.GetContainedItem:
 handle GetContainedItem()
 `````````````````
 
@@ -6333,7 +6333,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CDOTA_Item_Physical.GetCreationTime
+ .. _CDOTA_Item_Physical.GetCreationTime:
 float GetCreationTime()
 `````````````````
 
@@ -6344,7 +6344,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_Item_Physical.SetContainedItem
+ .. _CDOTA_Item_Physical.SetContainedItem:
 void SetContainedItem(handle )
 `````````````````
 
@@ -6358,7 +6358,7 @@ Set the contained item.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_Item_DataDriven.ApplyDataDrivenModifier
+ .. _CDOTA_Item_DataDriven.ApplyDataDrivenModifier:
 void ApplyDataDrivenModifier(handle source, handle target, string modifier_name, handle modifierArgs)
 `````````````````
 
@@ -6375,7 +6375,7 @@ void ApplyDataDrivenModifier(handle source, handle target, string modifier_name,
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_Unit_Nian.GetHorn
+ .. _CDOTA_Unit_Nian.GetHorn:
 handle GetHorn()
 `````````````````
 
@@ -6386,7 +6386,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CDOTA_Unit_Nian.GetTail
+ .. _CDOTA_Unit_Nian.GetTail:
 handle GetTail()
 `````````````````
 
@@ -6397,7 +6397,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CDOTA_Unit_Nian.IsHornAlive
+ .. _CDOTA_Unit_Nian.IsHornAlive:
 bool IsHornAlive()
 `````````````````
 
@@ -6408,7 +6408,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_Unit_Nian.IsTailAlive
+ .. _CDOTA_Unit_Nian.IsTailAlive:
 bool IsTailAlive()
 `````````````````
 
@@ -6419,7 +6419,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CBasePlayer.IsNoclipping
+ .. _CBasePlayer.IsNoclipping:
 bool IsNoclipping()
 `````````````````
 
@@ -6430,7 +6430,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTAPlayer.GetAssignedHero
+ .. _CDOTAPlayer.GetAssignedHero:
 handle GetAssignedHero()
 `````````````````
 
@@ -6441,7 +6441,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CDOTAPlayer.GetControlledRPGUnit
+ .. _CDOTAPlayer.GetControlledRPGUnit:
 handle GetControlledRPGUnit()
 `````````````````
 
@@ -6452,7 +6452,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CDOTAPlayer.GetPlayerID
+ .. _CDOTAPlayer.GetPlayerID:
 int GetPlayerID()
 `````````````````
 
@@ -6463,7 +6463,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTAPlayer.MakeRandomHeroSelection
+ .. _CDOTAPlayer.MakeRandomHeroSelection:
 void MakeRandomHeroSelection()
 `````````````````
 
@@ -6472,7 +6472,7 @@ Randoms this player's hero.
 
 
 
- .. _CDOTAPlayer.SetKillCamUnit
+ .. _CDOTAPlayer.SetKillCamUnit:
 void SetKillCamUnit(handle )
 `````````````````
 
@@ -6486,7 +6486,7 @@ Set the kill cam unit for this hero.
 +-----------+--------------+--------------+
 
 
- .. _CDOTAPlayer.SetMusicStatus
+ .. _CDOTAPlayer.SetMusicStatus:
 void SetMusicStatus(int nMusicStatus, float flIntensity)
 `````````````````
 
@@ -6501,7 +6501,7 @@ Set the music status for this player, note this will only really apply if dota_m
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.AddAegisPickup
+ .. _CDOTA_PlayerResource.AddAegisPickup:
 void AddAegisPickup(int )
 `````````````````
 
@@ -6515,7 +6515,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.AddClaimedFarm
+ .. _CDOTA_PlayerResource.AddClaimedFarm:
 void AddClaimedFarm(int , float )
 `````````````````
 
@@ -6530,7 +6530,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.AddGoldSpentOnSupport
+ .. _CDOTA_PlayerResource.AddGoldSpentOnSupport:
 void AddGoldSpentOnSupport(int , int )
 `````````````````
 
@@ -6545,7 +6545,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.AddRunePickup
+ .. _CDOTA_PlayerResource.AddRunePickup:
 void AddRunePickup(int )
 `````````````````
 
@@ -6559,7 +6559,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.AreUnitsSharedWithPlayerID
+ .. _CDOTA_PlayerResource.AreUnitsSharedWithPlayerID:
 bool AreUnitsSharedWithPlayerID(int , int )
 `````````````````
 
@@ -6576,7 +6576,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_PlayerResource.ClearKillsMatrix
+ .. _CDOTA_PlayerResource.ClearKillsMatrix:
 void ClearKillsMatrix(int )
 `````````````````
 
@@ -6590,7 +6590,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.ClearLastHitMultikill
+ .. _CDOTA_PlayerResource.ClearLastHitMultikill:
 void ClearLastHitMultikill(int )
 `````````````````
 
@@ -6604,7 +6604,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.ClearLastHitStreak
+ .. _CDOTA_PlayerResource.ClearLastHitStreak:
 void ClearLastHitStreak(int )
 `````````````````
 
@@ -6618,7 +6618,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.ClearRawPlayerDamageMatrix
+ .. _CDOTA_PlayerResource.ClearRawPlayerDamageMatrix:
 void ClearRawPlayerDamageMatrix(int )
 `````````````````
 
@@ -6632,7 +6632,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.ClearStreak
+ .. _CDOTA_PlayerResource.ClearStreak:
 void ClearStreak(int )
 `````````````````
 
@@ -6646,7 +6646,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.GetAegisPickups
+ .. _CDOTA_PlayerResource.GetAegisPickups:
 int GetAegisPickups(int )
 `````````````````
 
@@ -6662,7 +6662,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetAssists
+ .. _CDOTA_PlayerResource.GetAssists:
 int GetAssists(int )
 `````````````````
 
@@ -6678,7 +6678,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetBroadcasterChannel
+ .. _CDOTA_PlayerResource.GetBroadcasterChannel:
 <> GetBroadcasterChannel(int )
 `````````````````
 
@@ -6694,7 +6694,7 @@ Returns:
 <> - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetBroadcasterChannelSlot
+ .. _CDOTA_PlayerResource.GetBroadcasterChannelSlot:
 <> GetBroadcasterChannelSlot(int )
 `````````````````
 
@@ -6710,7 +6710,7 @@ Returns:
 <> - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetClaimedDenies
+ .. _CDOTA_PlayerResource.GetClaimedDenies:
 int GetClaimedDenies(int )
 `````````````````
 
@@ -6726,7 +6726,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetClaimedFarm
+ .. _CDOTA_PlayerResource.GetClaimedFarm:
 float GetClaimedFarm(int )
 `````````````````
 
@@ -6742,7 +6742,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetClaimedMisses
+ .. _CDOTA_PlayerResource.GetClaimedMisses:
 int GetClaimedMisses(int )
 `````````````````
 
@@ -6758,7 +6758,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetConnectionState
+ .. _CDOTA_PlayerResource.GetConnectionState:
 <> GetConnectionState(int )
 `````````````````
 
@@ -6774,7 +6774,7 @@ Returns:
 <> - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetCreepDamageTaken
+ .. _CDOTA_PlayerResource.GetCreepDamageTaken:
 int GetCreepDamageTaken(int )
 `````````````````
 
@@ -6790,7 +6790,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetCustomBuybackCooldown
+ .. _CDOTA_PlayerResource.GetCustomBuybackCooldown:
 float GetCustomBuybackCooldown(int )
 `````````````````
 
@@ -6806,7 +6806,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetCustomBuybackCost
+ .. _CDOTA_PlayerResource.GetCustomBuybackCost:
 int GetCustomBuybackCost(int )
 `````````````````
 
@@ -6822,7 +6822,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetDamageDoneToHero
+ .. _CDOTA_PlayerResource.GetDamageDoneToHero:
 int GetDamageDoneToHero(int , int )
 `````````````````
 
@@ -6839,7 +6839,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetDeaths
+ .. _CDOTA_PlayerResource.GetDeaths:
 int GetDeaths(int )
 `````````````````
 
@@ -6855,7 +6855,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetDenies
+ .. _CDOTA_PlayerResource.GetDenies:
 int GetDenies(int )
 `````````````````
 
@@ -6871,7 +6871,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetEventPointsForPlayerID
+ .. _CDOTA_PlayerResource.GetEventPointsForPlayerID:
 int GetEventPointsForPlayerID(int )
 `````````````````
 
@@ -6887,7 +6887,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetEventPremiumPointsGranted
+ .. _CDOTA_PlayerResource.GetEventPremiumPointsGranted:
 int GetEventPremiumPointsGranted(int )
 `````````````````
 
@@ -6903,7 +6903,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetEventRankGranted
+ .. _CDOTA_PlayerResource.GetEventRankGranted:
 int GetEventRankGranted(int )
 `````````````````
 
@@ -6919,7 +6919,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetGold
+ .. _CDOTA_PlayerResource.GetGold:
 int GetGold(int )
 `````````````````
 
@@ -6935,7 +6935,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetGoldBagsCollected
+ .. _CDOTA_PlayerResource.GetGoldBagsCollected:
 int GetGoldBagsCollected(int )
 `````````````````
 
@@ -6951,7 +6951,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetGoldLostToDeath
+ .. _CDOTA_PlayerResource.GetGoldLostToDeath:
 int GetGoldLostToDeath(int )
 `````````````````
 
@@ -6967,7 +6967,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetGoldPerMin
+ .. _CDOTA_PlayerResource.GetGoldPerMin:
 float GetGoldPerMin(int )
 `````````````````
 
@@ -6983,7 +6983,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetGoldSpentOnBuybacks
+ .. _CDOTA_PlayerResource.GetGoldSpentOnBuybacks:
 int GetGoldSpentOnBuybacks(int )
 `````````````````
 
@@ -6999,7 +6999,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetGoldSpentOnConsumables
+ .. _CDOTA_PlayerResource.GetGoldSpentOnConsumables:
 int GetGoldSpentOnConsumables(int )
 `````````````````
 
@@ -7015,7 +7015,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetGoldSpentOnItems
+ .. _CDOTA_PlayerResource.GetGoldSpentOnItems:
 int GetGoldSpentOnItems(int )
 `````````````````
 
@@ -7031,7 +7031,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetGoldSpentOnSupport
+ .. _CDOTA_PlayerResource.GetGoldSpentOnSupport:
 int GetGoldSpentOnSupport(int )
 `````````````````
 
@@ -7047,7 +7047,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetHealing
+ .. _CDOTA_PlayerResource.GetHealing:
 float GetHealing(int )
 `````````````````
 
@@ -7063,7 +7063,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetHeroDamageTaken
+ .. _CDOTA_PlayerResource.GetHeroDamageTaken:
 int GetHeroDamageTaken(int )
 `````````````````
 
@@ -7079,7 +7079,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetKills
+ .. _CDOTA_PlayerResource.GetKills:
 int GetKills(int )
 `````````````````
 
@@ -7095,7 +7095,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetKillsDoneToHero
+ .. _CDOTA_PlayerResource.GetKillsDoneToHero:
 int GetKillsDoneToHero(int , int )
 `````````````````
 
@@ -7112,7 +7112,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetLastHitMultikill
+ .. _CDOTA_PlayerResource.GetLastHitMultikill:
 int GetLastHitMultikill(int )
 `````````````````
 
@@ -7128,7 +7128,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetLastHits
+ .. _CDOTA_PlayerResource.GetLastHits:
 int GetLastHits(int )
 `````````````````
 
@@ -7144,7 +7144,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetLastHitStreak
+ .. _CDOTA_PlayerResource.GetLastHitStreak:
 int GetLastHitStreak(int )
 `````````````````
 
@@ -7160,7 +7160,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetLevel
+ .. _CDOTA_PlayerResource.GetLevel:
 int GetLevel(int playerID)
 `````````````````
 
@@ -7176,7 +7176,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetMisses
+ .. _CDOTA_PlayerResource.GetMisses:
 int GetMisses(int )
 `````````````````
 
@@ -7192,7 +7192,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetNearbyCreepDeaths
+ .. _CDOTA_PlayerResource.GetNearbyCreepDeaths:
 int GetNearbyCreepDeaths(int )
 `````````````````
 
@@ -7208,7 +7208,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetNthCourierForTeam
+ .. _CDOTA_PlayerResource.GetNthCourierForTeam:
 handle GetNthCourierForTeam(int , int )
 `````````````````
 
@@ -7225,7 +7225,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetNthPlayerIDOnTeam
+ .. _CDOTA_PlayerResource.GetNthPlayerIDOnTeam:
 int GetNthPlayerIDOnTeam(int , int )
 `````````````````
 
@@ -7242,7 +7242,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetNumConsumablesPurchased
+ .. _CDOTA_PlayerResource.GetNumConsumablesPurchased:
 int GetNumConsumablesPurchased(int )
 `````````````````
 
@@ -7258,7 +7258,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetNumCouriersForTeam
+ .. _CDOTA_PlayerResource.GetNumCouriersForTeam:
 int GetNumCouriersForTeam(int )
 `````````````````
 
@@ -7274,7 +7274,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetNumItemsPurchased
+ .. _CDOTA_PlayerResource.GetNumItemsPurchased:
 int GetNumItemsPurchased(int )
 `````````````````
 
@@ -7290,7 +7290,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetPlayer
+ .. _CDOTA_PlayerResource.GetPlayer:
 handle GetPlayer(int )
 `````````````````
 
@@ -7306,7 +7306,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetPlayerLoadedCompletely
+ .. _CDOTA_PlayerResource.GetPlayerLoadedCompletely:
 bool GetPlayerLoadedCompletely(int )
 `````````````````
 
@@ -7322,7 +7322,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetPlayerName
+ .. _CDOTA_PlayerResource.GetPlayerName:
 string GetPlayerName(int )
 `````````````````
 
@@ -7338,7 +7338,7 @@ Returns:
 string - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetPlayerReservedState
+ .. _CDOTA_PlayerResource.GetPlayerReservedState:
 bool GetPlayerReservedState(int )
 `````````````````
 
@@ -7354,7 +7354,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetRawPlayerDamage
+ .. _CDOTA_PlayerResource.GetRawPlayerDamage:
 int GetRawPlayerDamage(int )
 `````````````````
 
@@ -7370,7 +7370,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetReliableGold
+ .. _CDOTA_PlayerResource.GetReliableGold:
 int GetReliableGold(int )
 `````````````````
 
@@ -7386,7 +7386,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetRespawnSeconds
+ .. _CDOTA_PlayerResource.GetRespawnSeconds:
 int GetRespawnSeconds(int )
 `````````````````
 
@@ -7402,7 +7402,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetRoshanKills
+ .. _CDOTA_PlayerResource.GetRoshanKills:
 int GetRoshanKills(int )
 `````````````````
 
@@ -7418,7 +7418,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetRunePickups
+ .. _CDOTA_PlayerResource.GetRunePickups:
 int GetRunePickups(int )
 `````````````````
 
@@ -7434,7 +7434,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetSelectedHeroEntity
+ .. _CDOTA_PlayerResource.GetSelectedHeroEntity:
 handle GetSelectedHeroEntity(int )
 `````````````````
 
@@ -7450,7 +7450,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetSelectedHeroID
+ .. _CDOTA_PlayerResource.GetSelectedHeroID:
 int GetSelectedHeroID(int )
 `````````````````
 
@@ -7466,7 +7466,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetSelectedHeroName
+ .. _CDOTA_PlayerResource.GetSelectedHeroName:
 string GetSelectedHeroName(int )
 `````````````````
 
@@ -7482,7 +7482,7 @@ Returns:
 string - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetSteamAccountID
+ .. _CDOTA_PlayerResource.GetSteamAccountID:
 <> GetSteamAccountID(int )
 `````````````````
 
@@ -7498,7 +7498,7 @@ Returns:
 <> - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetStreak
+ .. _CDOTA_PlayerResource.GetStreak:
 int GetStreak(int )
 `````````````````
 
@@ -7514,7 +7514,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetStuns
+ .. _CDOTA_PlayerResource.GetStuns:
 float GetStuns(int )
 `````````````````
 
@@ -7530,7 +7530,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetTeam
+ .. _CDOTA_PlayerResource.GetTeam:
 int GetTeam(int )
 `````````````````
 
@@ -7546,7 +7546,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetTeamKills
+ .. _CDOTA_PlayerResource.GetTeamKills:
 int GetTeamKills(int )
 `````````````````
 
@@ -7562,7 +7562,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetTimeOfLastConsumablePurchase
+ .. _CDOTA_PlayerResource.GetTimeOfLastConsumablePurchase:
 float GetTimeOfLastConsumablePurchase(int )
 `````````````````
 
@@ -7578,7 +7578,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetTimeOfLastDeath
+ .. _CDOTA_PlayerResource.GetTimeOfLastDeath:
 float GetTimeOfLastDeath(int )
 `````````````````
 
@@ -7594,7 +7594,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetTimeOfLastItemPurchase
+ .. _CDOTA_PlayerResource.GetTimeOfLastItemPurchase:
 float GetTimeOfLastItemPurchase(int )
 `````````````````
 
@@ -7610,7 +7610,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetTotalEarnedGold
+ .. _CDOTA_PlayerResource.GetTotalEarnedGold:
 int GetTotalEarnedGold(int )
 `````````````````
 
@@ -7626,7 +7626,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetTotalEarnedXP
+ .. _CDOTA_PlayerResource.GetTotalEarnedXP:
 int GetTotalEarnedXP(int )
 `````````````````
 
@@ -7642,7 +7642,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetTotalGoldSpent
+ .. _CDOTA_PlayerResource.GetTotalGoldSpent:
 int GetTotalGoldSpent(int )
 `````````````````
 
@@ -7658,7 +7658,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetTowerDamageTaken
+ .. _CDOTA_PlayerResource.GetTowerDamageTaken:
 int GetTowerDamageTaken(int )
 `````````````````
 
@@ -7674,7 +7674,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetTowerKills
+ .. _CDOTA_PlayerResource.GetTowerKills:
 int GetTowerKills(int )
 `````````````````
 
@@ -7690,7 +7690,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetUnitShareMaskForPlayer
+ .. _CDOTA_PlayerResource.GetUnitShareMaskForPlayer:
 int GetUnitShareMaskForPlayer(int , int )
 `````````````````
 
@@ -7707,7 +7707,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetUnreliableGold
+ .. _CDOTA_PlayerResource.GetUnreliableGold:
 int GetUnreliableGold(int )
 `````````````````
 
@@ -7723,7 +7723,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.GetXPPerMin
+ .. _CDOTA_PlayerResource.GetXPPerMin:
 float GetXPPerMin(int )
 `````````````````
 
@@ -7739,7 +7739,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_PlayerResource.HasRandomed
+ .. _CDOTA_PlayerResource.HasRandomed:
 bool HasRandomed(int )
 `````````````````
 
@@ -7755,7 +7755,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_PlayerResource.HasRepicked
+ .. _CDOTA_PlayerResource.HasRepicked:
 bool HasRepicked(int playerID)
 `````````````````
 
@@ -7771,7 +7771,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_PlayerResource.HasSelectedHero
+ .. _CDOTA_PlayerResource.HasSelectedHero:
 bool HasSelectedHero(int )
 `````````````````
 
@@ -7787,7 +7787,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_PlayerResource.HaveAllPlayersJoined
+ .. _CDOTA_PlayerResource.HaveAllPlayersJoined:
 bool HaveAllPlayersJoined()
 `````````````````
 
@@ -7798,7 +7798,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_PlayerResource.HeroLevelUp
+ .. _CDOTA_PlayerResource.HeroLevelUp:
 void HeroLevelUp(int )
 `````````````````
 
@@ -7812,7 +7812,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.IncrementAssists
+ .. _CDOTA_PlayerResource.IncrementAssists:
 void IncrementAssists(int playerID)
 `````````````````
 
@@ -7826,7 +7826,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.IncrementClaimedDenies
+ .. _CDOTA_PlayerResource.IncrementClaimedDenies:
 void IncrementClaimedDenies(int )
 `````````````````
 
@@ -7840,7 +7840,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.IncrementClaimedMisses
+ .. _CDOTA_PlayerResource.IncrementClaimedMisses:
 void IncrementClaimedMisses(int )
 `````````````````
 
@@ -7854,7 +7854,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.IncrementDeaths
+ .. _CDOTA_PlayerResource.IncrementDeaths:
 void IncrementDeaths(int playerID)
 `````````````````
 
@@ -7868,7 +7868,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.IncrementDenies
+ .. _CDOTA_PlayerResource.IncrementDenies:
 void IncrementDenies(int )
 `````````````````
 
@@ -7882,7 +7882,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.IncrementGoldBagsCollected
+ .. _CDOTA_PlayerResource.IncrementGoldBagsCollected:
 void IncrementGoldBagsCollected(int )
 `````````````````
 
@@ -7896,7 +7896,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.IncrementKills
+ .. _CDOTA_PlayerResource.IncrementKills:
 void IncrementKills(int playerID, int kills)
 `````````````````
 
@@ -7911,7 +7911,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.IncrementLastHitMultikill
+ .. _CDOTA_PlayerResource.IncrementLastHitMultikill:
 void IncrementLastHitMultikill(int )
 `````````````````
 
@@ -7925,7 +7925,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.IncrementLastHits
+ .. _CDOTA_PlayerResource.IncrementLastHits:
 void IncrementLastHits(int )
 `````````````````
 
@@ -7939,7 +7939,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.IncrementLastHitStreak
+ .. _CDOTA_PlayerResource.IncrementLastHitStreak:
 void IncrementLastHitStreak(int )
 `````````````````
 
@@ -7953,7 +7953,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.IncrementMisses
+ .. _CDOTA_PlayerResource.IncrementMisses:
 void IncrementMisses(int )
 `````````````````
 
@@ -7967,7 +7967,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.IncrementNearbyCreepDeaths
+ .. _CDOTA_PlayerResource.IncrementNearbyCreepDeaths:
 void IncrementNearbyCreepDeaths(int )
 `````````````````
 
@@ -7981,7 +7981,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.IncrementStreak
+ .. _CDOTA_PlayerResource.IncrementStreak:
 void IncrementStreak(int )
 `````````````````
 
@@ -7995,7 +7995,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.IncrementTotalEarnedXP
+ .. _CDOTA_PlayerResource.IncrementTotalEarnedXP:
 void IncrementTotalEarnedXP(int , int )
 `````````````````
 
@@ -8010,7 +8010,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.IsBroadcaster
+ .. _CDOTA_PlayerResource.IsBroadcaster:
 bool IsBroadcaster(int )
 `````````````````
 
@@ -8026,7 +8026,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_PlayerResource.IsDisableHelpSetForPlayerID
+ .. _CDOTA_PlayerResource.IsDisableHelpSetForPlayerID:
 bool IsDisableHelpSetForPlayerID(int , int )
 `````````````````
 
@@ -8043,7 +8043,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_PlayerResource.IsFakeClient
+ .. _CDOTA_PlayerResource.IsFakeClient:
 bool IsFakeClient(int )
 `````````````````
 
@@ -8059,7 +8059,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_PlayerResource.IsHeroSelected
+ .. _CDOTA_PlayerResource.IsHeroSelected:
 bool IsHeroSelected(string )
 `````````````````
 
@@ -8075,7 +8075,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_PlayerResource.IsHeroSharedWithPlayerID
+ .. _CDOTA_PlayerResource.IsHeroSharedWithPlayerID:
 bool IsHeroSharedWithPlayerID(int , int )
 `````````````````
 
@@ -8092,7 +8092,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_PlayerResource.IsValidPlayer
+ .. _CDOTA_PlayerResource.IsValidPlayer:
 bool IsValidPlayer(int playerID)
 `````````````````
 
@@ -8108,7 +8108,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_PlayerResource.IsValidPlayerID
+ .. _CDOTA_PlayerResource.IsValidPlayerID:
 bool IsValidPlayerID(int playerID)
 `````````````````
 
@@ -8124,7 +8124,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_PlayerResource.IsValidTeamPlayer
+ .. _CDOTA_PlayerResource.IsValidTeamPlayer:
 bool IsValidTeamPlayer(int playerID)
 `````````````````
 
@@ -8140,7 +8140,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_PlayerResource.IsValidTeamPlayerID
+ .. _CDOTA_PlayerResource.IsValidTeamPlayerID:
 bool IsValidTeamPlayerID(int playerID)
 `````````````````
 
@@ -8156,7 +8156,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_PlayerResource.ModifyGold
+ .. _CDOTA_PlayerResource.ModifyGold:
 int ModifyGold(int playerID, int goldAmmt, bool reliable, int )
 `````````````````
 
@@ -8175,7 +8175,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_PlayerResource.ReplaceHeroWith
+ .. _CDOTA_PlayerResource.ReplaceHeroWith:
 handle ReplaceHeroWith(int , string , int , int )
 `````````````````
 
@@ -8194,7 +8194,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CDOTA_PlayerResource.ResetBuybackCostTime
+ .. _CDOTA_PlayerResource.ResetBuybackCostTime:
 void ResetBuybackCostTime(int )
 `````````````````
 
@@ -8208,7 +8208,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.ResetTotalEarnedGold
+ .. _CDOTA_PlayerResource.ResetTotalEarnedGold:
 void ResetTotalEarnedGold(int )
 `````````````````
 
@@ -8222,7 +8222,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.SetBuybackCooldownTime
+ .. _CDOTA_PlayerResource.SetBuybackCooldownTime:
 void SetBuybackCooldownTime(int , float )
 `````````````````
 
@@ -8237,7 +8237,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.SetBuybackGoldLimitTime
+ .. _CDOTA_PlayerResource.SetBuybackGoldLimitTime:
 void SetBuybackGoldLimitTime(int , float )
 `````````````````
 
@@ -8252,7 +8252,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.SetCameraTarget
+ .. _CDOTA_PlayerResource.SetCameraTarget:
 void SetCameraTarget(int , handle )
 `````````````````
 
@@ -8267,7 +8267,7 @@ void SetCameraTarget(int , handle )
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.SetCustomBuybackCooldown
+ .. _CDOTA_PlayerResource.SetCustomBuybackCooldown:
 void SetCustomBuybackCooldown(int , float )
 `````````````````
 
@@ -8282,7 +8282,7 @@ Set the buyback cooldown for this player.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.SetCustomBuybackCost
+ .. _CDOTA_PlayerResource.SetCustomBuybackCost:
 void SetCustomBuybackCost(int , int )
 `````````````````
 
@@ -8297,7 +8297,7 @@ Set the buyback cost for this player.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.SetGold
+ .. _CDOTA_PlayerResource.SetGold:
 void SetGold(int , int , bool )
 `````````````````
 
@@ -8313,7 +8313,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.SetHasRandomed
+ .. _CDOTA_PlayerResource.SetHasRandomed:
 void SetHasRandomed(int playerID)
 `````````````````
 
@@ -8327,7 +8327,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.SetHasRepicked
+ .. _CDOTA_PlayerResource.SetHasRepicked:
 void SetHasRepicked(int playerID)
 `````````````````
 
@@ -8341,7 +8341,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.SetLastBuybackTime
+ .. _CDOTA_PlayerResource.SetLastBuybackTime:
 void SetLastBuybackTime(int , int )
 `````````````````
 
@@ -8356,7 +8356,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.SetPlayerReservedState
+ .. _CDOTA_PlayerResource.SetPlayerReservedState:
 void SetPlayerReservedState(int , bool )
 `````````````````
 
@@ -8371,7 +8371,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.SetUnitShareMaskForPlayer
+ .. _CDOTA_PlayerResource.SetUnitShareMaskForPlayer:
 void SetUnitShareMaskForPlayer(int , int , int , bool )
 `````````````````
 
@@ -8388,7 +8388,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.SpendGold
+ .. _CDOTA_PlayerResource.SpendGold:
 void SpendGold(int , int , int )
 `````````````````
 
@@ -8404,7 +8404,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.UpdateTeamSlot
+ .. _CDOTA_PlayerResource.UpdateTeamSlot:
 void UpdateTeamSlot(int , int )
 `````````````````
 
@@ -8419,7 +8419,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_PlayerResource.WhoSelectedHero
+ .. _CDOTA_PlayerResource.WhoSelectedHero:
 int WhoSelectedHero(string )
 `````````````````
 
@@ -8435,7 +8435,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC.AddAbility
+ .. _CDOTA_BaseNPC.AddAbility:
 void AddAbility(string )
 `````````````````
 
@@ -8449,7 +8449,7 @@ Add an ability to this unit by name.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.AddItem
+ .. _CDOTA_BaseNPC.AddItem:
 void AddItem(handle )
 `````````````````
 
@@ -8463,7 +8463,7 @@ Add an item to this unit's inventory.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.AddNewModifier
+ .. _CDOTA_BaseNPC.AddNewModifier:
 void AddNewModifier(handle caster, handle optionalSourceAbility, string modifierName, handle modifierData)
 `````````````````
 
@@ -8480,7 +8480,7 @@ void AddNewModifier(handle caster, handle optionalSourceAbility, string modifier
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.AddNoDraw
+ .. _CDOTA_BaseNPC.AddNoDraw:
 void AddNoDraw()
 `````````````````
 
@@ -8489,7 +8489,7 @@ Adds the no draw flag.
 
 
 
- .. _CDOTA_BaseNPC.AlertNearbyUnits
+ .. _CDOTA_BaseNPC.AlertNearbyUnits:
 void AlertNearbyUnits(handle , handle )
 `````````````````
 
@@ -8504,7 +8504,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.AngerNearbyUnits
+ .. _CDOTA_BaseNPC.AngerNearbyUnits:
 void AngerNearbyUnits()
 `````````````````
 
@@ -8513,7 +8513,7 @@ No Description Set
 
 
 
- .. _CDOTA_BaseNPC.AttackNoEarlierThan
+ .. _CDOTA_BaseNPC.AttackNoEarlierThan:
 void AttackNoEarlierThan(float )
 `````````````````
 
@@ -8527,7 +8527,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.AttackReady
+ .. _CDOTA_BaseNPC.AttackReady:
 bool AttackReady()
 `````````````````
 
@@ -8538,7 +8538,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.BoundingRadius2D
+ .. _CDOTA_BaseNPC.BoundingRadius2D:
 float BoundingRadius2D()
 `````````````````
 
@@ -8549,7 +8549,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.CastAbilityImmediately
+ .. _CDOTA_BaseNPC.CastAbilityImmediately:
 void CastAbilityImmediately(handle , int )
 `````````````````
 
@@ -8564,7 +8564,7 @@ Cast an ability immediately.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.CastAbilityNoTarget
+ .. _CDOTA_BaseNPC.CastAbilityNoTarget:
 void CastAbilityNoTarget(handle ability, int playerIndex)
 `````````````````
 
@@ -8579,7 +8579,7 @@ Cast an ability with no target. ( hAbility, iPlayerIndex )
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.CastAbilityOnPosition
+ .. _CDOTA_BaseNPC.CastAbilityOnPosition:
 void CastAbilityOnPosition(Vector , handle , int )
 `````````````````
 
@@ -8595,7 +8595,7 @@ Cast an ability on a position.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.CastAbilityOnTarget
+ .. _CDOTA_BaseNPC.CastAbilityOnTarget:
 void CastAbilityOnTarget(handle target, handle ability, int playerIndex)
 `````````````````
 
@@ -8611,7 +8611,7 @@ Cast an ability on a target entity.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.CastAbilityToggle
+ .. _CDOTA_BaseNPC.CastAbilityToggle:
 void CastAbilityToggle(handle , int )
 `````````````````
 
@@ -8626,7 +8626,7 @@ Toggle an ability. ( hAbility, iPlayerIndex )
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.DisassembleItem
+ .. _CDOTA_BaseNPC.DisassembleItem:
 void DisassembleItem(handle )
 `````````````````
 
@@ -8640,7 +8640,7 @@ Disassemble the passed item in this unit's inventory.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.DropItemAtPosition
+ .. _CDOTA_BaseNPC.DropItemAtPosition:
 void DropItemAtPosition(Vector , handle )
 `````````````````
 
@@ -8655,7 +8655,7 @@ Drop an item at a given point.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.DropItemAtPositionImmediate
+ .. _CDOTA_BaseNPC.DropItemAtPositionImmediate:
 void DropItemAtPositionImmediate(handle , Vector )
 `````````````````
 
@@ -8670,7 +8670,7 @@ Immediately drop a carried item at a given position.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.EjectItemFromStash
+ .. _CDOTA_BaseNPC.EjectItemFromStash:
 void EjectItemFromStash(handle )
 `````````````````
 
@@ -8684,7 +8684,7 @@ Drops the selected item out of this unit's stash.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.FindAbilityByName
+ .. _CDOTA_BaseNPC.FindAbilityByName:
 handle FindAbilityByName(string )
 `````````````````
 
@@ -8700,7 +8700,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CDOTA_BaseNPC.ForceKill
+ .. _CDOTA_BaseNPC.ForceKill:
 void ForceKill(bool )
 `````````````````
 
@@ -8714,7 +8714,7 @@ Kill this unit immediately.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.GetAbilityByIndex
+ .. _CDOTA_BaseNPC.GetAbilityByIndex:
 handle GetAbilityByIndex(int )
 `````````````````
 
@@ -8730,7 +8730,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetAbilityCount
+ .. _CDOTA_BaseNPC.GetAbilityCount:
 int GetAbilityCount()
 `````````````````
 
@@ -8741,7 +8741,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetAcquisitionRange
+ .. _CDOTA_BaseNPC.GetAcquisitionRange:
 float GetAcquisitionRange()
 `````````````````
 
@@ -8752,7 +8752,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetAdditionalBattleMusicWeight
+ .. _CDOTA_BaseNPC.GetAdditionalBattleMusicWeight:
 float GetAdditionalBattleMusicWeight()
 `````````````````
 
@@ -8763,7 +8763,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetAttackAnimationPoint
+ .. _CDOTA_BaseNPC.GetAttackAnimationPoint:
 float GetAttackAnimationPoint()
 `````````````````
 
@@ -8774,7 +8774,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetAttackDamage
+ .. _CDOTA_BaseNPC.GetAttackDamage:
 int GetAttackDamage()
 `````````````````
 
@@ -8785,7 +8785,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetAttackRange
+ .. _CDOTA_BaseNPC.GetAttackRange:
 float GetAttackRange()
 `````````````````
 
@@ -8796,7 +8796,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetAttackRangeBuffer
+ .. _CDOTA_BaseNPC.GetAttackRangeBuffer:
 float GetAttackRangeBuffer()
 `````````````````
 
@@ -8807,7 +8807,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetAttackSpeed
+ .. _CDOTA_BaseNPC.GetAttackSpeed:
 float GetAttackSpeed()
 `````````````````
 
@@ -8818,7 +8818,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetAttacksPerSecond
+ .. _CDOTA_BaseNPC.GetAttacksPerSecond:
 float GetAttacksPerSecond()
 `````````````````
 
@@ -8829,7 +8829,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetAttackTarget
+ .. _CDOTA_BaseNPC.GetAttackTarget:
 handle GetAttackTarget()
 `````````````````
 
@@ -8840,7 +8840,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetAverageTrueAttackDamage
+ .. _CDOTA_BaseNPC.GetAverageTrueAttackDamage:
 int GetAverageTrueAttackDamage()
 `````````````````
 
@@ -8851,7 +8851,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetBaseAttackRange
+ .. _CDOTA_BaseNPC.GetBaseAttackRange:
 int GetBaseAttackRange()
 `````````````````
 
@@ -8862,7 +8862,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetBaseAttackTime
+ .. _CDOTA_BaseNPC.GetBaseAttackTime:
 float GetBaseAttackTime()
 `````````````````
 
@@ -8873,7 +8873,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetBaseDamageMax
+ .. _CDOTA_BaseNPC.GetBaseDamageMax:
 int GetBaseDamageMax()
 `````````````````
 
@@ -8884,7 +8884,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetBaseDamageMin
+ .. _CDOTA_BaseNPC.GetBaseDamageMin:
 int GetBaseDamageMin()
 `````````````````
 
@@ -8895,7 +8895,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetBaseDayTimeVisionRange
+ .. _CDOTA_BaseNPC.GetBaseDayTimeVisionRange:
 int GetBaseDayTimeVisionRange()
 `````````````````
 
@@ -8906,7 +8906,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetBaseHealthRegen
+ .. _CDOTA_BaseNPC.GetBaseHealthRegen:
 float GetBaseHealthRegen()
 `````````````````
 
@@ -8917,7 +8917,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetBaseMagicalResistanceValue
+ .. _CDOTA_BaseNPC.GetBaseMagicalResistanceValue:
 float GetBaseMagicalResistanceValue()
 `````````````````
 
@@ -8928,7 +8928,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetBaseMaxHealth
+ .. _CDOTA_BaseNPC.GetBaseMaxHealth:
 float GetBaseMaxHealth()
 `````````````````
 
@@ -8939,7 +8939,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetBaseMoveSpeed
+ .. _CDOTA_BaseNPC.GetBaseMoveSpeed:
 float GetBaseMoveSpeed()
 `````````````````
 
@@ -8950,7 +8950,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetBaseNightTimeVisionRange
+ .. _CDOTA_BaseNPC.GetBaseNightTimeVisionRange:
 int GetBaseNightTimeVisionRange()
 `````````````````
 
@@ -8961,7 +8961,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetCastPoint
+ .. _CDOTA_BaseNPC.GetCastPoint:
 float GetCastPoint(bool )
 `````````````````
 
@@ -8977,7 +8977,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetCollisionPadding
+ .. _CDOTA_BaseNPC.GetCollisionPadding:
 float GetCollisionPadding()
 `````````````````
 
@@ -8988,7 +8988,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetConstantBasedManaRegen
+ .. _CDOTA_BaseNPC.GetConstantBasedManaRegen:
 float GetConstantBasedManaRegen()
 `````````````````
 
@@ -8999,7 +8999,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetCreationTime
+ .. _CDOTA_BaseNPC.GetCreationTime:
 float GetCreationTime()
 `````````````````
 
@@ -9010,7 +9010,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetCurrentActiveAbility
+ .. _CDOTA_BaseNPC.GetCurrentActiveAbility:
 handle GetCurrentActiveAbility()
 `````````````````
 
@@ -9021,7 +9021,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetCurrentVisionRange
+ .. _CDOTA_BaseNPC.GetCurrentVisionRange:
 int GetCurrentVisionRange()
 `````````````````
 
@@ -9032,7 +9032,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetCursorCastTarget
+ .. _CDOTA_BaseNPC.GetCursorCastTarget:
 handle GetCursorCastTarget()
 `````````````````
 
@@ -9043,7 +9043,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetCursorPosition
+ .. _CDOTA_BaseNPC.GetCursorPosition:
 Vector GetCursorPosition()
 `````````````````
 
@@ -9054,7 +9054,7 @@ Returns:
 Vector - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetCursorTargetingNothing
+ .. _CDOTA_BaseNPC.GetCursorTargetingNothing:
 bool GetCursorTargetingNothing()
 `````````````````
 
@@ -9065,7 +9065,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetDayTimeVisionRange
+ .. _CDOTA_BaseNPC.GetDayTimeVisionRange:
 int GetDayTimeVisionRange()
 `````````````````
 
@@ -9076,7 +9076,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetDeathXP
+ .. _CDOTA_BaseNPC.GetDeathXP:
 int GetDeathXP()
 `````````````````
 
@@ -9087,7 +9087,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetForceAttackTarget
+ .. _CDOTA_BaseNPC.GetForceAttackTarget:
 handle GetForceAttackTarget()
 `````````````````
 
@@ -9098,7 +9098,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetGoldBounty
+ .. _CDOTA_BaseNPC.GetGoldBounty:
 int GetGoldBounty()
 `````````````````
 
@@ -9109,7 +9109,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetHasteFactor
+ .. _CDOTA_BaseNPC.GetHasteFactor:
 float GetHasteFactor()
 `````````````````
 
@@ -9120,7 +9120,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetHealth
+ .. _CDOTA_BaseNPC.GetHealth:
 int GetHealth()
 `````````````````
 
@@ -9131,7 +9131,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetHealthDeficit
+ .. _CDOTA_BaseNPC.GetHealthDeficit:
 int GetHealthDeficit()
 `````````````````
 
@@ -9142,7 +9142,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetHealthPercent
+ .. _CDOTA_BaseNPC.GetHealthPercent:
 int GetHealthPercent()
 `````````````````
 
@@ -9153,7 +9153,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetHealthRegen
+ .. _CDOTA_BaseNPC.GetHealthRegen:
 float GetHealthRegen()
 `````````````````
 
@@ -9164,7 +9164,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetHullRadius
+ .. _CDOTA_BaseNPC.GetHullRadius:
 float GetHullRadius()
 `````````````````
 
@@ -9175,7 +9175,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetIdealSpeed
+ .. _CDOTA_BaseNPC.GetIdealSpeed:
 float GetIdealSpeed()
 `````````````````
 
@@ -9186,7 +9186,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetIncreasedAttackSpeed
+ .. _CDOTA_BaseNPC.GetIncreasedAttackSpeed:
 float GetIncreasedAttackSpeed()
 `````````````````
 
@@ -9197,7 +9197,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetInitialGoalEntity
+ .. _CDOTA_BaseNPC.GetInitialGoalEntity:
 handle GetInitialGoalEntity()
 `````````````````
 
@@ -9208,7 +9208,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetItemInSlot
+ .. _CDOTA_BaseNPC.GetItemInSlot:
 handle GetItemInSlot(int )
 `````````````````
 
@@ -9224,7 +9224,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetLastIdleChangeTime
+ .. _CDOTA_BaseNPC.GetLastIdleChangeTime:
 float GetLastIdleChangeTime()
 `````````````````
 
@@ -9235,7 +9235,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetLevel
+ .. _CDOTA_BaseNPC.GetLevel:
 int GetLevel()
 `````````````````
 
@@ -9246,7 +9246,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetMagicalArmorValue
+ .. _CDOTA_BaseNPC.GetMagicalArmorValue:
 float GetMagicalArmorValue()
 `````````````````
 
@@ -9257,7 +9257,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetMainControllingPlayer
+ .. _CDOTA_BaseNPC.GetMainControllingPlayer:
 int GetMainControllingPlayer()
 `````````````````
 
@@ -9268,7 +9268,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetMana
+ .. _CDOTA_BaseNPC.GetMana:
 float GetMana()
 `````````````````
 
@@ -9279,7 +9279,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetManaPercent
+ .. _CDOTA_BaseNPC.GetManaPercent:
 int GetManaPercent()
 `````````````````
 
@@ -9290,7 +9290,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetManaRegen
+ .. _CDOTA_BaseNPC.GetManaRegen:
 float GetManaRegen()
 `````````````````
 
@@ -9301,7 +9301,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetMaxHealth
+ .. _CDOTA_BaseNPC.GetMaxHealth:
 int GetMaxHealth()
 `````````````````
 
@@ -9312,7 +9312,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetMaxMana
+ .. _CDOTA_BaseNPC.GetMaxMana:
 float GetMaxMana()
 `````````````````
 
@@ -9323,7 +9323,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetModelRadius
+ .. _CDOTA_BaseNPC.GetModelRadius:
 float GetModelRadius()
 `````````````````
 
@@ -9334,7 +9334,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetModifierCount
+ .. _CDOTA_BaseNPC.GetModifierCount:
 int GetModifierCount()
 `````````````````
 
@@ -9345,7 +9345,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetModifierNameByIndex
+ .. _CDOTA_BaseNPC.GetModifierNameByIndex:
 string GetModifierNameByIndex(int )
 `````````````````
 
@@ -9361,7 +9361,7 @@ Returns:
 string - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetMoveSpeedModifier
+ .. _CDOTA_BaseNPC.GetMoveSpeedModifier:
 float GetMoveSpeedModifier(float )
 `````````````````
 
@@ -9377,7 +9377,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetMustReachEachGoalEntity
+ .. _CDOTA_BaseNPC.GetMustReachEachGoalEntity:
 bool GetMustReachEachGoalEntity()
 `````````````````
 
@@ -9388,7 +9388,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetNightTimeVisionRange
+ .. _CDOTA_BaseNPC.GetNightTimeVisionRange:
 int GetNightTimeVisionRange()
 `````````````````
 
@@ -9399,7 +9399,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetOpposingTeamNumber
+ .. _CDOTA_BaseNPC.GetOpposingTeamNumber:
 int GetOpposingTeamNumber()
 `````````````````
 
@@ -9410,7 +9410,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetPaddedCollisionRadius
+ .. _CDOTA_BaseNPC.GetPaddedCollisionRadius:
 float GetPaddedCollisionRadius()
 `````````````````
 
@@ -9421,7 +9421,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetPercentageBasedManaRegen
+ .. _CDOTA_BaseNPC.GetPercentageBasedManaRegen:
 float GetPercentageBasedManaRegen()
 `````````````````
 
@@ -9432,7 +9432,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetPhysicalArmorBaseValue
+ .. _CDOTA_BaseNPC.GetPhysicalArmorBaseValue:
 float GetPhysicalArmorBaseValue()
 `````````````````
 
@@ -9443,7 +9443,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetPhysicalArmorValue
+ .. _CDOTA_BaseNPC.GetPhysicalArmorValue:
 float GetPhysicalArmorValue()
 `````````````````
 
@@ -9454,7 +9454,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetPlayerOwner
+ .. _CDOTA_BaseNPC.GetPlayerOwner:
 handle GetPlayerOwner()
 `````````````````
 
@@ -9465,7 +9465,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetPlayerOwnerID
+ .. _CDOTA_BaseNPC.GetPlayerOwnerID:
 int GetPlayerOwnerID()
 `````````````````
 
@@ -9476,7 +9476,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetProjectileSpeed
+ .. _CDOTA_BaseNPC.GetProjectileSpeed:
 int GetProjectileSpeed()
 `````````````````
 
@@ -9487,7 +9487,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetRangeToUnit
+ .. _CDOTA_BaseNPC.GetRangeToUnit:
 float GetRangeToUnit(handle )
 `````````````````
 
@@ -9503,7 +9503,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetSecondsPerAttack
+ .. _CDOTA_BaseNPC.GetSecondsPerAttack:
 float GetSecondsPerAttack()
 `````````````````
 
@@ -9514,7 +9514,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetStatsBasedManaRegen
+ .. _CDOTA_BaseNPC.GetStatsBasedManaRegen:
 float GetStatsBasedManaRegen()
 `````````````````
 
@@ -9525,7 +9525,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetTeamNumber
+ .. _CDOTA_BaseNPC.GetTeamNumber:
 int GetTeamNumber()
 `````````````````
 
@@ -9536,7 +9536,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetTotalPurchasedUpgradeGoldCost
+ .. _CDOTA_BaseNPC.GetTotalPurchasedUpgradeGoldCost:
 int GetTotalPurchasedUpgradeGoldCost()
 `````````````````
 
@@ -9547,7 +9547,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetUnitLabel
+ .. _CDOTA_BaseNPC.GetUnitLabel:
 string GetUnitLabel()
 `````````````````
 
@@ -9558,7 +9558,7 @@ Returns:
 string - No Description Set
 
 
- .. _CDOTA_BaseNPC.GetUnitName
+ .. _CDOTA_BaseNPC.GetUnitName:
 string GetUnitName()
 `````````````````
 
@@ -9569,7 +9569,7 @@ Returns:
 string - No Description Set
 
 
- .. _CDOTA_BaseNPC.GiveMana
+ .. _CDOTA_BaseNPC.GiveMana:
 void GiveMana(float )
 `````````````````
 
@@ -9583,7 +9583,7 @@ Give mana to this unit, this can be used for mana gained by abilities or item us
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.HasAbility
+ .. _CDOTA_BaseNPC.HasAbility:
 bool HasAbility(string )
 `````````````````
 
@@ -9599,7 +9599,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.HasAttackCapability
+ .. _CDOTA_BaseNPC.HasAttackCapability:
 bool HasAttackCapability()
 `````````````````
 
@@ -9610,7 +9610,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.HasFlyingVision
+ .. _CDOTA_BaseNPC.HasFlyingVision:
 bool HasFlyingVision()
 `````````````````
 
@@ -9621,7 +9621,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.HasFlyMovementCapability
+ .. _CDOTA_BaseNPC.HasFlyMovementCapability:
 bool HasFlyMovementCapability()
 `````````````````
 
@@ -9632,7 +9632,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.HasGroundMovementCapability
+ .. _CDOTA_BaseNPC.HasGroundMovementCapability:
 bool HasGroundMovementCapability()
 `````````````````
 
@@ -9643,7 +9643,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.HasInventory
+ .. _CDOTA_BaseNPC.HasInventory:
 bool HasInventory()
 `````````````````
 
@@ -9654,7 +9654,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.HasItemInInventory
+ .. _CDOTA_BaseNPC.HasItemInInventory:
 bool HasItemInInventory(string )
 `````````````````
 
@@ -9670,7 +9670,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.HasModifier
+ .. _CDOTA_BaseNPC.HasModifier:
 bool HasModifier(string )
 `````````````````
 
@@ -9686,7 +9686,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.HasMovementCapability
+ .. _CDOTA_BaseNPC.HasMovementCapability:
 bool HasMovementCapability()
 `````````````````
 
@@ -9697,7 +9697,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.HasScepter
+ .. _CDOTA_BaseNPC.HasScepter:
 bool HasScepter()
 `````````````````
 
@@ -9708,7 +9708,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.Heal
+ .. _CDOTA_BaseNPC.Heal:
 void Heal(float , handle )
 `````````````````
 
@@ -9723,7 +9723,7 @@ Heal this unit.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.Hold
+ .. _CDOTA_BaseNPC.Hold:
 void Hold()
 `````````````````
 
@@ -9732,7 +9732,7 @@ Hold position.
 
 
 
- .. _CDOTA_BaseNPC.Interrupt
+ .. _CDOTA_BaseNPC.Interrupt:
 void Interrupt()
 `````````````````
 
@@ -9741,7 +9741,7 @@ No Description Set
 
 
 
- .. _CDOTA_BaseNPC.InterruptChannel
+ .. _CDOTA_BaseNPC.InterruptChannel:
 void InterruptChannel()
 `````````````````
 
@@ -9750,7 +9750,7 @@ No Description Set
 
 
 
- .. _CDOTA_BaseNPC.InterruptMotionControllers
+ .. _CDOTA_BaseNPC.InterruptMotionControllers:
 void InterruptMotionControllers(bool )
 `````````````````
 
@@ -9764,7 +9764,7 @@ Parameter boolean determines finding clear space.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.IsAlive
+ .. _CDOTA_BaseNPC.IsAlive:
 bool IsAlive()
 `````````````````
 
@@ -9775,7 +9775,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsAncient
+ .. _CDOTA_BaseNPC.IsAncient:
 bool IsAncient()
 `````````````````
 
@@ -9786,7 +9786,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsAttackImmune
+ .. _CDOTA_BaseNPC.IsAttackImmune:
 bool IsAttackImmune()
 `````````````````
 
@@ -9797,7 +9797,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsAttacking
+ .. _CDOTA_BaseNPC.IsAttacking:
 bool IsAttacking()
 `````````````````
 
@@ -9808,7 +9808,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsAttackingEntity
+ .. _CDOTA_BaseNPC.IsAttackingEntity:
 bool IsAttackingEntity(handle )
 `````````````````
 
@@ -9824,7 +9824,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsBlind
+ .. _CDOTA_BaseNPC.IsBlind:
 bool IsBlind()
 `````````````````
 
@@ -9835,7 +9835,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsBlockDisabled
+ .. _CDOTA_BaseNPC.IsBlockDisabled:
 bool IsBlockDisabled()
 `````````````````
 
@@ -9846,7 +9846,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsCommandRestricted
+ .. _CDOTA_BaseNPC.IsCommandRestricted:
 bool IsCommandRestricted()
 `````````````````
 
@@ -9857,7 +9857,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsControllableByAnyPlayer
+ .. _CDOTA_BaseNPC.IsControllableByAnyPlayer:
 bool IsControllableByAnyPlayer()
 `````````````````
 
@@ -9868,7 +9868,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsCreature
+ .. _CDOTA_BaseNPC.IsCreature:
 bool IsCreature()
 `````````````````
 
@@ -9879,7 +9879,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsDeniable
+ .. _CDOTA_BaseNPC.IsDeniable:
 bool IsDeniable()
 `````````````````
 
@@ -9890,7 +9890,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsDisarmed
+ .. _CDOTA_BaseNPC.IsDisarmed:
 bool IsDisarmed()
 `````````````````
 
@@ -9901,7 +9901,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsDominated
+ .. _CDOTA_BaseNPC.IsDominated:
 bool IsDominated()
 `````````````````
 
@@ -9912,7 +9912,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsEvadeDisabled
+ .. _CDOTA_BaseNPC.IsEvadeDisabled:
 bool IsEvadeDisabled()
 `````````````````
 
@@ -9923,7 +9923,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsFrozen
+ .. _CDOTA_BaseNPC.IsFrozen:
 bool IsFrozen()
 `````````````````
 
@@ -9934,7 +9934,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsHardDisarmed
+ .. _CDOTA_BaseNPC.IsHardDisarmed:
 bool IsHardDisarmed()
 `````````````````
 
@@ -9945,7 +9945,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsHero
+ .. _CDOTA_BaseNPC.IsHero:
 bool IsHero()
 `````````````````
 
@@ -9956,7 +9956,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsHexed
+ .. _CDOTA_BaseNPC.IsHexed:
 bool IsHexed()
 `````````````````
 
@@ -9967,7 +9967,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsIdle
+ .. _CDOTA_BaseNPC.IsIdle:
 bool IsIdle()
 `````````````````
 
@@ -9978,7 +9978,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsIllusion
+ .. _CDOTA_BaseNPC.IsIllusion:
 bool IsIllusion()
 `````````````````
 
@@ -9989,7 +9989,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsInvisible
+ .. _CDOTA_BaseNPC.IsInvisible:
 bool IsInvisible()
 `````````````````
 
@@ -10000,7 +10000,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsInvulnerable
+ .. _CDOTA_BaseNPC.IsInvulnerable:
 bool IsInvulnerable()
 `````````````````
 
@@ -10011,7 +10011,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsLowAttackPriority
+ .. _CDOTA_BaseNPC.IsLowAttackPriority:
 bool IsLowAttackPriority()
 `````````````````
 
@@ -10022,7 +10022,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsMagicImmune
+ .. _CDOTA_BaseNPC.IsMagicImmune:
 bool IsMagicImmune()
 `````````````````
 
@@ -10033,7 +10033,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsMechanical
+ .. _CDOTA_BaseNPC.IsMechanical:
 bool IsMechanical()
 `````````````````
 
@@ -10044,7 +10044,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsMovementImpaired
+ .. _CDOTA_BaseNPC.IsMovementImpaired:
 bool IsMovementImpaired()
 `````````````````
 
@@ -10055,7 +10055,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsMuted
+ .. _CDOTA_BaseNPC.IsMuted:
 bool IsMuted()
 `````````````````
 
@@ -10066,7 +10066,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsNeutralUnitType
+ .. _CDOTA_BaseNPC.IsNeutralUnitType:
 bool IsNeutralUnitType()
 `````````````````
 
@@ -10077,7 +10077,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsNightmared
+ .. _CDOTA_BaseNPC.IsNightmared:
 bool IsNightmared()
 `````````````````
 
@@ -10088,7 +10088,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsOpposingTeam
+ .. _CDOTA_BaseNPC.IsOpposingTeam:
 bool IsOpposingTeam(int )
 `````````````````
 
@@ -10104,7 +10104,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsOutOfGame
+ .. _CDOTA_BaseNPC.IsOutOfGame:
 bool IsOutOfGame()
 `````````````````
 
@@ -10115,7 +10115,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsOwnedByAnyPlayer
+ .. _CDOTA_BaseNPC.IsOwnedByAnyPlayer:
 bool IsOwnedByAnyPlayer()
 `````````````````
 
@@ -10126,7 +10126,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsPhantom
+ .. _CDOTA_BaseNPC.IsPhantom:
 bool IsPhantom()
 `````````````````
 
@@ -10137,7 +10137,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsPhantomBlocker
+ .. _CDOTA_BaseNPC.IsPhantomBlocker:
 bool IsPhantomBlocker()
 `````````````````
 
@@ -10148,7 +10148,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsPhased
+ .. _CDOTA_BaseNPC.IsPhased:
 bool IsPhased()
 `````````````````
 
@@ -10159,7 +10159,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsPositionInRange
+ .. _CDOTA_BaseNPC.IsPositionInRange:
 bool IsPositionInRange(Vector , float )
 `````````````````
 
@@ -10176,7 +10176,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsRangedAttacker
+ .. _CDOTA_BaseNPC.IsRangedAttacker:
 bool IsRangedAttacker()
 `````````````````
 
@@ -10187,7 +10187,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsRealHero
+ .. _CDOTA_BaseNPC.IsRealHero:
 bool IsRealHero()
 `````````````````
 
@@ -10198,7 +10198,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsRooted
+ .. _CDOTA_BaseNPC.IsRooted:
 bool IsRooted()
 `````````````````
 
@@ -10209,7 +10209,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsSilenced
+ .. _CDOTA_BaseNPC.IsSilenced:
 bool IsSilenced()
 `````````````````
 
@@ -10220,7 +10220,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsSoftDisarmed
+ .. _CDOTA_BaseNPC.IsSoftDisarmed:
 bool IsSoftDisarmed()
 `````````````````
 
@@ -10231,7 +10231,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsSpeciallyDeniable
+ .. _CDOTA_BaseNPC.IsSpeciallyDeniable:
 bool IsSpeciallyDeniable()
 `````````````````
 
@@ -10242,7 +10242,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsStunned
+ .. _CDOTA_BaseNPC.IsStunned:
 bool IsStunned()
 `````````````````
 
@@ -10253,7 +10253,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsSummoned
+ .. _CDOTA_BaseNPC.IsSummoned:
 bool IsSummoned()
 `````````````````
 
@@ -10264,7 +10264,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsTower
+ .. _CDOTA_BaseNPC.IsTower:
 bool IsTower()
 `````````````````
 
@@ -10275,7 +10275,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsUnableToMiss
+ .. _CDOTA_BaseNPC.IsUnableToMiss:
 bool IsUnableToMiss()
 `````````````````
 
@@ -10286,7 +10286,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.IsUnselectable
+ .. _CDOTA_BaseNPC.IsUnselectable:
 bool IsUnselectable()
 `````````````````
 
@@ -10297,7 +10297,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.Kill
+ .. _CDOTA_BaseNPC.Kill:
 void Kill(handle , handle )
 `````````````````
 
@@ -10312,7 +10312,7 @@ Kills this NPC, with the params Ability and Attacker
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.MakeIllusion
+ .. _CDOTA_BaseNPC.MakeIllusion:
 void MakeIllusion()
 `````````````````
 
@@ -10321,7 +10321,7 @@ No Description Set
 
 
 
- .. _CDOTA_BaseNPC.MakePhantomBlocker
+ .. _CDOTA_BaseNPC.MakePhantomBlocker:
 void MakePhantomBlocker()
 `````````````````
 
@@ -10330,7 +10330,7 @@ No Description Set
 
 
 
- .. _CDOTA_BaseNPC.MakeVisibleDueToAttack
+ .. _CDOTA_BaseNPC.MakeVisibleDueToAttack:
 void MakeVisibleDueToAttack(int )
 `````````````````
 
@@ -10344,7 +10344,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.MakeVisibleToTeam
+ .. _CDOTA_BaseNPC.MakeVisibleToTeam:
 void MakeVisibleToTeam(int , float )
 `````````````````
 
@@ -10359,7 +10359,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.ModifyHealth
+ .. _CDOTA_BaseNPC.ModifyHealth:
 void ModifyHealth(int , handle , bool , int )
 `````````````````
 
@@ -10376,7 +10376,7 @@ Sets the health to a specific value, with optional flags or inflictors.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.MoveToNPC
+ .. _CDOTA_BaseNPC.MoveToNPC:
 void MoveToNPC(handle )
 `````````````````
 
@@ -10390,7 +10390,7 @@ Move to follow a unit.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.MoveToNPCToGiveItem
+ .. _CDOTA_BaseNPC.MoveToNPCToGiveItem:
 void MoveToNPCToGiveItem(handle , handle )
 `````````````````
 
@@ -10405,7 +10405,7 @@ Give an item to another unit.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.MoveToPosition
+ .. _CDOTA_BaseNPC.MoveToPosition:
 void MoveToPosition(Vector )
 `````````````````
 
@@ -10419,7 +10419,7 @@ Issue a Move-To command
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.MoveToPositionAggressive
+ .. _CDOTA_BaseNPC.MoveToPositionAggressive:
 void MoveToPositionAggressive(Vector )
 `````````````````
 
@@ -10433,7 +10433,7 @@ Issue an Attack-Move-To command
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.MoveToTargetToAttack
+ .. _CDOTA_BaseNPC.MoveToTargetToAttack:
 void MoveToTargetToAttack(handle )
 `````````````````
 
@@ -10447,7 +10447,7 @@ Move to a target to attack.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.NoHealthBar
+ .. _CDOTA_BaseNPC.NoHealthBar:
 bool NoHealthBar()
 `````````````````
 
@@ -10458,7 +10458,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.NoTeamMoveTo
+ .. _CDOTA_BaseNPC.NoTeamMoveTo:
 bool NoTeamMoveTo()
 `````````````````
 
@@ -10469,7 +10469,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.NoTeamSelect
+ .. _CDOTA_BaseNPC.NoTeamSelect:
 bool NoTeamSelect()
 `````````````````
 
@@ -10480,7 +10480,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.NotOnMinimap
+ .. _CDOTA_BaseNPC.NotOnMinimap:
 bool NotOnMinimap()
 `````````````````
 
@@ -10491,7 +10491,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.NotOnMinimapForEnemies
+ .. _CDOTA_BaseNPC.NotOnMinimapForEnemies:
 bool NotOnMinimapForEnemies()
 `````````````````
 
@@ -10502,7 +10502,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.NoUnitCollision
+ .. _CDOTA_BaseNPC.NoUnitCollision:
 bool NoUnitCollision()
 `````````````````
 
@@ -10513,7 +10513,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.PassivesDisabled
+ .. _CDOTA_BaseNPC.PassivesDisabled:
 bool PassivesDisabled()
 `````````````````
 
@@ -10524,7 +10524,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.PerformAttack
+ .. _CDOTA_BaseNPC.PerformAttack:
 void PerformAttack(handle , bool , bool , bool , bool )
 `````````````````
 
@@ -10542,7 +10542,7 @@ Performs an attack on a target. Params: Target, bUseCastAttackOrb, bProcessProcs
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.PickupDroppedItem
+ .. _CDOTA_BaseNPC.PickupDroppedItem:
 void PickupDroppedItem(handle )
 `````````````````
 
@@ -10556,7 +10556,7 @@ Pick up a dropped item.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.PickupRune
+ .. _CDOTA_BaseNPC.PickupRune:
 void PickupRune(handle )
 `````````````````
 
@@ -10570,7 +10570,7 @@ Pick up a rune.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.ProvidesVision
+ .. _CDOTA_BaseNPC.ProvidesVision:
 bool ProvidesVision()
 `````````````````
 
@@ -10581,7 +10581,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.ReduceMana
+ .. _CDOTA_BaseNPC.ReduceMana:
 void ReduceMana(float )
 `````````````````
 
@@ -10595,7 +10595,7 @@ Remove mana from this unit, this can be used for involuntary mana loss, not for 
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.RemoveAbility
+ .. _CDOTA_BaseNPC.RemoveAbility:
 void RemoveAbility(string )
 `````````````````
 
@@ -10609,7 +10609,7 @@ Remove an ability from this unit by name.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.RemoveItem
+ .. _CDOTA_BaseNPC.RemoveItem:
 void RemoveItem(handle )
 `````````````````
 
@@ -10623,7 +10623,7 @@ Removes the passed item from this unit's inventory.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.RemoveModifierByName
+ .. _CDOTA_BaseNPC.RemoveModifierByName:
 void RemoveModifierByName(string )
 `````````````````
 
@@ -10637,7 +10637,7 @@ Removes a modifier
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.RemoveModifierByNameAndCaster
+ .. _CDOTA_BaseNPC.RemoveModifierByNameAndCaster:
 void RemoveModifierByNameAndCaster(string , handle )
 `````````````````
 
@@ -10652,7 +10652,7 @@ Removes a modifier that was cast by the given caster
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.RemoveNoDraw
+ .. _CDOTA_BaseNPC.RemoveNoDraw:
 void RemoveNoDraw()
 `````````````````
 
@@ -10661,7 +10661,7 @@ Remove the no draw flag.
 
 
 
- .. _CDOTA_BaseNPC.RespawnUnit
+ .. _CDOTA_BaseNPC.RespawnUnit:
 void RespawnUnit()
 `````````````````
 
@@ -10670,7 +10670,7 @@ Respawns the target unit if it can be respawned.
 
 
 
- .. _CDOTA_BaseNPC.SellItem
+ .. _CDOTA_BaseNPC.SellItem:
 void SellItem(handle )
 `````````````````
 
@@ -10684,7 +10684,7 @@ Sells the passed item in this unit's inventory.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetAdditionalBattleMusicWeight
+ .. _CDOTA_BaseNPC.SetAdditionalBattleMusicWeight:
 void SetAdditionalBattleMusicWeight(float )
 `````````````````
 
@@ -10698,7 +10698,7 @@ Combat involving this creature will have this weight added to the music calcuati
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetAttackCapability
+ .. _CDOTA_BaseNPC.SetAttackCapability:
 void SetAttackCapability(int )
 `````````````````
 
@@ -10712,7 +10712,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetAttacking
+ .. _CDOTA_BaseNPC.SetAttacking:
 void SetAttacking(handle )
 `````````````````
 
@@ -10726,7 +10726,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetBaseAttackTime
+ .. _CDOTA_BaseNPC.SetBaseAttackTime:
 void SetBaseAttackTime(float )
 `````````````````
 
@@ -10740,7 +10740,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetBaseDamageMax
+ .. _CDOTA_BaseNPC.SetBaseDamageMax:
 void SetBaseDamageMax(int )
 `````````````````
 
@@ -10754,7 +10754,7 @@ Sets the minimum base damage.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetBaseDamageMin
+ .. _CDOTA_BaseNPC.SetBaseDamageMin:
 void SetBaseDamageMin(int )
 `````````````````
 
@@ -10768,7 +10768,7 @@ Sets the minimum base damage.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetBaseHealthRegen
+ .. _CDOTA_BaseNPC.SetBaseHealthRegen:
 void SetBaseHealthRegen(float )
 `````````````````
 
@@ -10782,7 +10782,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetBaseMagicalResistanceValue
+ .. _CDOTA_BaseNPC.SetBaseMagicalResistanceValue:
 void SetBaseMagicalResistanceValue(float )
 `````````````````
 
@@ -10796,7 +10796,7 @@ Sets base magical armor value.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetBaseManaRegen
+ .. _CDOTA_BaseNPC.SetBaseManaRegen:
 void SetBaseManaRegen(float )
 `````````````````
 
@@ -10810,7 +10810,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetBaseMaxHealth
+ .. _CDOTA_BaseNPC.SetBaseMaxHealth:
 void SetBaseMaxHealth(float )
 `````````````````
 
@@ -10824,7 +10824,7 @@ Set a new base max health value.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetBaseMoveSpeed
+ .. _CDOTA_BaseNPC.SetBaseMoveSpeed:
 void SetBaseMoveSpeed(int )
 `````````````````
 
@@ -10838,7 +10838,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetControllableByPlayer
+ .. _CDOTA_BaseNPC.SetControllableByPlayer:
 void SetControllableByPlayer(int , bool )
 `````````````````
 
@@ -10853,7 +10853,7 @@ Set this unit controllable by the player with the passed ID.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetCursorCastTarget
+ .. _CDOTA_BaseNPC.SetCursorCastTarget:
 void SetCursorCastTarget(handle )
 `````````````````
 
@@ -10867,7 +10867,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetCursorPosition
+ .. _CDOTA_BaseNPC.SetCursorPosition:
 void SetCursorPosition(Vector )
 `````````````````
 
@@ -10881,7 +10881,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetCursorTargetingNothing
+ .. _CDOTA_BaseNPC.SetCursorTargetingNothing:
 void SetCursorTargetingNothing(bool )
 `````````````````
 
@@ -10895,7 +10895,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetDayTimeVisionRange
+ .. _CDOTA_BaseNPC.SetDayTimeVisionRange:
 void SetDayTimeVisionRange(int )
 `````````````````
 
@@ -10909,7 +10909,7 @@ Set the base vision range.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetDeathXP
+ .. _CDOTA_BaseNPC.SetDeathXP:
 void SetDeathXP(int )
 `````````````````
 
@@ -10923,7 +10923,7 @@ Set the XP bounty on this unit
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetForceAttackTarget
+ .. _CDOTA_BaseNPC.SetForceAttackTarget:
 void SetForceAttackTarget(handle )
 `````````````````
 
@@ -10937,7 +10937,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetHasInventory
+ .. _CDOTA_BaseNPC.SetHasInventory:
 void SetHasInventory(bool )
 `````````````````
 
@@ -10951,7 +10951,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetHullRadius
+ .. _CDOTA_BaseNPC.SetHullRadius:
 void SetHullRadius(float )
 `````````````````
 
@@ -10965,7 +10965,7 @@ Set the collision hull radius of this NPC
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetIdleAcquire
+ .. _CDOTA_BaseNPC.SetIdleAcquire:
 void SetIdleAcquire(bool )
 `````````````````
 
@@ -10979,7 +10979,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetInitialGoalEntity
+ .. _CDOTA_BaseNPC.SetInitialGoalEntity:
 void SetInitialGoalEntity(handle )
 `````````````````
 
@@ -10993,7 +10993,7 @@ Sets the initial waypoint goal for this NPC
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetMana
+ .. _CDOTA_BaseNPC.SetMana:
 void SetMana(float )
 `````````````````
 
@@ -11007,7 +11007,7 @@ Set the mana on this unit.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetMaximumGoldBounty
+ .. _CDOTA_BaseNPC.SetMaximumGoldBounty:
 void SetMaximumGoldBounty(int )
 `````````````````
 
@@ -11021,7 +11021,7 @@ Set the maximum gold bounty for this unit.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetMinimumGoldBounty
+ .. _CDOTA_BaseNPC.SetMinimumGoldBounty:
 void SetMinimumGoldBounty(int )
 `````````````````
 
@@ -11035,7 +11035,7 @@ Set the minimum gold bounty for this unit.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetMoveCapability
+ .. _CDOTA_BaseNPC.SetMoveCapability:
 void SetMoveCapability(int )
 `````````````````
 
@@ -11049,7 +11049,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetMustReachEachGoalEntity
+ .. _CDOTA_BaseNPC.SetMustReachEachGoalEntity:
 void SetMustReachEachGoalEntity(bool )
 `````````````````
 
@@ -11063,7 +11063,7 @@ Set whether this NPC is required to reach each goal entity, rather than being al
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetNeverMoveToClearSpace
+ .. _CDOTA_BaseNPC.SetNeverMoveToClearSpace:
 void SetNeverMoveToClearSpace(bool )
 `````````````````
 
@@ -11077,7 +11077,7 @@ If set to true, we will never attempt to move this unit to clear space, even whe
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetNightTimeVisionRange
+ .. _CDOTA_BaseNPC.SetNightTimeVisionRange:
 void SetNightTimeVisionRange(int )
 `````````````````
 
@@ -11091,7 +11091,7 @@ Set the base vision range.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetOriginalModel
+ .. _CDOTA_BaseNPC.SetOriginalModel:
 void SetOriginalModel(string originalModel)
 `````````````````
 
@@ -11105,7 +11105,7 @@ Sets the original model of this entity, which it will tend to fall back to anyti
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetPhysicalArmorBaseValue
+ .. _CDOTA_BaseNPC.SetPhysicalArmorBaseValue:
 void SetPhysicalArmorBaseValue(float )
 `````````````````
 
@@ -11119,7 +11119,7 @@ Sets base physical armor value.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetRangedProjectileName
+ .. _CDOTA_BaseNPC.SetRangedProjectileName:
 void SetRangedProjectileName(string )
 `````````````````
 
@@ -11133,7 +11133,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetStolenScepter
+ .. _CDOTA_BaseNPC.SetStolenScepter:
 void SetStolenScepter(bool )
 `````````````````
 
@@ -11147,7 +11147,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.SetUnitName
+ .. _CDOTA_BaseNPC.SetUnitName:
 void SetUnitName(string )
 `````````````````
 
@@ -11161,7 +11161,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.ShouldIdleAcquire
+ .. _CDOTA_BaseNPC.ShouldIdleAcquire:
 bool ShouldIdleAcquire()
 `````````````````
 
@@ -11172,7 +11172,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.SpendMana
+ .. _CDOTA_BaseNPC.SpendMana:
 void SpendMana(float , handle )
 `````````````````
 
@@ -11187,7 +11187,7 @@ Spend mana from this unit, this can be used for spending mana from abilities or 
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.Stop
+ .. _CDOTA_BaseNPC.Stop:
 void Stop()
 `````````````````
 
@@ -11196,7 +11196,7 @@ Stop the current order.
 
 
 
- .. _CDOTA_BaseNPC.SwapAbilities
+ .. _CDOTA_BaseNPC.SwapAbilities:
 void SwapAbilities(string , string , bool , bool )
 `````````````````
 
@@ -11213,7 +11213,7 @@ Swaps the slots of the two passed abilities and sets them enabled/disabled: cons
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC.TimeUntilNextAttack
+ .. _CDOTA_BaseNPC.TimeUntilNextAttack:
 float TimeUntilNextAttack()
 `````````````````
 
@@ -11224,7 +11224,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC.TriggerModifierDodge
+ .. _CDOTA_BaseNPC.TriggerModifierDodge:
 bool TriggerModifierDodge()
 `````````````````
 
@@ -11235,7 +11235,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.TriggerSpellAbsorb
+ .. _CDOTA_BaseNPC.TriggerSpellAbsorb:
 bool TriggerSpellAbsorb(handle )
 `````````````````
 
@@ -11251,7 +11251,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC.UnitCanRespawn
+ .. _CDOTA_BaseNPC.UnitCanRespawn:
 bool UnitCanRespawn()
 `````````````````
 
@@ -11262,7 +11262,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.AddExperience
+ .. _CDOTA_BaseNPC_Hero.AddExperience:
 bool AddExperience(float amount, bool applyBotDifficultyScaling)
 `````````````````
 
@@ -11292,7 +11292,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.Buyback
+ .. _CDOTA_BaseNPC_Hero.Buyback:
 void Buyback()
 `````````````````
 
@@ -11301,7 +11301,7 @@ Spend the gold and buyback with this hero.
 
 
 
- .. _CDOTA_BaseNPC_Hero.CalculateStatBonus
+ .. _CDOTA_BaseNPC_Hero.CalculateStatBonus:
 void CalculateStatBonus()
 `````````````````
 
@@ -11310,7 +11310,7 @@ Recalculate all stats after the hero gains stats.
 
 
 
- .. _CDOTA_BaseNPC_Hero.CanEarnGold
+ .. _CDOTA_BaseNPC_Hero.CanEarnGold:
 bool CanEarnGold()
 `````````````````
 
@@ -11321,7 +11321,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.ClearLastHitMultikill
+ .. _CDOTA_BaseNPC_Hero.ClearLastHitMultikill:
 void ClearLastHitMultikill()
 `````````````````
 
@@ -11330,7 +11330,7 @@ Value is stored in PlayerResource.
 
 
 
- .. _CDOTA_BaseNPC_Hero.ClearLastHitStreak
+ .. _CDOTA_BaseNPC_Hero.ClearLastHitStreak:
 void ClearLastHitStreak()
 `````````````````
 
@@ -11339,7 +11339,7 @@ Value is stored in PlayerResource.
 
 
 
- .. _CDOTA_BaseNPC_Hero.ClearStreak
+ .. _CDOTA_BaseNPC_Hero.ClearStreak:
 void ClearStreak()
 `````````````````
 
@@ -11348,7 +11348,7 @@ Value is stored in PlayerResource.
 
 
 
- .. _CDOTA_BaseNPC_Hero.GetAbilityPoints
+ .. _CDOTA_BaseNPC_Hero.GetAbilityPoints:
 int GetAbilityPoints()
 `````````````````
 
@@ -11359,7 +11359,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetAgility
+ .. _CDOTA_BaseNPC_Hero.GetAgility:
 float GetAgility()
 `````````````````
 
@@ -11370,7 +11370,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetAgilityGain
+ .. _CDOTA_BaseNPC_Hero.GetAgilityGain:
 float GetAgilityGain()
 `````````````````
 
@@ -11381,7 +11381,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetAssists
+ .. _CDOTA_BaseNPC_Hero.GetAssists:
 int GetAssists()
 `````````````````
 
@@ -11392,7 +11392,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetAttacker
+ .. _CDOTA_BaseNPC_Hero.GetAttacker:
 int GetAttacker(int )
 `````````````````
 
@@ -11408,7 +11408,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetBaseAgility
+ .. _CDOTA_BaseNPC_Hero.GetBaseAgility:
 float GetBaseAgility()
 `````````````````
 
@@ -11419,7 +11419,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetBaseDamageMax
+ .. _CDOTA_BaseNPC_Hero.GetBaseDamageMax:
 int GetBaseDamageMax()
 `````````````````
 
@@ -11430,7 +11430,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetBaseDamageMin
+ .. _CDOTA_BaseNPC_Hero.GetBaseDamageMin:
 int GetBaseDamageMin()
 `````````````````
 
@@ -11441,7 +11441,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetBaseIntellect
+ .. _CDOTA_BaseNPC_Hero.GetBaseIntellect:
 float GetBaseIntellect()
 `````````````````
 
@@ -11452,7 +11452,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetBaseStrength
+ .. _CDOTA_BaseNPC_Hero.GetBaseStrength:
 float GetBaseStrength()
 `````````````````
 
@@ -11463,7 +11463,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetBonusDamageFromPrimaryStat
+ .. _CDOTA_BaseNPC_Hero.GetBonusDamageFromPrimaryStat:
 int GetBonusDamageFromPrimaryStat()
 `````````````````
 
@@ -11474,7 +11474,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetBuybackCooldownTime
+ .. _CDOTA_BaseNPC_Hero.GetBuybackCooldownTime:
 float GetBuybackCooldownTime()
 `````````````````
 
@@ -11485,7 +11485,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetBuybackCost
+ .. _CDOTA_BaseNPC_Hero.GetBuybackCost:
 int GetBuybackCost()
 `````````````````
 
@@ -11496,7 +11496,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetBuybackGoldLimitTime
+ .. _CDOTA_BaseNPC_Hero.GetBuybackGoldLimitTime:
 float GetBuybackGoldLimitTime()
 `````````````````
 
@@ -11507,7 +11507,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetCurrentXP
+ .. _CDOTA_BaseNPC_Hero.GetCurrentXP:
 int GetCurrentXP()
 `````````````````
 
@@ -11518,7 +11518,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetDeathGoldCost
+ .. _CDOTA_BaseNPC_Hero.GetDeathGoldCost:
 int GetDeathGoldCost()
 `````````````````
 
@@ -11529,7 +11529,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetDeaths
+ .. _CDOTA_BaseNPC_Hero.GetDeaths:
 int GetDeaths()
 `````````````````
 
@@ -11540,7 +11540,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetDenies
+ .. _CDOTA_BaseNPC_Hero.GetDenies:
 int GetDenies()
 `````````````````
 
@@ -11551,7 +11551,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetGold
+ .. _CDOTA_BaseNPC_Hero.GetGold:
 int GetGold()
 `````````````````
 
@@ -11562,7 +11562,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetGoldBounty
+ .. _CDOTA_BaseNPC_Hero.GetGoldBounty:
 int GetGoldBounty()
 `````````````````
 
@@ -11573,7 +11573,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetHealthRegen
+ .. _CDOTA_BaseNPC_Hero.GetHealthRegen:
 float GetHealthRegen()
 `````````````````
 
@@ -11584,7 +11584,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetIncreasedAttackSpeed
+ .. _CDOTA_BaseNPC_Hero.GetIncreasedAttackSpeed:
 float GetIncreasedAttackSpeed()
 `````````````````
 
@@ -11595,7 +11595,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetIntellect
+ .. _CDOTA_BaseNPC_Hero.GetIntellect:
 float GetIntellect()
 `````````````````
 
@@ -11606,7 +11606,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetIntellectGain
+ .. _CDOTA_BaseNPC_Hero.GetIntellectGain:
 float GetIntellectGain()
 `````````````````
 
@@ -11617,7 +11617,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetKills
+ .. _CDOTA_BaseNPC_Hero.GetKills:
 int GetKills()
 `````````````````
 
@@ -11628,7 +11628,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetLastHits
+ .. _CDOTA_BaseNPC_Hero.GetLastHits:
 int GetLastHits()
 `````````````````
 
@@ -11639,7 +11639,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetManaRegen
+ .. _CDOTA_BaseNPC_Hero.GetManaRegen:
 float GetManaRegen()
 `````````````````
 
@@ -11650,7 +11650,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetMostRecentDamageTime
+ .. _CDOTA_BaseNPC_Hero.GetMostRecentDamageTime:
 float GetMostRecentDamageTime()
 `````````````````
 
@@ -11661,7 +11661,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetMultipleKillCount
+ .. _CDOTA_BaseNPC_Hero.GetMultipleKillCount:
 int GetMultipleKillCount()
 `````````````````
 
@@ -11672,7 +11672,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetNumAttackers
+ .. _CDOTA_BaseNPC_Hero.GetNumAttackers:
 int GetNumAttackers()
 `````````````````
 
@@ -11683,7 +11683,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetPhysicalArmorValue
+ .. _CDOTA_BaseNPC_Hero.GetPhysicalArmorValue:
 float GetPhysicalArmorValue()
 `````````````````
 
@@ -11694,7 +11694,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetPlayerID
+ .. _CDOTA_BaseNPC_Hero.GetPlayerID:
 int GetPlayerID()
 `````````````````
 
@@ -11705,7 +11705,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetPrimaryAttribute
+ .. _CDOTA_BaseNPC_Hero.GetPrimaryAttribute:
 int GetPrimaryAttribute()
 `````````````````
 
@@ -11716,7 +11716,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetPrimaryStatValue
+ .. _CDOTA_BaseNPC_Hero.GetPrimaryStatValue:
 float GetPrimaryStatValue()
 `````````````````
 
@@ -11727,7 +11727,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetRespawnTime
+ .. _CDOTA_BaseNPC_Hero.GetRespawnTime:
 float GetRespawnTime()
 `````````````````
 
@@ -11738,7 +11738,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetStatsBasedManaRegen
+ .. _CDOTA_BaseNPC_Hero.GetStatsBasedManaRegen:
 float GetStatsBasedManaRegen()
 `````````````````
 
@@ -11749,7 +11749,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetStreak
+ .. _CDOTA_BaseNPC_Hero.GetStreak:
 int GetStreak()
 `````````````````
 
@@ -11760,7 +11760,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetStrength
+ .. _CDOTA_BaseNPC_Hero.GetStrength:
 float GetStrength()
 `````````````````
 
@@ -11771,7 +11771,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetStrengthGain
+ .. _CDOTA_BaseNPC_Hero.GetStrengthGain:
 float GetStrengthGain()
 `````````````````
 
@@ -11782,7 +11782,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.GetTimeUntilRespawn
+ .. _CDOTA_BaseNPC_Hero.GetTimeUntilRespawn:
 float GetTimeUntilRespawn()
 `````````````````
 
@@ -11793,7 +11793,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.HasAnyAvailableInventorySpace
+ .. _CDOTA_BaseNPC_Hero.HasAnyAvailableInventorySpace:
 bool HasAnyAvailableInventorySpace()
 `````````````````
 
@@ -11804,7 +11804,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.HasFlyingVision
+ .. _CDOTA_BaseNPC_Hero.HasFlyingVision:
 bool HasFlyingVision()
 `````````````````
 
@@ -11815,7 +11815,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.HasOwnerAbandoned
+ .. _CDOTA_BaseNPC_Hero.HasOwnerAbandoned:
 bool HasOwnerAbandoned()
 `````````````````
 
@@ -11826,7 +11826,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.HasRoomForItem
+ .. _CDOTA_BaseNPC_Hero.HasRoomForItem:
 int HasRoomForItem(string , bool , bool )
 `````````````````
 
@@ -11844,7 +11844,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.HeroLevelUp
+ .. _CDOTA_BaseNPC_Hero.HeroLevelUp:
 void HeroLevelUp(bool )
 `````````````````
 
@@ -11858,7 +11858,7 @@ Levels up the hero, true or false to play effects.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Hero.IncrementAssists
+ .. _CDOTA_BaseNPC_Hero.IncrementAssists:
 void IncrementAssists()
 `````````````````
 
@@ -11867,7 +11867,7 @@ Value is stored in PlayerResource.
 
 
 
- .. _CDOTA_BaseNPC_Hero.IncrementDeaths
+ .. _CDOTA_BaseNPC_Hero.IncrementDeaths:
 void IncrementDeaths()
 `````````````````
 
@@ -11876,7 +11876,7 @@ Value is stored in PlayerResource.
 
 
 
- .. _CDOTA_BaseNPC_Hero.IncrementDenies
+ .. _CDOTA_BaseNPC_Hero.IncrementDenies:
 void IncrementDenies()
 `````````````````
 
@@ -11885,7 +11885,7 @@ Value is stored in PlayerResource.
 
 
 
- .. _CDOTA_BaseNPC_Hero.IncrementKills
+ .. _CDOTA_BaseNPC_Hero.IncrementKills:
 void IncrementKills(int kills)
 `````````````````
 
@@ -11899,7 +11899,7 @@ Passed ID is for the victim, killer ID is ID of the current hero. Value is store
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Hero.IncrementLastHitMultikill
+ .. _CDOTA_BaseNPC_Hero.IncrementLastHitMultikill:
 void IncrementLastHitMultikill()
 `````````````````
 
@@ -11908,7 +11908,7 @@ Value is stored in PlayerResource.
 
 
 
- .. _CDOTA_BaseNPC_Hero.IncrementLastHits
+ .. _CDOTA_BaseNPC_Hero.IncrementLastHits:
 void IncrementLastHits()
 `````````````````
 
@@ -11917,7 +11917,7 @@ Value is stored in PlayerResource.
 
 
 
- .. _CDOTA_BaseNPC_Hero.IncrementLastHitStreak
+ .. _CDOTA_BaseNPC_Hero.IncrementLastHitStreak:
 void IncrementLastHitStreak()
 `````````````````
 
@@ -11926,7 +11926,7 @@ Value is stored in PlayerResource.
 
 
 
- .. _CDOTA_BaseNPC_Hero.IncrementNearbyCreepDeaths
+ .. _CDOTA_BaseNPC_Hero.IncrementNearbyCreepDeaths:
 void IncrementNearbyCreepDeaths()
 `````````````````
 
@@ -11935,7 +11935,7 @@ Value is stored in PlayerResource.
 
 
 
- .. _CDOTA_BaseNPC_Hero.IncrementStreak
+ .. _CDOTA_BaseNPC_Hero.IncrementStreak:
 void IncrementStreak()
 `````````````````
 
@@ -11944,7 +11944,7 @@ Value is stored in PlayerResource.
 
 
 
- .. _CDOTA_BaseNPC_Hero.IsBuybackDisabledByReapersScythe
+ .. _CDOTA_BaseNPC_Hero.IsBuybackDisabledByReapersScythe:
 bool IsBuybackDisabledByReapersScythe()
 `````````````````
 
@@ -11955,7 +11955,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.IsReincarnating
+ .. _CDOTA_BaseNPC_Hero.IsReincarnating:
 bool IsReincarnating()
 `````````````````
 
@@ -11966,7 +11966,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.KilledHero
+ .. _CDOTA_BaseNPC_Hero.KilledHero:
 void KilledHero(handle , handle )
 `````````````````
 
@@ -11981,7 +11981,7 @@ Args: Hero, Inflictor
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Hero.ModifyAgility
+ .. _CDOTA_BaseNPC_Hero.ModifyAgility:
 void ModifyAgility(float )
 `````````````````
 
@@ -11995,7 +11995,7 @@ Adds passed value to base attribute value, then calls CalculateStatBonus.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Hero.ModifyGold
+ .. _CDOTA_BaseNPC_Hero.ModifyGold:
 int ModifyGold(int goldAmmt, bool reliable, int reason)
 `````````````````
 
@@ -12013,7 +12013,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.ModifyIntellect
+ .. _CDOTA_BaseNPC_Hero.ModifyIntellect:
 void ModifyIntellect(float )
 `````````````````
 
@@ -12027,7 +12027,7 @@ Adds passed value to base attribute value, then calls CalculateStatBonus.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Hero.ModifyStrength
+ .. _CDOTA_BaseNPC_Hero.ModifyStrength:
 void ModifyStrength(float )
 `````````````````
 
@@ -12041,7 +12041,7 @@ Adds passed value to base attribute value, then calls CalculateStatBonus.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Hero.PerformTaunt
+ .. _CDOTA_BaseNPC_Hero.PerformTaunt:
 void PerformTaunt()
 `````````````````
 
@@ -12050,7 +12050,7 @@ No Description Set
 
 
 
- .. _CDOTA_BaseNPC_Hero.RecordLastHit
+ .. _CDOTA_BaseNPC_Hero.RecordLastHit:
 void RecordLastHit()
 `````````````````
 
@@ -12059,7 +12059,7 @@ No Description Set
 
 
 
- .. _CDOTA_BaseNPC_Hero.RespawnHero
+ .. _CDOTA_BaseNPC_Hero.RespawnHero:
 void RespawnHero(bool buyback, bool unknown1, bool unknown2)
 `````````````````
 
@@ -12075,7 +12075,7 @@ void RespawnHero(bool buyback, bool unknown1, bool unknown2)
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Hero.SetAbilityPoints
+ .. _CDOTA_BaseNPC_Hero.SetAbilityPoints:
 void SetAbilityPoints(int )
 `````````````````
 
@@ -12089,7 +12089,7 @@ Sets the current unspent ability point's.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Hero.SetBaseAgility
+ .. _CDOTA_BaseNPC_Hero.SetBaseAgility:
 void SetBaseAgility(float )
 `````````````````
 
@@ -12103,7 +12103,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Hero.SetBaseIntellect
+ .. _CDOTA_BaseNPC_Hero.SetBaseIntellect:
 void SetBaseIntellect(float )
 `````````````````
 
@@ -12117,7 +12117,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Hero.SetBaseStrength
+ .. _CDOTA_BaseNPC_Hero.SetBaseStrength:
 void SetBaseStrength(float )
 `````````````````
 
@@ -12131,7 +12131,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Hero.SetBuybackCooldownTime
+ .. _CDOTA_BaseNPC_Hero.SetBuybackCooldownTime:
 void SetBuybackCooldownTime(float )
 `````````````````
 
@@ -12145,7 +12145,7 @@ Sets the buyback cooldown time.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Hero.SetBuyBackDisabledByReapersScythe
+ .. _CDOTA_BaseNPC_Hero.SetBuyBackDisabledByReapersScythe:
 void SetBuyBackDisabledByReapersScythe(bool )
 `````````````````
 
@@ -12159,7 +12159,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Hero.SetBuybackGoldLimitTime
+ .. _CDOTA_BaseNPC_Hero.SetBuybackGoldLimitTime:
 void SetBuybackGoldLimitTime(float )
 `````````````````
 
@@ -12173,7 +12173,7 @@ Set the amount of time gold gain is limited after buying back.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Hero.SetCustomDeathXP
+ .. _CDOTA_BaseNPC_Hero.SetCustomDeathXP:
 void SetCustomDeathXP(int )
 `````````````````
 
@@ -12187,7 +12187,7 @@ Sets a custom experience value for this hero. {{tip|GameRules boolean must be se
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Hero.SetGold
+ .. _CDOTA_BaseNPC_Hero.SetGold:
 void SetGold(int , bool )
 `````````````````
 
@@ -12202,7 +12202,7 @@ Sets the gold amount for the player owning this hero
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Hero.SetPlayerID
+ .. _CDOTA_BaseNPC_Hero.SetPlayerID:
 void SetPlayerID(int )
 `````````````````
 
@@ -12216,7 +12216,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Hero.SetRespawnPosition
+ .. _CDOTA_BaseNPC_Hero.SetRespawnPosition:
 void SetRespawnPosition(Vector )
 `````````````````
 
@@ -12230,7 +12230,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Hero.SetTimeUntilRespawn
+ .. _CDOTA_BaseNPC_Hero.SetTimeUntilRespawn:
 void SetTimeUntilRespawn(float )
 `````````````````
 
@@ -12244,7 +12244,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Hero.ShouldDoFlyHeightVisual
+ .. _CDOTA_BaseNPC_Hero.ShouldDoFlyHeightVisual:
 bool ShouldDoFlyHeightVisual()
 `````````````````
 
@@ -12255,7 +12255,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.SpendGold
+ .. _CDOTA_BaseNPC_Hero.SpendGold:
 void SpendGold(int , int )
 `````````````````
 
@@ -12270,7 +12270,7 @@ Args: ''int'' nGold, ''int'' nReason
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Hero.UnitCanRespawn
+ .. _CDOTA_BaseNPC_Hero.UnitCanRespawn:
 bool UnitCanRespawn()
 `````````````````
 
@@ -12281,7 +12281,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC_Hero.UpgradeAbility
+ .. _CDOTA_BaseNPC_Hero.UpgradeAbility:
 void UpgradeAbility(handle )
 `````````````````
 
@@ -12295,7 +12295,7 @@ This upgrades the passed ability if it exists and the hero has enough ability po
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Hero.WillReincarnate
+ .. _CDOTA_BaseNPC_Hero.WillReincarnate:
 bool WillReincarnate()
 `````````````````
 
@@ -12306,7 +12306,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC_Creature.AddItemDrop
+ .. _CDOTA_BaseNPC_Creature.AddItemDrop:
 void AddItemDrop(handle )
 `````````````````
 
@@ -12320,7 +12320,7 @@ Add the specified item drop to this creature
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Creature.CreatureLevelUp
+ .. _CDOTA_BaseNPC_Creature.CreatureLevelUp:
 void CreatureLevelUp(int )
 `````````````````
 
@@ -12334,7 +12334,7 @@ Level the creature up by the specified number of levels
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Creature.IsChampion
+ .. _CDOTA_BaseNPC_Creature.IsChampion:
 bool IsChampion()
 `````````````````
 
@@ -12345,7 +12345,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTA_BaseNPC_Creature.SetArmorGain
+ .. _CDOTA_BaseNPC_Creature.SetArmorGain:
 void SetArmorGain(float )
 `````````````````
 
@@ -12359,7 +12359,7 @@ Set the armor gained per level on this creature.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Creature.SetAttackTimeGain
+ .. _CDOTA_BaseNPC_Creature.SetAttackTimeGain:
 void SetAttackTimeGain(float )
 `````````````````
 
@@ -12373,7 +12373,7 @@ Set the attack time gained per level on this creature.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Creature.SetBountyGain
+ .. _CDOTA_BaseNPC_Creature.SetBountyGain:
 void SetBountyGain(int )
 `````````````````
 
@@ -12387,7 +12387,7 @@ Set the bounty gold gained per level on this creature.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Creature.SetChampion
+ .. _CDOTA_BaseNPC_Creature.SetChampion:
 void SetChampion(bool )
 `````````````````
 
@@ -12401,7 +12401,7 @@ Flag this unit as a champion creature.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Creature.SetDamageGain
+ .. _CDOTA_BaseNPC_Creature.SetDamageGain:
 void SetDamageGain(int )
 `````````````````
 
@@ -12415,7 +12415,7 @@ Set the damage gained per level on this creature.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Creature.SetDisableResistanceGain
+ .. _CDOTA_BaseNPC_Creature.SetDisableResistanceGain:
 void SetDisableResistanceGain(float )
 `````````````````
 
@@ -12429,7 +12429,7 @@ Set the disable resistance gained per level on this creature.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Creature.SetHPGain
+ .. _CDOTA_BaseNPC_Creature.SetHPGain:
 void SetHPGain(int )
 `````````````````
 
@@ -12443,7 +12443,7 @@ Set the hit point's gained per level on this creature.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Creature.SetHPRegenGain
+ .. _CDOTA_BaseNPC_Creature.SetHPRegenGain:
 void SetHPRegenGain(float )
 `````````````````
 
@@ -12457,7 +12457,7 @@ Set the hit point's regen gained per level on this creature.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Creature.SetMagicResistanceGain
+ .. _CDOTA_BaseNPC_Creature.SetMagicResistanceGain:
 void SetMagicResistanceGain(float )
 `````````````````
 
@@ -12471,7 +12471,7 @@ Set the magic resistance gained per level on this creature.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Creature.SetManaGain
+ .. _CDOTA_BaseNPC_Creature.SetManaGain:
 void SetManaGain(int )
 `````````````````
 
@@ -12485,7 +12485,7 @@ Set the mana point's gained per level on this creature.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Creature.SetManaRegenGain
+ .. _CDOTA_BaseNPC_Creature.SetManaRegenGain:
 void SetManaRegenGain(float )
 `````````````````
 
@@ -12499,7 +12499,7 @@ Set the mana point's regen gained per level on this creature.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Creature.SetMoveSpeedGain
+ .. _CDOTA_BaseNPC_Creature.SetMoveSpeedGain:
 void SetMoveSpeedGain(int )
 `````````````````
 
@@ -12513,7 +12513,7 @@ Set the move speed gained per level on this creature.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Creature.SetXPGain
+ .. _CDOTA_BaseNPC_Creature.SetXPGain:
 void SetXPGain(int )
 `````````````````
 
@@ -12527,7 +12527,7 @@ Set the xp reward gained per level on this creature.
 +-----------+--------------+--------------+
 
 
- .. _CDOTA_BaseNPC_Building.GetInvulnCount
+ .. _CDOTA_BaseNPC_Building.GetInvulnCount:
 int GetInvulnCount()
 `````````````````
 
@@ -12538,7 +12538,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTA_BaseNPC_Building.SetInvulnCount
+ .. _CDOTA_BaseNPC_Building.SetInvulnCount:
 void SetInvulnCount(int )
 `````````````````
 
@@ -12552,7 +12552,7 @@ Set the invulnerability counter of this building.
 +-----------+--------------+--------------+
 
 
- .. _CRPG_Unit.ActionState
+ .. _CRPG_Unit.ActionState:
 handle ActionState()
 `````````````````
 
@@ -12563,7 +12563,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CRPG_Unit.ClearMovementTarget
+ .. _CRPG_Unit.ClearMovementTarget:
 void ClearMovementTarget()
 `````````````````
 
@@ -12572,7 +12572,7 @@ Clear any movement target entity/position.
 
 
 
- .. _CRPG_Unit.FindSensedEnemies
+ .. _CRPG_Unit.FindSensedEnemies:
 table FindSensedEnemies()
 `````````````````
 
@@ -12583,7 +12583,7 @@ Returns:
 table - No Description Set
 
 
- .. _CRPG_Unit.GetMaxSpeed
+ .. _CRPG_Unit.GetMaxSpeed:
 float GetMaxSpeed()
 `````````````````
 
@@ -12594,7 +12594,7 @@ Returns:
 float - No Description Set
 
 
- .. _CRPG_Unit.GetMaxStamina
+ .. _CRPG_Unit.GetMaxStamina:
 float GetMaxStamina()
 `````````````````
 
@@ -12605,7 +12605,7 @@ Returns:
 float - No Description Set
 
 
- .. _CRPG_Unit.GetMovementTargetEntity
+ .. _CRPG_Unit.GetMovementTargetEntity:
 handle GetMovementTargetEntity()
 `````````````````
 
@@ -12616,7 +12616,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CRPG_Unit.GetSensingSphereRange
+ .. _CRPG_Unit.GetSensingSphereRange:
 float GetSensingSphereRange()
 `````````````````
 
@@ -12627,7 +12627,7 @@ Returns:
 float - No Description Set
 
 
- .. _CRPG_Unit.GetSightConeAngle
+ .. _CRPG_Unit.GetSightConeAngle:
 float GetSightConeAngle()
 `````````````````
 
@@ -12638,7 +12638,7 @@ Returns:
 float - No Description Set
 
 
- .. _CRPG_Unit.GetSightConeRange
+ .. _CRPG_Unit.GetSightConeRange:
 float GetSightConeRange()
 `````````````````
 
@@ -12649,7 +12649,7 @@ Returns:
 float - No Description Set
 
 
- .. _CRPG_Unit.GetStamina
+ .. _CRPG_Unit.GetStamina:
 float GetStamina()
 `````````````````
 
@@ -12660,7 +12660,7 @@ Returns:
 float - No Description Set
 
 
- .. _CRPG_Unit.GetTurnRate
+ .. _CRPG_Unit.GetTurnRate:
 float GetTurnRate()
 `````````````````
 
@@ -12671,7 +12671,7 @@ Returns:
 float - No Description Set
 
 
- .. _CRPG_Unit.GetUnitName
+ .. _CRPG_Unit.GetUnitName:
 string GetUnitName()
 `````````````````
 
@@ -12682,7 +12682,7 @@ Returns:
 string - No Description Set
 
 
- .. _CRPG_Unit.GrantItem
+ .. _CRPG_Unit.GrantItem:
 void GrantItem(string , bool )
 `````````````````
 
@@ -12697,7 +12697,7 @@ void GrantItem(string , bool )
 +-----------+--------------+--------------+
 
 
- .. _CRPG_Unit.IsBlocking
+ .. _CRPG_Unit.IsBlocking:
 bool IsBlocking()
 `````````````````
 
@@ -12708,7 +12708,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CRPG_Unit.IsFacing
+ .. _CRPG_Unit.IsFacing:
 bool IsFacing(Vector , float )
 `````````````````
 
@@ -12725,7 +12725,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CRPG_Unit.SetBlocking
+ .. _CRPG_Unit.SetBlocking:
 void SetBlocking(bool )
 `````````````````
 
@@ -12739,7 +12739,7 @@ void SetBlocking(bool )
 +-----------+--------------+--------------+
 
 
- .. _CRPG_Unit.SetMaxSpeed
+ .. _CRPG_Unit.SetMaxSpeed:
 void SetMaxSpeed(float )
 `````````````````
 
@@ -12753,7 +12753,7 @@ void SetMaxSpeed(float )
 +-----------+--------------+--------------+
 
 
- .. _CRPG_Unit.SetMovementTargetEntity
+ .. _CRPG_Unit.SetMovementTargetEntity:
 void SetMovementTargetEntity(handle , float )
 `````````````````
 
@@ -12768,7 +12768,7 @@ void SetMovementTargetEntity(handle , float )
 +-----------+--------------+--------------+
 
 
- .. _CRPG_Unit.SetMovementTargetPosition
+ .. _CRPG_Unit.SetMovementTargetPosition:
 void SetMovementTargetPosition(Vector , float )
 `````````````````
 
@@ -12783,7 +12783,7 @@ void SetMovementTargetPosition(Vector , float )
 +-----------+--------------+--------------+
 
 
- .. _CRPG_Unit.SetSensingSphereRange
+ .. _CRPG_Unit.SetSensingSphereRange:
 void SetSensingSphereRange(float )
 `````````````````
 
@@ -12797,7 +12797,7 @@ void SetSensingSphereRange(float )
 +-----------+--------------+--------------+
 
 
- .. _CRPG_Unit.SetSightConeAngle
+ .. _CRPG_Unit.SetSightConeAngle:
 void SetSightConeAngle(float )
 `````````````````
 
@@ -12811,7 +12811,7 @@ void SetSightConeAngle(float )
 +-----------+--------------+--------------+
 
 
- .. _CRPG_Unit.SetSightConeRange
+ .. _CRPG_Unit.SetSightConeRange:
 void SetSightConeRange(float )
 `````````````````
 
@@ -12825,7 +12825,7 @@ void SetSightConeRange(float )
 +-----------+--------------+--------------+
 
 
- .. _CRPG_Unit.SetTurnRate
+ .. _CRPG_Unit.SetTurnRate:
 void SetTurnRate(float )
 `````````````````
 
@@ -12839,7 +12839,7 @@ void SetTurnRate(float )
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseGameMode.ClientLoadGridNav
+ .. _CDOTABaseGameMode.ClientLoadGridNav:
 void ClientLoadGridNav()
 `````````````````
 
@@ -12848,7 +12848,7 @@ Tell clients that they need to load gridnav information. Used for things like al
 
 
 
- .. _CDOTABaseGameMode.SetAlwaysShowPlayerInventory
+ .. _CDOTABaseGameMode.SetAlwaysShowPlayerInventory:
 void SetAlwaysShowPlayerInventory(bool )
 `````````````````
 
@@ -12862,7 +12862,7 @@ Show the player hero's inventory in the HUD, regardless of what unit is selected
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseGameMode.SetBotThinkingEnabled
+ .. _CDOTABaseGameMode.SetBotThinkingEnabled:
 void SetBotThinkingEnabled(bool )
 `````````````````
 
@@ -12876,7 +12876,7 @@ Enables/Disables bot thinking. Requires a very Dota PvP-like map with 3 lanes, a
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseGameMode.SetBuybackEnabled
+ .. _CDOTABaseGameMode.SetBuybackEnabled:
 void SetBuybackEnabled(bool )
 `````````````````
 
@@ -12890,7 +12890,7 @@ Enables or disables buyback completely
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseGameMode.SetCameraDistanceOverride
+ .. _CDOTABaseGameMode.SetCameraDistanceOverride:
 void SetCameraDistanceOverride(float )
 `````````````````
 
@@ -12904,7 +12904,7 @@ Set a different camera distance; dota default is 1134.
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseGameMode.SetCustomBuybackCooldownEnabled
+ .. _CDOTABaseGameMode.SetCustomBuybackCooldownEnabled:
 void SetCustomBuybackCooldownEnabled(bool )
 `````````````````
 
@@ -12918,7 +12918,7 @@ Turns on capability to define custom buyback cooldowns.
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseGameMode.SetCustomBuybackCostEnabled
+ .. _CDOTABaseGameMode.SetCustomBuybackCostEnabled:
 void SetCustomBuybackCostEnabled(bool )
 `````````````````
 
@@ -12932,7 +12932,7 @@ Turns on capability to define custom buyback costs.
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseGameMode.SetCustomHeroMaxLevel
+ .. _CDOTABaseGameMode.SetCustomHeroMaxLevel:
 void SetCustomHeroMaxLevel(int maxLevel)
 `````````````````
 
@@ -12946,7 +12946,7 @@ Allows definition of the max level heroes can achieve (default is 25).
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseGameMode.SetCustomXPRequiredToReachNextLevel
+ .. _CDOTABaseGameMode.SetCustomXPRequiredToReachNextLevel:
 void SetCustomXPRequiredToReachNextLevel(handle )
 `````````````````
 
@@ -12960,7 +12960,7 @@ Allows definition of a ''table'' of hero XP values.
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseGameMode.SetFogOfWarDisabled
+ .. _CDOTABaseGameMode.SetFogOfWarDisabled:
 void SetFogOfWarDisabled(bool )
 `````````````````
 
@@ -12974,7 +12974,7 @@ Turn the fog of war on or off.
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseGameMode.SetGoldSoundDisabled
+ .. _CDOTABaseGameMode.SetGoldSoundDisabled:
 void SetGoldSoundDisabled(bool )
 `````````````````
 
@@ -12988,7 +12988,7 @@ Turn the sound when gold is acquired off/on. Takes a ''bool''.
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseGameMode.SetOverrideSelectionEntity
+ .. _CDOTABaseGameMode.SetOverrideSelectionEntity:
 void SetOverrideSelectionEntity(handle unit)
 `````````````````
 
@@ -13002,7 +13002,7 @@ Set an override for the default selection entity, instead of each player's hero.
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseGameMode.SetRecommendedItemsDisabled
+ .. _CDOTABaseGameMode.SetRecommendedItemsDisabled:
 void SetRecommendedItemsDisabled(bool )
 `````````````````
 
@@ -13016,7 +13016,7 @@ Turn the panel for showing recommended items at the shop off/on. Takes a ''bool'
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseGameMode.SetRemoveIllusionsOnDeath
+ .. _CDOTABaseGameMode.SetRemoveIllusionsOnDeath:
 void SetRemoveIllusionsOnDeath(bool )
 `````````````````
 
@@ -13030,7 +13030,7 @@ Make it so illusions are immediately removed upon death, rather than sticking ar
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseGameMode.SetTopBarTeamValue
+ .. _CDOTABaseGameMode.SetTopBarTeamValue:
 void SetTopBarTeamValue(int , int )
 `````````````````
 
@@ -13045,7 +13045,7 @@ Set the team values on the top game bar.
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseGameMode.SetTopBarTeamValuesOverride
+ .. _CDOTABaseGameMode.SetTopBarTeamValuesOverride:
 void SetTopBarTeamValuesOverride(bool )
 `````````````````
 
@@ -13059,7 +13059,7 @@ Override the values of the team values on the top game bar.
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseGameMode.SetTopBarTeamValuesVisible
+ .. _CDOTABaseGameMode.SetTopBarTeamValuesVisible:
 void SetTopBarTeamValuesVisible(bool )
 `````````````````
 
@@ -13073,7 +13073,7 @@ Turning on/off the team values on the top game bar.
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseGameMode.SetTowerBackdoorProtectionEnabled
+ .. _CDOTABaseGameMode.SetTowerBackdoorProtectionEnabled:
 void SetTowerBackdoorProtectionEnabled(bool )
 `````````````````
 
@@ -13087,7 +13087,7 @@ Enables/Disables tower backdoor protection
 +-----------+--------------+--------------+
 
 
- .. _CDOTABaseGameMode.SetUseCustomHeroLevels
+ .. _CDOTABaseGameMode.SetUseCustomHeroLevels:
 void SetUseCustomHeroLevels(bool )
 `````````````````
 
@@ -13101,7 +13101,7 @@ Turn on custom-defined XP values for hero level ups. The ''table'' should be def
 +-----------+--------------+--------------+
 
 
- .. _CDotaQuest.AddSubquest
+ .. _CDotaQuest.AddSubquest:
 void AddSubquest(handle )
 `````````````````
 
@@ -13115,7 +13115,7 @@ Add a subquest to this quest
 +-----------+--------------+--------------+
 
 
- .. _CDotaQuest.CompleteQuest
+ .. _CDotaQuest.CompleteQuest:
 void CompleteQuest()
 `````````````````
 
@@ -13124,7 +13124,7 @@ Mark this quest complete
 
 
 
- .. _CDotaQuest.GetSubquest
+ .. _CDotaQuest.GetSubquest:
 handle GetSubquest(int )
 `````````````````
 
@@ -13140,7 +13140,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CDotaQuest.GetSubquestByName
+ .. _CDotaQuest.GetSubquestByName:
 handle GetSubquestByName(string )
 `````````````````
 
@@ -13156,7 +13156,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CDotaQuest.RemoveSubquest
+ .. _CDotaQuest.RemoveSubquest:
 void RemoveSubquest(handle )
 `````````````````
 
@@ -13170,7 +13170,7 @@ Remove a subquest from this quest
 +-----------+--------------+--------------+
 
 
- .. _CDotaQuest.SetTextReplaceString
+ .. _CDotaQuest.SetTextReplaceString:
 void SetTextReplaceString(string )
 `````````````````
 
@@ -13184,7 +13184,7 @@ Set the text replace ''string'' for this quest
 +-----------+--------------+--------------+
 
 
- .. _CDotaQuest.SetTextReplaceValue
+ .. _CDotaQuest.SetTextReplaceValue:
 void SetTextReplaceValue(int , int )
 `````````````````
 
@@ -13199,7 +13199,7 @@ Set a quest value
 +-----------+--------------+--------------+
 
 
- .. _CDotaSubquestBase.CompleteSubquest
+ .. _CDotaSubquestBase.CompleteSubquest:
 void CompleteSubquest()
 `````````````````
 
@@ -13208,7 +13208,7 @@ Mark this subquest complete
 
 
 
- .. _CDotaSubquestBase.SetTextReplaceString
+ .. _CDotaSubquestBase.SetTextReplaceString:
 void SetTextReplaceString(string )
 `````````````````
 
@@ -13222,7 +13222,7 @@ Set the text replace ''string'' for this subquest
 +-----------+--------------+--------------+
 
 
- .. _CDotaSubquestBase.SetTextReplaceValue
+ .. _CDotaSubquestBase.SetTextReplaceValue:
 void SetTextReplaceValue(int , int )
 `````````````````
 
@@ -13237,7 +13237,7 @@ Set a subquest value
 +-----------+--------------+--------------+
 
 
- .. _CPhysicsComponent.ExpensiveInstantRayCast
+ .. _CPhysicsComponent.ExpensiveInstantRayCast:
 bool ExpensiveInstantRayCast(Vector , Vector , handle )
 `````````````````
 
@@ -13255,7 +13255,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CPointTemplate.DeleteCreatedSpawnGroups
+ .. _CPointTemplate.DeleteCreatedSpawnGroups:
 void DeleteCreatedSpawnGroups()
 `````````````````
 
@@ -13264,7 +13264,7 @@ DeleteCreatedSpawnGroups() : Deletes any spawn groups that this point_template h
 
 
 
- .. _CPointTemplate.ForceSpawn
+ .. _CPointTemplate.ForceSpawn:
 void ForceSpawn()
 `````````````````
 
@@ -13273,7 +13273,7 @@ ForceSpawn() : Spawns all of the entities the point_template is pointing at.
 
 
 
- .. _CPointTemplate.GetSpawnedEntities
+ .. _CPointTemplate.GetSpawnedEntities:
 handle GetSpawnedEntities()
 `````````````````
 
@@ -13284,7 +13284,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CPointTemplate.SetSpawnCallback
+ .. _CPointTemplate.SetSpawnCallback:
 void SetSpawnCallback(handle , handle )
 `````````````````
 
@@ -13299,7 +13299,7 @@ SetSpawnCallback( hCallbackFunc, hCallbackScope, hCallbackData ) : Set a callbac
 +-----------+--------------+--------------+
 
 
- .. _CBodyComponent.AddImpulseAtPosition
+ .. _CBodyComponent.AddImpulseAtPosition:
 void AddImpulseAtPosition(Vector , Vector )
 `````````````````
 
@@ -13314,7 +13314,7 @@ Apply an impulse at a worldspace position to the physics
 +-----------+--------------+--------------+
 
 
- .. _CBodyComponent.AddVelocity
+ .. _CBodyComponent.AddVelocity:
 void AddVelocity(Vector , Vector )
 `````````````````
 
@@ -13329,7 +13329,7 @@ Add linear and angular velocity to the physics object
 +-----------+--------------+--------------+
 
 
- .. _CBodyComponent.DetachFromParent
+ .. _CBodyComponent.DetachFromParent:
 void DetachFromParent()
 `````````````````
 
@@ -13338,7 +13338,7 @@ Detach from its parent
 
 
 
- .. _CBodyComponent.GetSequence
+ .. _CBodyComponent.GetSequence:
 <> GetSequence()
 `````````````````
 
@@ -13349,7 +13349,7 @@ Returns:
 <> - No Description Set
 
 
- .. _CBodyComponent.IsAttachedToParent
+ .. _CBodyComponent.IsAttachedToParent:
 bool IsAttachedToParent()
 `````````````````
 
@@ -13360,7 +13360,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CBodyComponent.LookupSequence
+ .. _CBodyComponent.LookupSequence:
 <> LookupSequence(string )
 `````````````````
 
@@ -13376,7 +13376,7 @@ Returns:
 <> - No Description Set
 
 
- .. _CBodyComponent.SequenceDuration
+ .. _CBodyComponent.SequenceDuration:
 float SequenceDuration(string )
 `````````````````
 
@@ -13392,7 +13392,7 @@ Returns:
 float - No Description Set
 
 
- .. _CBodyComponent.SetAngularVelocity
+ .. _CBodyComponent.SetAngularVelocity:
 void SetAngularVelocity(Vector )
 `````````````````
 
@@ -13406,7 +13406,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CBodyComponent.SetAnimation
+ .. _CBodyComponent.SetAnimation:
 void SetAnimation(string )
 `````````````````
 
@@ -13420,7 +13420,7 @@ Pass ''string'' for the animation to play on this model
 +-----------+--------------+--------------+
 
 
- .. _CBodyComponent.SetBodyGroup
+ .. _CBodyComponent.SetBodyGroup:
 void SetBodyGroup(string )
 `````````````````
 
@@ -13434,7 +13434,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CBodyComponent.SetMaterialGroup
+ .. _CBodyComponent.SetMaterialGroup:
 void SetMaterialGroup(utlstringtoken )
 `````````````````
 
@@ -13448,7 +13448,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CBodyComponent.SetVelocity
+ .. _CBodyComponent.SetVelocity:
 void SetVelocity(Vector velocity)
 `````````````````
 
@@ -13462,7 +13462,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CBaseAnimating.GetAttachmentAngles
+ .. _CBaseAnimating.GetAttachmentAngles:
 Vector GetAttachmentAngles(int )
 `````````````````
 
@@ -13478,7 +13478,7 @@ Returns:
 Vector - No Description Set
 
 
- .. _CBaseAnimating.GetAttachmentOrigin
+ .. _CBaseAnimating.GetAttachmentOrigin:
 Vector GetAttachmentOrigin(int )
 `````````````````
 
@@ -13494,7 +13494,7 @@ Returns:
 Vector - No Description Set
 
 
- .. _CBaseAnimating.IsSequenceFinished
+ .. _CBaseAnimating.IsSequenceFinished:
 bool IsSequenceFinished()
 `````````````````
 
@@ -13505,7 +13505,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CBaseAnimating.ScriptLookupAttachment
+ .. _CBaseAnimating.ScriptLookupAttachment:
 int ScriptLookupAttachment(string )
 `````````````````
 
@@ -13521,7 +13521,7 @@ Returns:
 int - No Description Set
 
 
- .. _CBaseAnimating.SetBodygroup
+ .. _CBaseAnimating.SetBodygroup:
 void SetBodygroup(int , int )
 `````````````````
 
@@ -13536,7 +13536,7 @@ Sets a bodygroup
 +-----------+--------------+--------------+
 
 
- .. _CBaseAnimating.SetModelScale
+ .. _CBaseAnimating.SetModelScale:
 void SetModelScale(float scale)
 `````````````````
 
@@ -13550,7 +13550,7 @@ Sets the model's scale to <i>scale</i>, <br/>so if a unit had its model scale at
 +-----------+--------------+--------------+
 
 
- .. _CBaseAnimating.SetPoseParameter
+ .. _CBaseAnimating.SetPoseParameter:
 float SetPoseParameter(string , float )
 `````````````````
 
@@ -13567,7 +13567,7 @@ Returns:
 float - No Description Set
 
 
- .. _CBaseCombatCharacter.GetEquippedWeapons
+ .. _CBaseCombatCharacter.GetEquippedWeapons:
 table GetEquippedWeapons()
 `````````````````
 
@@ -13578,7 +13578,7 @@ Returns:
 table - No Description Set
 
 
- .. _CBaseCombatCharacter.GetWeaponCount
+ .. _CBaseCombatCharacter.GetWeaponCount:
 int GetWeaponCount()
 `````````````````
 
@@ -13589,7 +13589,7 @@ Returns:
 int - No Description Set
 
 
- .. _ProjectileManager.CreateLinearProjectile
+ .. _ProjectileManager.CreateLinearProjectile:
 int CreateLinearProjectile(handle )
 `````````````````
 
@@ -13605,7 +13605,7 @@ Returns:
 int - No Description Set
 
 
- .. _ProjectileManager.CreateTrackingProjectile
+ .. _ProjectileManager.CreateTrackingProjectile:
 void CreateTrackingProjectile(handle )
 `````````````````
 
@@ -13619,7 +13619,7 @@ Creates a tracking projectile
 +-----------+--------------+--------------+
 
 
- .. _ProjectileManager.DestroyLinearProjectile
+ .. _ProjectileManager.DestroyLinearProjectile:
 void DestroyLinearProjectile(int )
 `````````````````
 
@@ -13633,7 +13633,7 @@ Destroys the linear projectile matching the argument ID
 +-----------+--------------+--------------+
 
 
- .. _ProjectileManager.ProjectileDodge
+ .. _ProjectileManager.ProjectileDodge:
 void ProjectileDodge(handle )
 `````````````````
 
@@ -13647,7 +13647,7 @@ Makes the specified unit dodge projectiles
 +-----------+--------------+--------------+
 
 
- .. _CBaseTrigger.Disable
+ .. _CBaseTrigger.Disable:
 void Disable()
 `````````````````
 
@@ -13656,7 +13656,7 @@ Disable the trigger
 
 
 
- .. _CBaseTrigger.Enable
+ .. _CBaseTrigger.Enable:
 void Enable()
 `````````````````
 
@@ -13665,7 +13665,7 @@ Enable the trigger
 
 
 
- .. _CBaseTrigger.IsTouching
+ .. _CBaseTrigger.IsTouching:
 bool IsTouching(handle )
 `````````````````
 
@@ -13681,7 +13681,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CEnvEntityMaker.SpawnEntity
+ .. _CEnvEntityMaker.SpawnEntity:
 void SpawnEntity()
 `````````````````
 
@@ -13690,7 +13690,7 @@ Create an entity at the location of the maker
 
 
 
- .. _CEnvEntityMaker.SpawnEntityAtEntityOrigin
+ .. _CEnvEntityMaker.SpawnEntityAtEntityOrigin:
 void SpawnEntityAtEntityOrigin(handle )
 `````````````````
 
@@ -13704,7 +13704,7 @@ Create an entity at the location of a specified entity instance
 +-----------+--------------+--------------+
 
 
- .. _CEnvEntityMaker.SpawnEntityAtLocation
+ .. _CEnvEntityMaker.SpawnEntityAtLocation:
 void SpawnEntityAtLocation(Vector , Vector )
 `````````````````
 
@@ -13719,7 +13719,7 @@ Create an entity at a specified location and orientaton, orientation is Euler an
 +-----------+--------------+--------------+
 
 
- .. _CEnvEntityMaker.SpawnEntityAtNamedEntityOrigin
+ .. _CEnvEntityMaker.SpawnEntityAtNamedEntityOrigin:
 void SpawnEntityAtNamedEntityOrigin(string )
 `````````````````
 
@@ -13733,7 +13733,7 @@ Create an entity at the location of a named entity
 +-----------+--------------+--------------+
 
 
- .. _CDOTAVoteSystem.StartVote
+ .. _CDOTAVoteSystem.StartVote:
 void StartVote(handle )
 `````````````````
 
@@ -13747,7 +13747,7 @@ Starts a vote, based upon a ''table'' of parameters
 +-----------+--------------+--------------+
 
 
- .. _CMarkupVolumeTagged.HasTag
+ .. _CMarkupVolumeTagged.HasTag:
 bool HasTag(string )
 `````````````````
 
@@ -13763,7 +13763,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CScriptPrecacheContext.AddResource
+ .. _CScriptPrecacheContext.AddResource:
 void AddResource(string )
 `````````````````
 
@@ -13777,7 +13777,7 @@ Precaches a specific resource
 +-----------+--------------+--------------+
 
 
- .. _CScriptPrecacheContext.GetValue
+ .. _CScriptPrecacheContext.GetValue:
 table GetValue(string )
 `````````````````
 
@@ -13793,7 +13793,7 @@ Returns:
 table - No Description Set
 
 
- .. _CScriptKeyValues.GetValue
+ .. _CScriptKeyValues.GetValue:
 table GetValue(string )
 `````````````````
 
@@ -13809,7 +13809,7 @@ Returns:
 table - No Description Set
 
 
- .. _CScriptParticleManager.CreateParticle
+ .. _CScriptParticleManager.CreateParticle:
 int CreateParticle(string particleName, int particleAttach, handle owningEntity)
 `````````````````
 
@@ -13827,7 +13827,7 @@ Returns:
 int - No Description Set
 
 
- .. _CScriptParticleManager.CreateParticleForPlayer
+ .. _CScriptParticleManager.CreateParticleForPlayer:
 int CreateParticleForPlayer(string particleName, int particleAttach, handle owningEntity, handle owningPlayer)
 `````````````````
 
@@ -13846,7 +13846,7 @@ Returns:
 int - Particle ID
 
 
- .. _CScriptParticleManager.GetParticleReplacement
+ .. _CScriptParticleManager.GetParticleReplacement:
 string GetParticleReplacement(string , handle )
 `````````````````
 
@@ -13863,7 +13863,7 @@ Returns:
 string - No Description Set
 
 
- .. _CScriptParticleManager.ReleaseParticleIndex
+ .. _CScriptParticleManager.ReleaseParticleIndex:
 void ReleaseParticleIndex(int particleId)
 `````````````````
 
@@ -13877,7 +13877,7 @@ Frees the specified particle index
 +-----------+--------------+--------------+
 
 
- .. _CScriptParticleManager.SetParticleAlwaysSimulate
+ .. _CScriptParticleManager.SetParticleAlwaysSimulate:
 void SetParticleAlwaysSimulate(int )
 `````````````````
 
@@ -13891,7 +13891,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CScriptParticleManager.SetParticleControl
+ .. _CScriptParticleManager.SetParticleControl:
 void SetParticleControl(int particleId, int controlIndex, Vector controlData)
 `````````````````
 
@@ -13907,7 +13907,7 @@ Set the control point data for a control on a particle effect
 +-----------+--------------+--------------+
 
 
- .. _CScriptParticleManager.SetParticleControlEnt
+ .. _CScriptParticleManager.SetParticleControlEnt:
 void SetParticleControlEnt(int , int , handle , int , string , Vector , bool )
 `````````````````
 
@@ -13927,7 +13927,7 @@ No Description Set
 +-----------+--------------+--------------+
 
 
- .. _CScriptHeroList.GetAllHeroes
+ .. _CScriptHeroList.GetAllHeroes:
 table GetAllHeroes()
 `````````````````
 
@@ -13938,7 +13938,7 @@ Returns:
 table - No Description Set
 
 
- .. _CScriptHeroList.GetHero
+ .. _CScriptHeroList.GetHero:
 handle GetHero(int heroId)
 `````````````````
 
@@ -13954,7 +13954,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CScriptHeroList.GetHeroCount
+ .. _CScriptHeroList.GetHeroCount:
 int GetHeroCount()
 `````````````````
 
@@ -13965,7 +13965,7 @@ Returns:
 int - No Description Set
 
 
- .. _CNativeOutputs.AddOutput
+ .. _CNativeOutputs.AddOutput:
 void AddOutput(string , string )
 `````````````````
 
@@ -13980,7 +13980,7 @@ Add an output
 +-----------+--------------+--------------+
 
 
- .. _CNativeOutputs.Init
+ .. _CNativeOutputs.Init:
 void Init(int )
 `````````````````
 
@@ -13994,7 +13994,7 @@ Initialize with number of outputs
 +-----------+--------------+--------------+
 
 
- .. _CEnvProjectedTexture.SetFarRange
+ .. _CEnvProjectedTexture.SetFarRange:
 void SetFarRange(float )
 `````````````````
 
@@ -14008,7 +14008,7 @@ Set light maximum range
 +-----------+--------------+--------------+
 
 
- .. _CEnvProjectedTexture.SetLinearAttenuation
+ .. _CEnvProjectedTexture.SetLinearAttenuation:
 void SetLinearAttenuation(float )
 `````````````````
 
@@ -14022,7 +14022,7 @@ Set light linear attenuation value
 +-----------+--------------+--------------+
 
 
- .. _CEnvProjectedTexture.SetNearRange
+ .. _CEnvProjectedTexture.SetNearRange:
 void SetNearRange(float )
 `````````````````
 
@@ -14036,7 +14036,7 @@ Set light minimum range
 +-----------+--------------+--------------+
 
 
- .. _CEnvProjectedTexture.SetQuadraticAttenuation
+ .. _CEnvProjectedTexture.SetQuadraticAttenuation:
 void SetQuadraticAttenuation(float )
 `````````````````
 
@@ -14050,7 +14050,7 @@ Set light quadratic attenuation value
 +-----------+--------------+--------------+
 
 
- .. _CEnvProjectedTexture.SetVolumetrics
+ .. _CEnvProjectedTexture.SetVolumetrics:
 void SetVolumetrics(bool , float , float , int , float )
 `````````````````
 
@@ -14068,7 +14068,7 @@ Turn on/off light volumetrics: ''bool'' bOn, ''float'' flIntensity, ''float'' fl
 +-----------+--------------+--------------+
 
 
- .. _CInfoData.QueryColor
+ .. _CInfoData.QueryColor:
 Vector QueryColor(utlstringtoken , Vector )
 `````````````````
 
@@ -14085,7 +14085,7 @@ Returns:
 Vector - No Description Set
 
 
- .. _CInfoData.QueryFloat
+ .. _CInfoData.QueryFloat:
 float QueryFloat(utlstringtoken , float )
 `````````````````
 
@@ -14102,7 +14102,7 @@ Returns:
 float - No Description Set
 
 
- .. _CInfoData.QueryInt
+ .. _CInfoData.QueryInt:
 int QueryInt(utlstringtoken , int )
 `````````````````
 
@@ -14119,7 +14119,7 @@ Returns:
 int - No Description Set
 
 
- .. _CInfoData.QueryNumber
+ .. _CInfoData.QueryNumber:
 float QueryNumber(utlstringtoken , float )
 `````````````````
 
@@ -14136,7 +14136,7 @@ Returns:
 float - No Description Set
 
 
- .. _CInfoData.QueryString
+ .. _CInfoData.QueryString:
 string QueryString(utlstringtoken , string )
 `````````````````
 
@@ -14153,7 +14153,7 @@ Returns:
 string - No Description Set
 
 
- .. _CInfoData.QueryVector
+ .. _CInfoData.QueryVector:
 Vector QueryVector(utlstringtoken , Vector )
 `````````````````
 
@@ -14170,7 +14170,7 @@ Returns:
 Vector - No Description Set
 
 
- .. _CPhysicsProp.DisableMotion
+ .. _CPhysicsProp.DisableMotion:
 void DisableMotion()
 `````````````````
 
@@ -14179,7 +14179,7 @@ Enable motion for the prop
 
 
 
- .. _CPhysicsProp.EnableMotion
+ .. _CPhysicsProp.EnableMotion:
 void EnableMotion()
 `````````````````
 
@@ -14188,7 +14188,7 @@ Enable motion for the prop
 
 
 
- .. _CDOTAGamerules.Defeated
+ .. _CDOTAGamerules.Defeated:
 void Defeated()
 `````````````````
 
@@ -14197,7 +14197,7 @@ Kills the ancient, etc.
 
 
 
- .. _CDOTAGamerules.DidMatchSignoutTimeOut
+ .. _CDOTAGamerules.DidMatchSignoutTimeOut:
 bool DidMatchSignoutTimeOut()
 `````````````````
 
@@ -14208,7 +14208,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTAGamerules.GetCustomGameDifficulty
+ .. _CDOTAGamerules.GetCustomGameDifficulty:
 int GetCustomGameDifficulty()
 `````````````````
 
@@ -14219,7 +14219,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTAGamerules.GetDifficulty
+ .. _CDOTAGamerules.GetDifficulty:
 int GetDifficulty()
 `````````````````
 
@@ -14230,7 +14230,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTAGamerules.GetDroppedItem
+ .. _CDOTAGamerules.GetDroppedItem:
 handle GetDroppedItem(int dropIndex)
 `````````````````
 
@@ -14246,7 +14246,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CDOTAGamerules.GetGameModeEntity
+ .. _CDOTAGamerules.GetGameModeEntity:
 handle GetGameModeEntity()
 `````````````````
 
@@ -14257,7 +14257,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CDOTAGamerules.GetGameTime
+ .. _CDOTAGamerules.GetGameTime:
 float GetGameTime()
 `````````````````
 
@@ -14268,7 +14268,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTAGamerules.GetMatchSignoutComplete
+ .. _CDOTAGamerules.GetMatchSignoutComplete:
 bool GetMatchSignoutComplete()
 `````````````````
 
@@ -14279,7 +14279,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTAGamerules.GetNianFightStartTime
+ .. _CDOTAGamerules.GetNianFightStartTime:
 float GetNianFightStartTime()
 `````````````````
 
@@ -14290,7 +14290,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTAGamerules.GetNianTotalDamageTaken
+ .. _CDOTAGamerules.GetNianTotalDamageTaken:
 int GetNianTotalDamageTaken()
 `````````````````
 
@@ -14301,7 +14301,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTAGamerules.GetTimeOfDay
+ .. _CDOTAGamerules.GetTimeOfDay:
 float GetTimeOfDay()
 `````````````````
 
@@ -14312,7 +14312,7 @@ Returns:
 float - No Description Set
 
 
- .. _CDOTAGamerules.IsDaytime
+ .. _CDOTAGamerules.IsDaytime:
 bool IsDaytime()
 `````````````````
 
@@ -14323,7 +14323,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CDOTAGamerules.MakeTeamLose
+ .. _CDOTAGamerules.MakeTeamLose:
 void MakeTeamLose(int team)
 `````````````````
 
@@ -14337,7 +14337,7 @@ Makes ths specified team lose
 +-----------+--------------+--------------+
 
 
- .. _CDOTAGamerules.NumDroppedItems
+ .. _CDOTAGamerules.NumDroppedItems:
 int NumDroppedItems()
 `````````````````
 
@@ -14348,7 +14348,7 @@ Returns:
 int - No Description Set
 
 
- .. _CDOTAGamerules.Playtesting_UpdateAddOnKeyValues
+ .. _CDOTAGamerules.Playtesting_UpdateAddOnKeyValues:
 void Playtesting_UpdateAddOnKeyValues()
 `````````````````
 
@@ -14357,7 +14357,7 @@ Updates custom hero, unit and ability KeyValues in memory with the latest values
 
 
 
- .. _CDOTAGamerules.ResetDefeated
+ .. _CDOTAGamerules.ResetDefeated:
 void ResetDefeated()
 `````````````````
 
@@ -14366,7 +14366,7 @@ Restart after killing the ancient, etc.
 
 
 
- .. _CDOTAGamerules.ResetToHeroSelection
+ .. _CDOTAGamerules.ResetToHeroSelection:
 void ResetToHeroSelection()
 `````````````````
 
@@ -14375,7 +14375,7 @@ Restart the game at hero selection
 
 
 
- .. _CDOTAGamerules.SendCustomMessage
+ .. _CDOTAGamerules.SendCustomMessage:
 void SendCustomMessage(string message, int teamID, int unknown(1?))
 `````````````````
 
@@ -14391,7 +14391,7 @@ Displays a line of text in the left textbox (where usually deaths/denies/buysbac
 +-----------+--------------+--------------+
 
 
- .. _CDOTAGamerules.SetCreepMinimapIconScale
+ .. _CDOTAGamerules.SetCreepMinimapIconScale:
 void SetCreepMinimapIconScale(float scale)
 `````````````````
 
@@ -14405,7 +14405,7 @@ Scale the creep icons on the minimap.
 +-----------+--------------+--------------+
 
 
- .. _CDOTAGamerules.SetCustomGameDifficulty
+ .. _CDOTAGamerules.SetCustomGameDifficulty:
 void SetCustomGameDifficulty(int )
 `````````````````
 
@@ -14419,7 +14419,7 @@ Set the difficulty level of the custom game mode
 +-----------+--------------+--------------+
 
 
- .. _CDOTAGamerules.SetFirstBloodActive
+ .. _CDOTAGamerules.SetFirstBloodActive:
 void SetFirstBloodActive(bool )
 `````````````````
 
@@ -14433,7 +14433,7 @@ Sets whether First Blood has been triggered.
 +-----------+--------------+--------------+
 
 
- .. _CDOTAGamerules.SetGameWinner
+ .. _CDOTAGamerules.SetGameWinner:
 void SetGameWinner(int team)
 `````````````````
 
@@ -14447,7 +14447,7 @@ Makes ths specified team win
 +-----------+--------------+--------------+
 
 
- .. _CDOTAGamerules.SetGoldPerTick
+ .. _CDOTAGamerules.SetGoldPerTick:
 void SetGoldPerTick(int )
 `````````````````
 
@@ -14461,7 +14461,7 @@ Set the auto gold increase per timed interval.
 +-----------+--------------+--------------+
 
 
- .. _CDOTAGamerules.SetGoldTickTime
+ .. _CDOTAGamerules.SetGoldTickTime:
 void SetGoldTickTime(float )
 `````````````````
 
@@ -14475,7 +14475,7 @@ Set the time ''int''erval between auto gold increases.
 +-----------+--------------+--------------+
 
 
- .. _CDOTAGamerules.SetHeroMinimapIconSize
+ .. _CDOTAGamerules.SetHeroMinimapIconSize:
 void SetHeroMinimapIconSize(int iconSize)
 `````````````````
 
@@ -14489,7 +14489,7 @@ void SetHeroMinimapIconSize(int iconSize)
 +-----------+--------------+--------------+
 
 
- .. _CDOTAGamerules.SetHeroRespawnEnabled
+ .. _CDOTAGamerules.SetHeroRespawnEnabled:
 void SetHeroRespawnEnabled(bool canRespawn)
 `````````````````
 
@@ -14503,7 +14503,7 @@ Control if the normal DOTA hero respawn rules apply.
 +-----------+--------------+--------------+
 
 
- .. _CDOTAGamerules.SetHeroSelectionTime
+ .. _CDOTAGamerules.SetHeroSelectionTime:
 void SetHeroSelectionTime(float time)
 `````````````````
 
@@ -14517,7 +14517,7 @@ Sets the amount of time players have to pick their hero.
 +-----------+--------------+--------------+
 
 
- .. _CDOTAGamerules.SetNianFightStartTime
+ .. _CDOTAGamerules.SetNianFightStartTime:
 void SetNianFightStartTime(float )
 `````````````````
 
@@ -14531,7 +14531,7 @@ Sets the start time for the Nian fight
 +-----------+--------------+--------------+
 
 
- .. _CDOTAGamerules.SetOverlayHealthBarUnit
+ .. _CDOTAGamerules.SetOverlayHealthBarUnit:
 void SetOverlayHealthBarUnit(handle unit, int style)
 `````````````````
 
@@ -14546,7 +14546,7 @@ Show this unit's health on the overlay health bar
 +-----------+--------------+--------------+
 
 
- .. _CDOTAGamerules.SetPostGameTime
+ .. _CDOTAGamerules.SetPostGameTime:
 void SetPostGameTime(float time)
 `````````````````
 
@@ -14560,7 +14560,7 @@ Sets the amount of time players have between the game ending and the server disc
 +-----------+--------------+--------------+
 
 
- .. _CDOTAGamerules.SetPreGameTime
+ .. _CDOTAGamerules.SetPreGameTime:
 void SetPreGameTime(float time)
 `````````````````
 
@@ -14574,7 +14574,7 @@ Sets the amount of time players have between picking their hero and game start.
 +-----------+--------------+--------------+
 
 
- .. _CDOTAGamerules.SetRuneMinimapIconScale
+ .. _CDOTAGamerules.SetRuneMinimapIconScale:
 void SetRuneMinimapIconScale(float scale)
 `````````````````
 
@@ -14588,7 +14588,7 @@ Scale the rune icons on the minimap.
 +-----------+--------------+--------------+
 
 
- .. _CDOTAGamerules.SetRuneSpawnTime
+ .. _CDOTAGamerules.SetRuneSpawnTime:
 void SetRuneSpawnTime(float time)
 `````````````````
 
@@ -14602,7 +14602,7 @@ Sets the amount of time between rune spawns.
 +-----------+--------------+--------------+
 
 
- .. _CDOTAGamerules.SetSafeToLeave
+ .. _CDOTAGamerules.SetSafeToLeave:
 void SetSafeToLeave(bool safeToLeave)
 `````````````````
 
@@ -14616,7 +14616,7 @@ Mark this game as safe to leave.
 +-----------+--------------+--------------+
 
 
- .. _CDOTAGamerules.SetSameHeroSelectionEnabled
+ .. _CDOTAGamerules.SetSameHeroSelectionEnabled:
 void SetSameHeroSelectionEnabled(bool enabled)
 `````````````````
 
@@ -14630,7 +14630,7 @@ When true, players can repeatedly pick the same hero.
 +-----------+--------------+--------------+
 
 
- .. _CDOTAGamerules.SetTimeOfDay
+ .. _CDOTAGamerules.SetTimeOfDay:
 void SetTimeOfDay(float time)
 `````````````````
 
@@ -14644,7 +14644,7 @@ Set the time of day.
 +-----------+--------------+--------------+
 
 
- .. _CDOTAGamerules.SetTreeRegrowTime
+ .. _CDOTAGamerules.SetTreeRegrowTime:
 void SetTreeRegrowTime(float time)
 `````````````````
 
@@ -14658,7 +14658,7 @@ Sets the tree regrow time in seconds.
 +-----------+--------------+--------------+
 
 
- .. _CDOTAGamerules.SetUseBaseGoldBountyOnHeroes
+ .. _CDOTAGamerules.SetUseBaseGoldBountyOnHeroes:
 void SetUseBaseGoldBountyOnHeroes(bool )
 `````````````````
 
@@ -14672,7 +14672,7 @@ Heroes will use the basic NPC functionality for determining their bounty, rather
 +-----------+--------------+--------------+
 
 
- .. _CDOTAGamerules.SetUseCustomHeroXPValues
+ .. _CDOTAGamerules.SetUseCustomHeroXPValues:
 void SetUseCustomHeroXPValues(bool )
 `````````````````
 
@@ -14686,7 +14686,7 @@ Allows heroes in the map to give a specific amount of XP (this value must be set
 +-----------+--------------+--------------+
 
 
- .. _CDOTAGamerules.SetUseUniversalShopMode
+ .. _CDOTAGamerules.SetUseUniversalShopMode:
 void SetUseUniversalShopMode(bool enabled)
 `````````````````
 
@@ -14700,7 +14700,7 @@ When true, all items are available at as long as any shop is in range, including
 +-----------+--------------+--------------+
 
 
- .. _CDOTAGamerules.State_Get
+ .. _CDOTAGamerules.State_Get:
 <> State_Get()
 `````````````````
 
@@ -14711,7 +14711,7 @@ Returns:
 <> - No Description Set
 
 
- .. _CToneMapControllerComponent.GetBloomScale
+ .. _CToneMapControllerComponent.GetBloomScale:
 float GetBloomScale()
 `````````````````
 
@@ -14722,7 +14722,7 @@ Returns:
 float - No Description Set
 
 
- .. _CToneMapControllerComponent.GetMaxExposure
+ .. _CToneMapControllerComponent.GetMaxExposure:
 float GetMaxExposure()
 `````````````````
 
@@ -14733,7 +14733,7 @@ Returns:
 float - No Description Set
 
 
- .. _CToneMapControllerComponent.GetMinExposure
+ .. _CToneMapControllerComponent.GetMinExposure:
 float GetMinExposure()
 `````````````````
 
@@ -14744,7 +14744,7 @@ Returns:
 float - No Description Set
 
 
- .. _CToneMapControllerComponent.SetBloomScale
+ .. _CToneMapControllerComponent.SetBloomScale:
 void SetBloomScale(float )
 `````````````````
 
@@ -14758,7 +14758,7 @@ Sets bloom scale for this tonemap controller
 +-----------+--------------+--------------+
 
 
- .. _CToneMapControllerComponent.SetMaxExposure
+ .. _CToneMapControllerComponent.SetMaxExposure:
 void SetMaxExposure(float )
 `````````````````
 
@@ -14772,7 +14772,7 @@ Sets max exposure for this tonemap controller
 +-----------+--------------+--------------+
 
 
- .. _CToneMapControllerComponent.SetMinExposure
+ .. _CToneMapControllerComponent.SetMinExposure:
 void SetMinExposure(float )
 `````````````````
 
@@ -14786,7 +14786,7 @@ Sets min exposure for this tonemap controller
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.Axis
+ .. _CDebugOverlayScriptHelper.Axis:
 void Axis(Vector , Quaternion , float , bool , float )
 `````````````````
 
@@ -14804,7 +14804,7 @@ Draws an axis. Specify origin + orientation in world space.
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.Box
+ .. _CDebugOverlayScriptHelper.Box:
 void Box(Vector , Vector , int , int , int , int , bool , float )
 `````````````````
 
@@ -14825,7 +14825,7 @@ Draws a world-space axis-aligned box. Specify bounds in world space.
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.BoxAngles
+ .. _CDebugOverlayScriptHelper.BoxAngles:
 void BoxAngles(Vector , Vector , Vector , Quaternion , int , int , int , int , bool , float )
 `````````````````
 
@@ -14848,7 +14848,7 @@ Draws an oriented box at the origin. Specify bounds in local space.
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.Capsule
+ .. _CDebugOverlayScriptHelper.Capsule:
 void Capsule(Vector , Quaternion , float , float , int , int , int , int , bool , float )
 `````````````````
 
@@ -14871,7 +14871,7 @@ Draws a capsule. Specify base in world space.
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.Circle
+ .. _CDebugOverlayScriptHelper.Circle:
 void Circle(Vector , Quaternion , float , int , int , int , int , bool , float )
 `````````````````
 
@@ -14893,7 +14893,7 @@ Draws a circle. Specify center in world space.
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.CircleScreenOriented
+ .. _CDebugOverlayScriptHelper.CircleScreenOriented:
 void CircleScreenOriented(Vector , float , int , int , int , int , bool , float )
 `````````````````
 
@@ -14914,7 +14914,7 @@ Draws a circle oriented to the screen. Specify center in world space.
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.Cone
+ .. _CDebugOverlayScriptHelper.Cone:
 void Cone(Vector , Vector , float , float , int , int , int , int , bool , float )
 `````````````````
 
@@ -14937,7 +14937,7 @@ Draws a wireframe cone. Specify endpoint and direction in world space.
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.Cross
+ .. _CDebugOverlayScriptHelper.Cross:
 void Cross(Vector , float , int , int , int , int , bool , float )
 `````````````````
 
@@ -14958,7 +14958,7 @@ Draws a screen-aligned cross. Specify origin in world space.
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.Cross3D
+ .. _CDebugOverlayScriptHelper.Cross3D:
 void Cross3D(Vector , float , int , int , int , int , bool , float )
 `````````````````
 
@@ -14979,7 +14979,7 @@ Draws a world-aligned cross. Specify origin in world space.
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.Cross3DOriented
+ .. _CDebugOverlayScriptHelper.Cross3DOriented:
 void Cross3DOriented(Vector , Quaternion , float , int , int , int , int , bool , float )
 `````````````````
 
@@ -15001,7 +15001,7 @@ Draws an oriented cross. Specify origin in world space.
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.DrawTickMarkedLine
+ .. _CDebugOverlayScriptHelper.DrawTickMarkedLine:
 void DrawTickMarkedLine(Vector , Vector , float , int , int , int , int , int , bool , float )
 `````````````````
 
@@ -15024,7 +15024,7 @@ Draws a dashed line. Specify endpoint's in world space.
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.EntityAttachments
+ .. _CDebugOverlayScriptHelper.EntityAttachments:
 void EntityAttachments(ehandle , float )
 `````````````````
 
@@ -15039,7 +15039,7 @@ Draws the attachments of the entity
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.EntityAxis
+ .. _CDebugOverlayScriptHelper.EntityAxis:
 void EntityAxis(ehandle , float , bool , float )
 `````````````````
 
@@ -15056,7 +15056,7 @@ Draws the axis of the entity origin
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.EntityBounds
+ .. _CDebugOverlayScriptHelper.EntityBounds:
 void EntityBounds(ehandle , int , int , int , int , bool , float )
 `````````````````
 
@@ -15076,7 +15076,7 @@ Draws bounds of an entity
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.EntitySkeleton
+ .. _CDebugOverlayScriptHelper.EntitySkeleton:
 void EntitySkeleton(ehandle , float )
 `````````````````
 
@@ -15091,7 +15091,7 @@ Draws the skeleton of the entity
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.EntityText
+ .. _CDebugOverlayScriptHelper.EntityText:
 void EntityText(ehandle , int , string , int , int , int , int , float )
 `````````````````
 
@@ -15112,7 +15112,7 @@ Draws text on an entity
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.FilledRect2D
+ .. _CDebugOverlayScriptHelper.FilledRect2D:
 void FilledRect2D(Vector2D , Vector2D , int , int , int , int , float )
 `````````````````
 
@@ -15132,7 +15132,7 @@ Draws a screen-space filled 2D rectangle. Coordinates are in pixels.
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.HorzArrow
+ .. _CDebugOverlayScriptHelper.HorzArrow:
 void HorzArrow(Vector , Vector , float , int , int , int , int , bool , float )
 `````````````````
 
@@ -15154,7 +15154,7 @@ Draws a horizontal arrow. Specify endpoint's in world space.
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.Line
+ .. _CDebugOverlayScriptHelper.Line:
 void Line(Vector , Vector , int , int , int , int , bool , float )
 `````````````````
 
@@ -15175,7 +15175,7 @@ Draws a line between two point's
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.Line2D
+ .. _CDebugOverlayScriptHelper.Line2D:
 void Line2D(Vector2D , Vector2D , int , int , int , int , float )
 `````````````````
 
@@ -15195,7 +15195,7 @@ Draws a line between two point's in screenspace
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.PopDebugOverlayScope
+ .. _CDebugOverlayScriptHelper.PopDebugOverlayScope:
 void PopDebugOverlayScope()
 `````````````````
 
@@ -15204,7 +15204,7 @@ Pops the identifier used to group overlays. Overlays marked with this identifier
 
 
 
- .. _CDebugOverlayScriptHelper.PushAndClearDebugOverlayScope
+ .. _CDebugOverlayScriptHelper.PushAndClearDebugOverlayScope:
 void PushAndClearDebugOverlayScope(utlstringtoken )
 `````````````````
 
@@ -15218,7 +15218,7 @@ Pushes an identifier used to group overlays. Deletes all existing overlays using
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.PushDebugOverlayScope
+ .. _CDebugOverlayScriptHelper.PushDebugOverlayScope:
 void PushDebugOverlayScope(utlstringtoken )
 `````````````````
 
@@ -15232,7 +15232,7 @@ Pushes an identifier used to group overlays. Overlays marked with this identifie
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.RemoveAllInScope
+ .. _CDebugOverlayScriptHelper.RemoveAllInScope:
 void RemoveAllInScope(utlstringtoken )
 `````````````````
 
@@ -15246,7 +15246,7 @@ Removes all overlays marked with a specific identifier, regardless of their life
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.SolidCone
+ .. _CDebugOverlayScriptHelper.SolidCone:
 void SolidCone(Vector , Vector , float , float , int , int , int , int , bool , float )
 `````````````````
 
@@ -15269,7 +15269,7 @@ Draws a solid cone. Specify endpoint and direction in world space.
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.Sphere
+ .. _CDebugOverlayScriptHelper.Sphere:
 void Sphere(Vector , float , int , int , int , int , bool , float )
 `````````````````
 
@@ -15290,7 +15290,7 @@ Draws a wireframe sphere. Specify center in world space.
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.SweptBox
+ .. _CDebugOverlayScriptHelper.SweptBox:
 void SweptBox(Vector , Vector , Vector , Vector , Quaternion , int , int , int , int , float )
 `````````````````
 
@@ -15313,7 +15313,7 @@ Draws a swept box. Specify endpoint's in world space and the bounds in local spa
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.Text
+ .. _CDebugOverlayScriptHelper.Text:
 void Text(Vector , int , string , float , int , int , int , int , float )
 `````````````````
 
@@ -15335,7 +15335,7 @@ Draws 2D text. Specify origin in world space.
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.Texture
+ .. _CDebugOverlayScriptHelper.Texture:
 void Texture(string , Vector2D , Vector2D , int , int , int , int , Vector2D , Vector2D , float )
 `````````````````
 
@@ -15358,7 +15358,7 @@ Draws a screen-space texture. Coordinates are in pixels.
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.Triangle
+ .. _CDebugOverlayScriptHelper.Triangle:
 void Triangle(Vector , Vector , Vector , int , int , int , int , bool , float )
 `````````````````
 
@@ -15380,7 +15380,7 @@ Draws a filled triangle. Specify vertices in world space.
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.UnitTestCycleOverlayRenderType
+ .. _CDebugOverlayScriptHelper.UnitTestCycleOverlayRenderType:
 void UnitTestCycleOverlayRenderType()
 `````````````````
 
@@ -15389,7 +15389,7 @@ Toggles the overlay render type, for unit tests
 
 
 
- .. _CDebugOverlayScriptHelper.VectorText3D
+ .. _CDebugOverlayScriptHelper.VectorText3D:
 void VectorText3D(Vector , Quaternion , string , int , int , int , int , bool , float )
 `````````````````
 
@@ -15411,7 +15411,7 @@ Draws 3D text. Specify origin + orientation in world space.
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.VertArrow
+ .. _CDebugOverlayScriptHelper.VertArrow:
 void VertArrow(Vector , Vector , float , int , int , int , int , bool , float )
 `````````````````
 
@@ -15433,7 +15433,7 @@ Draws a vertical arrow. Specify endpoint's in world space.
 +-----------+--------------+--------------+
 
 
- .. _CDebugOverlayScriptHelper.YawArrow
+ .. _CDebugOverlayScriptHelper.YawArrow:
 void YawArrow(Vector , float , float , float , int , int , int , int , bool , float )
 `````````````````
 
@@ -15456,7 +15456,7 @@ Draws a arrow associated with a specific yaw. Specify endpoint's in world space.
 +-----------+--------------+--------------+
 
 
- .. _CBaseFlex.GetCurrentScene
+ .. _CBaseFlex.GetCurrentScene:
 handle GetCurrentScene()
 `````````````````
 
@@ -15467,7 +15467,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CBaseFlex.GetSceneByIndex
+ .. _CBaseFlex.GetSceneByIndex:
 handle GetSceneByIndex(int )
 `````````````````
 
@@ -15483,7 +15483,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CSceneEntity.AddBroadcastTeamTarget
+ .. _CSceneEntity.AddBroadcastTeamTarget:
 void AddBroadcastTeamTarget(int )
 `````````````````
 
@@ -15497,7 +15497,7 @@ Adds a team (by index) to the broadcast list
 +-----------+--------------+--------------+
 
 
- .. _CSceneEntity.Cancel
+ .. _CSceneEntity.Cancel:
 void Cancel()
 `````````````````
 
@@ -15506,7 +15506,7 @@ Cancel scene playback
 
 
 
- .. _CSceneEntity.EstimateLength
+ .. _CSceneEntity.EstimateLength:
 float EstimateLength()
 `````````````````
 
@@ -15517,7 +15517,7 @@ Returns:
 float - No Description Set
 
 
- .. _CSceneEntity.FindCamera
+ .. _CSceneEntity.FindCamera:
 handle FindCamera()
 `````````````````
 
@@ -15528,7 +15528,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CSceneEntity.FindNamedEntity
+ .. _CSceneEntity.FindNamedEntity:
 handle FindNamedEntity(string )
 `````````````````
 
@@ -15544,7 +15544,7 @@ Returns:
 handle - No Description Set
 
 
- .. _CSceneEntity.IsPaused
+ .. _CSceneEntity.IsPaused:
 bool IsPaused()
 `````````````````
 
@@ -15555,7 +15555,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CSceneEntity.IsPlayingBack
+ .. _CSceneEntity.IsPlayingBack:
 bool IsPlayingBack()
 `````````````````
 
@@ -15566,7 +15566,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CSceneEntity.LoadSceneFromString
+ .. _CSceneEntity.LoadSceneFromString:
 bool LoadSceneFromString(string , string )
 `````````````````
 
@@ -15583,7 +15583,7 @@ Returns:
 bool - No Description Set
 
 
- .. _CSceneEntity.RemoveBroadcastTeamTarget
+ .. _CSceneEntity.RemoveBroadcastTeamTarget:
 void RemoveBroadcastTeamTarget(int )
 `````````````````
 
@@ -15597,7 +15597,7 @@ Removes a team (by index) from the broadcast list
 +-----------+--------------+--------------+
 
 
- .. _CSceneEntity.Start
+ .. _CSceneEntity.Start:
 void Start(handle )
 `````````````````
 
@@ -15611,7 +15611,7 @@ Start scene playback, takes activatorEntity as param
 +-----------+--------------+--------------+
 
 
- .. _GridNav.GridPosToWorldCenterX
+ .. _GridNav.GridPosToWorldCenterX:
 float GridPosToWorldCenterX(int )
 `````````````````
 
@@ -15627,7 +15627,7 @@ Returns:
 float - No Description Set
 
 
- .. _GridNav.GridPosToWorldCenterY
+ .. _GridNav.GridPosToWorldCenterY:
 float GridPosToWorldCenterY(int )
 `````````````````
 
@@ -15643,7 +15643,7 @@ Returns:
 float - No Description Set
 
 
- .. _GridNav.IsBlocked
+ .. _GridNav.IsBlocked:
 bool IsBlocked(Vector )
 `````````````````
 
@@ -15659,7 +15659,7 @@ Returns:
 bool - No Description Set
 
 
- .. _GridNav.IsNearbyTree
+ .. _GridNav.IsNearbyTree:
 bool IsNearbyTree(Vector position, float radius, bool )
 `````````````````
 
@@ -15677,7 +15677,7 @@ Returns:
 bool - No Description Set
 
 
- .. _GridNav.IsTraversable
+ .. _GridNav.IsTraversable:
 bool IsTraversable(Vector )
 `````````````````
 
@@ -15693,7 +15693,7 @@ Returns:
 bool - No Description Set
 
 
- .. _GridNav.RegrowAllTrees
+ .. _GridNav.RegrowAllTrees:
 void RegrowAllTrees()
 `````````````````
 
@@ -15702,7 +15702,7 @@ void RegrowAllTrees()
 
 
 
- .. _GridNav.WorldToGridPosX
+ .. _GridNav.WorldToGridPosX:
 int WorldToGridPosX(float )
 `````````````````
 
@@ -15718,7 +15718,7 @@ Returns:
 int - No Description Set
 
 
- .. _GridNav.WorldToGridPosY
+ .. _GridNav.WorldToGridPosY:
 int WorldToGridPosY(float )
 `````````````````
 
@@ -15734,7 +15734,7 @@ Returns:
 int - No Description Set
 
 
- .. _Convars.GetBool
+ .. _Convars.GetBool:
 table GetBool(string variableName)
 `````````````````
 
@@ -15750,7 +15750,7 @@ Returns:
 table - No Description Set
 
 
- .. _Convars.GetCommandClient
+ .. _Convars.GetCommandClient:
 handle GetCommandClient()
 `````````````````
 
@@ -15761,7 +15761,7 @@ Returns:
 handle - No Description Set
 
 
- .. _Convars.GetDOTACommandClient
+ .. _Convars.GetDOTACommandClient:
 handle GetDOTACommandClient()
 `````````````````
 
@@ -15772,7 +15772,7 @@ Returns:
 handle - No Description Set
 
 
- .. _Convars.GetFloat
+ .. _Convars.GetFloat:
 table GetFloat(string name)
 `````````````````
 
@@ -15788,7 +15788,7 @@ Returns:
 table - No Description Set
 
 
- .. _Convars.GetInt
+ .. _Convars.GetInt:
 table GetInt(string )
 `````````````````
 
@@ -15804,7 +15804,7 @@ Returns:
 table - No Description Set
 
 
- .. _Convars.GetStr
+ .. _Convars.GetStr:
 table GetStr(string variableName)
 `````````````````
 
@@ -15820,7 +15820,7 @@ Returns:
 table - No Description Set
 
 
- .. _Convars.RegisterCommand
+ .. _Convars.RegisterCommand:
 void RegisterCommand(string variableName, handle function, string helpText, int flags)
 `````````````````
 
@@ -15837,7 +15837,7 @@ RegisterCommand(name, fn, helpString, flags) : register a console command.
 +-----------+--------------+--------------+
 
 
- .. _Convars.RegisterConvar
+ .. _Convars.RegisterConvar:
 void RegisterConvar(string name, string defaultValue, string helpText, int flags)
 `````````````````
 
@@ -15854,7 +15854,7 @@ RegisterConvar(name, defaultValue, helpString, flags): register a new console va
 +-----------+--------------+--------------+
 
 
- .. _Convars.SetBool
+ .. _Convars.SetBool:
 void SetBool(string variableName, bool value)
 `````````````````
 
@@ -15869,7 +15869,7 @@ SetBool(name, val) : sets the value of the convar to the ''bool''.
 +-----------+--------------+--------------+
 
 
- .. _Convars.SetFloat
+ .. _Convars.SetFloat:
 void SetFloat(string variableName, float value)
 `````````````````
 
@@ -15884,7 +15884,7 @@ SetFloat(name, val) : sets the value of the convar to the ''float''.
 +-----------+--------------+--------------+
 
 
- .. _Convars.SetInt
+ .. _Convars.SetInt:
 void SetInt(string , int )
 `````````````````
 
@@ -15899,7 +15899,7 @@ SetInt(name, val) : sets the value of the convar to the ''int''.
 +-----------+--------------+--------------+
 
 
- .. _Convars.SetStr
+ .. _Convars.SetStr:
 void SetStr(string , string )
 `````````````````
 
